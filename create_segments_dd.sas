@@ -1,0 +1,43 @@
+
+    LIBNAME ndbmeta "G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data";
+
+/* Create Data Dict for 0054
+*/
+
+/* Create the intitial DD by filtering by protocol and object type to remove HIDDEN fields
+*/
+
+
+data ndbmeta.data_dict_0054_segment_A;
+    set ndbmeta.data_dict_0054_1;
+    if SEGMENT = A;
+run;
+
+proc sort data=ndbmeta.data_dict_0054_segment_A; by SCREENID SEQ FIELD_NAME;
+proc export data=ndbmeta.data_dict_0054_segment_A
+    outfile=G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_A.csv
+    dbms=csv
+    replace;
+run;
+data ndbmeta.data_dict_0054_segment_B;
+    set ndbmeta.data_dict_0054_1;
+    if SEGMENT = B;
+run;
+
+proc sort data=ndbmeta.data_dict_0054_segment_B; by SCREENID SEQ FIELD_NAME;
+proc export data=ndbmeta.data_dict_0054_segment_B
+    outfile=G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_B.csv
+    dbms=csv
+    replace;
+run;
+data ndbmeta.data_dict_0054_segment_Z;
+    set ndbmeta.data_dict_0054_1;
+    if SEGMENT = Z;
+run;
+
+proc sort data=ndbmeta.data_dict_0054_segment_Z; by SCREENID SEQ FIELD_NAME;
+proc export data=ndbmeta.data_dict_0054_segment_Z
+    outfile=G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_Z.csv
+    dbms=csv
+    replace;
+run;

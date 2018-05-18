@@ -50,7 +50,7 @@ def find_text_fields(data_dictionary_pathway):
                 # if field not in de_identification_document_info[screen_id]:
                 #     de_identification_document_info[screen_id].append(field)
     # Create CSV from found fields
-    csv_writer = csv.writer(open('Free_Text_Variables.csv', 'w'))
+    csv_writer = csv.writer(open('Free_Text_Variables.csv', 'w', newline=""))
     # Write headers
     csv_writer.writerow(['Field_Name', 'Table'])
     csv_writer.writerows(text_fields)

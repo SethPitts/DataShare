@@ -1,0 +1,142 @@
+1                                         The SAS System              20:11 Thursday, May 17, 2018
+
+NOTE: Copyright (c) 2002-2012 by SAS Institute Inc., Cary, NC, USA. 
+NOTE: SAS (r) Proprietary Software 9.4 (TS1M4) 
+      Licensed to THE EMMES CORPORATION, Site 70012501.
+NOTE: This session is executing on the W32_7PRO  platform.
+
+
+
+NOTE: Updated analytical products:
+      
+      SAS/STAT 14.2
+      SAS/IML 14.2
+
+NOTE: Additional host information:
+
+ W32_7PRO WIN 6.1.7601 Service Pack 1 Workstation
+
+NOTE: SAS initialization used:
+      real time           2.37 seconds
+      cpu time            0.35 seconds
+      
+1          
+2          LIBNAME metadata "G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data";
+NOTE: Libref METADATA was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data
+3          
+4          data filter_meta;
+5          	set metadata.meta;
+6          	if substr(PROTSEG,1,4) eq '0054' AND OBJTYPE ne 'HIDDEN' AND KEYFIELD = 0 AND
+6        ! ((FIELD_TYPE in ('C','M') AND FIELD_LEN gt 3) OR
+7          	(FIELD_LEN le 3 and OBJTYPE eq 'TEXTBOX'));
+8          run;
+
+NOTE: There were 18109 observations read from the data set METADATA.META.
+NOTE: The data set WORK.FILTER_META has 506 observations and 56 variables.
+NOTE: DATA statement used (Total process time):
+      real time           4.60 seconds
+      cpu time            0.03 seconds
+      
+
+9          
+10         proc sort data=filter_meta; by PROTSEG SCREENID FIELD_NAME; run;
+
+NOTE: There were 506 observations read from the data set WORK.FILTER_META.
+NOTE: The data set WORK.FILTER_META has 506 observations and 56 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.19 seconds
+      cpu time            0.01 seconds
+      
+
+11         
+12         data final_meta;
+13         	set filter_meta;
+2                                         The SAS System              20:11 Thursday, May 17, 2018
+
+14         	keep SCREENID FIELD_NAME;
+15         run;
+
+NOTE: There were 506 observations read from the data set WORK.FILTER_META.
+NOTE: The data set WORK.FINAL_META has 506 observations and 2 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.08 seconds
+      cpu time            0.01 seconds
+      
+
+16         
+17         proc sort data=final_meta nodups; by SCREENID FIELD_NAME; run;
+
+NOTE: There were 506 observations read from the data set WORK.FINAL_META.
+NOTE: 158 duplicate observations were deleted.
+NOTE: The data set WORK.FINAL_META has 348 observations and 2 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.00 seconds
+      
+
+18         
+19         proc transpose data=final_meta out=final0;
+20         	by SCREENID;
+21         	var FIELD_NAME;
+22         run;
+
+NOTE: There were 348 observations read from the data set WORK.FINAL_META.
+NOTE: The data set WORK.FINAL0 has 44 observations and 46 variables.
+NOTE: PROCEDURE TRANSPOSE used (Total process time):
+      real time           0.15 seconds
+      cpu time            0.01 seconds
+      
+
+23         
+24         proc transpose data=final0 out=final;
+25         	id SCREENID;
+26         	var col1-col44;
+27         run;
+
+NOTE: There were 44 observations read from the data set WORK.FINAL0.
+NOTE: The data set WORK.FINAL has 44 observations and 45 variables.
+NOTE: PROCEDURE TRANSPOSE used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.01 seconds
+      
+
+28         
+29         title "Information Sheet for De-identification";
+30         footnote1 j=center "•	We recommend AD1.A1DESCPT not be dropped because it is the
+30       ! verbatim AE term used for MedDRA coding.";
+31         footnote2 j=center "•	Two fields in one cell with a dash indicates an array of fields
+31       ! with the numeric portion of the field name incremented by one, starting with the first
+3                                         The SAS System              20:11 Thursday, May 17, 2018
+
+31       ! listed field name and ending with the second listed field name.";
+32         footnote3 j=center "•	We recommend that date variables be replaced by days from
+32       ! informed consent (S1CNSTDT).";
+33         footnote4 j=center "•	HIV.HITESTMO and HIV.HITESTYR denote the month and year
+33       ! (respectively) of a participant’s most recent HIV test.";
+34         
+35         ods rtf
+35       ! file="G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Documents\deidentification_0054
+35       ! _raw.rtf";
+NOTE: Writing RTF Body file: 
+      G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Documents\deidentification_0054_raw.rtf
+36         
+37         proc report data=final split='|' headline center nowd;
+38         	 columns ("The following variables are free text fields" AD1--VIS);
+39         	 define AD1--VIS / display center;
+40         run;
+
+NOTE: There were 44 observations read from the data set WORK.FINAL.
+NOTE: The PROCEDURE REPORT printed pages 1-6.
+NOTE: PROCEDURE REPORT used (Total process time):
+      real time           0.59 seconds
+      cpu time            0.11 seconds
+      
+
+41         ods rtf close;
+NOTE: SAS Institute Inc., SAS Campus Drive, Cary, NC USA 27513-2414
+NOTE: The SAS System used:
+      real time           10.02 seconds
+      cpu time            0.84 seconds
+      

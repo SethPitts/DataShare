@@ -1,0 +1,510 @@
+1                                         The SAS System              20:11 Thursday, May 17, 2018
+
+NOTE: Copyright (c) 2002-2012 by SAS Institute Inc., Cary, NC, USA. 
+NOTE: SAS (r) Proprietary Software 9.4 (TS1M4) 
+      Licensed to THE EMMES CORPORATION, Site 70012501.
+NOTE: This session is executing on the W32_7PRO  platform.
+
+
+
+NOTE: Updated analytical products:
+      
+      SAS/STAT 14.2
+      SAS/IML 14.2
+
+NOTE: Additional host information:
+
+ W32_7PRO WIN 6.1.7601 Service Pack 1 Workstation
+
+NOTE: SAS initialization used:
+      real time           2.47 seconds
+      cpu time            0.38 seconds
+      
+1          
+2              LIBNAME ndbmeta "G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data";
+NOTE: Libref NDBMETA was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data
+3          
+4          /* Create Data Dict for 0054
+5          */
+6          
+7          /* Create the intitial DD by filtering by protocol and object type to remove HIDDEN
+7        ! fields
+8          */
+9          
+10         
+11         data ndbmeta.data_dict_0054_segment_A;
+12             set ndbmeta.data_dict_0054_1;
+13             if SEGMENT = 'A';
+14             drop SEGMENT;
+15         run;
+
+NOTE: There were 2016 observations read from the data set NDBMETA.DATA_DICT_0054_1.
+NOTE: The data set NDBMETA.DATA_DICT_0054_SEGMENT_A has 1004 observations and 16 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.82 seconds
+      cpu time            0.04 seconds
+      
+
+16         
+17         proc sort data=ndbmeta.data_dict_0054_segment_A; by SCREENID SEQ FIELD_NAME;
+
+NOTE: There were 1004 observations read from the data set NDBMETA.DATA_DICT_0054_SEGMENT_A.
+NOTE: The data set NDBMETA.DATA_DICT_0054_SEGMENT_A has 1004 observations and 16 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+2                                         The SAS System              20:11 Thursday, May 17, 2018
+
+      real time           0.39 seconds
+      cpu time            0.00 seconds
+      
+
+18         proc export data=ndbmeta.data_dict_0054_segment_A
+19             outfile='G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_A.
+19       ! csv'
+20             dbms=csv
+21             replace;
+22         run;
+
+23          /**********************************************************************
+24          *   PRODUCT:   SAS
+25          *   VERSION:   9.4
+26          *   CREATOR:   External File Interface
+27          *   DATE:      17MAY18
+28          *   DESC:      Generated SAS Datastep Code
+29          *   TEMPLATE SOURCE:  (None Specified.)
+30          ***********************************************************************/
+31             data _null_;
+32             %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
+33             %let _EFIREC_ = 0;     /* clear export record count macro variable */
+34             file
+34       ! 'G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_A.csv'
+34       ! delimiter=',' DSD DROPOVER lrecl=32767;
+35             if _n_ = 1 then        /* write column names or labels */
+36              do;
+37                put
+38                   "PROTSEG"
+39                ','
+40                   "SCREENID"
+41                ','
+42                   "SCREENNAME"
+43                ','
+44                   "FIELD_NAME"
+45                ','
+46                   "FIELD_TYPE"
+47                ','
+48                   "FIELD_LEN"
+49                ','
+50                   "CODELIST"
+51                ','
+52                   "KEYFIELD"
+53                ','
+54                   "NLOW"
+55                ','
+56                   "NHIGH"
+57                ','
+58                   "SKIPCOND"
+59                ','
+60                   "RENDER"
+61                ','
+62                   "READONLY"
+3                                         The SAS System              20:11 Thursday, May 17, 2018
+
+63                ','
+64                   "SEQ"
+65                ','
+66                   "OBJTYPE"
+67                ','
+68                   "QTEXT"
+69                ;
+70              end;
+71            set  NDBMETA.DATA_DICT_0054_SEGMENT_A   end=EFIEOD;
+72                format PROTSEG $6. ;
+73                format SCREENID $3. ;
+74                format SCREENNAME $100. ;
+75                format FIELD_NAME $10. ;
+76                format FIELD_TYPE $1. ;
+77                format FIELD_LEN 8. ;
+78                format CODELIST $20. ;
+79                format KEYFIELD 1. ;
+80                format NLOW $60. ;
+81                format NHIGH $60. ;
+82                format SKIPCOND $200. ;
+83                format RENDER $137. ;
+84                format READONLY 1. ;
+85                format SEQ 4. ;
+86                format OBJTYPE $8. ;
+87                format QTEXT $200. ;
+88              do;
+89                EFIOUT + 1;
+90                put PROTSEG $ @;
+91                put SCREENID $ @;
+92                put SCREENNAME $ @;
+93                put FIELD_NAME $ @;
+94                put FIELD_TYPE $ @;
+95                put FIELD_LEN @;
+96                put CODELIST $ @;
+97                put KEYFIELD @;
+98                put NLOW $ @;
+99                put NHIGH $ @;
+100               put SKIPCOND $ @;
+101               put RENDER $ @;
+102               put READONLY @;
+103               put SEQ @;
+104               put OBJTYPE $ @;
+105               put QTEXT $ ;
+106               ;
+107             end;
+108            if _ERROR_ then call symputx('_EFIERR_',1);  /* set ERROR detection macro variable
+108      ! */
+109            if EFIEOD then call symputx('_EFIREC_',EFIOUT);
+110            run;
+
+NOTE: The file 'G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_A.csv' is:
+      Filename=G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_A.csv,
+      RECFM=V,LRECL=32767,File Size (bytes)=0,
+4                                         The SAS System              20:11 Thursday, May 17, 2018
+
+      Last Modified=17May2018:20:11:29,
+      Create Time=17May2018:20:11:29
+
+NOTE: 1005 records were written to the file 
+      'G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_A.csv'.
+      The minimum record length was 37.
+      The maximum record length was 300.
+NOTE: There were 1004 observations read from the data set NDBMETA.DATA_DICT_0054_SEGMENT_A.
+NOTE: DATA statement used (Total process time):
+      real time           0.21 seconds
+      cpu time            0.03 seconds
+      
+
+1004 records created in 
+G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_A.csv from 
+NDBMETA.DATA_DICT_0054_SEGMENT_A.
+  
+  
+NOTE: "G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_A.csv" file was 
+      successfully created.
+NOTE: PROCEDURE EXPORT used (Total process time):
+      real time           2.78 seconds
+      cpu time            0.28 seconds
+      
+
+111        data ndbmeta.data_dict_0054_segment_B;
+112            set ndbmeta.data_dict_0054_1;
+113            if SEGMENT = 'B';
+114            drop SEGMENT;
+115        run;
+
+NOTE: There were 2016 observations read from the data set NDBMETA.DATA_DICT_0054_1.
+NOTE: The data set NDBMETA.DATA_DICT_0054_SEGMENT_B has 974 observations and 16 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.20 seconds
+      cpu time            0.01 seconds
+      
+
+116        
+117        proc sort data=ndbmeta.data_dict_0054_segment_B; by SCREENID SEQ FIELD_NAME;
+
+NOTE: There were 974 observations read from the data set NDBMETA.DATA_DICT_0054_SEGMENT_B.
+NOTE: The data set NDBMETA.DATA_DICT_0054_SEGMENT_B has 974 observations and 16 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.22 seconds
+      cpu time            0.03 seconds
+      
+
+118        proc export data=ndbmeta.data_dict_0054_segment_B
+119            outfile='G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_B.
+119      ! csv'
+120            dbms=csv
+121            replace;
+5                                         The SAS System              20:11 Thursday, May 17, 2018
+
+122        run;
+
+123         /**********************************************************************
+124         *   PRODUCT:   SAS
+125         *   VERSION:   9.4
+126         *   CREATOR:   External File Interface
+127         *   DATE:      17MAY18
+128         *   DESC:      Generated SAS Datastep Code
+129         *   TEMPLATE SOURCE:  (None Specified.)
+130         ***********************************************************************/
+131            data _null_;
+132            %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
+133            %let _EFIREC_ = 0;     /* clear export record count macro variable */
+134            file
+134      ! 'G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_B.csv'
+134      ! delimiter=',' DSD DROPOVER lrecl=32767;
+135            if _n_ = 1 then        /* write column names or labels */
+136             do;
+137               put
+138                  "PROTSEG"
+139               ','
+140                  "SCREENID"
+141               ','
+142                  "SCREENNAME"
+143               ','
+144                  "FIELD_NAME"
+145               ','
+146                  "FIELD_TYPE"
+147               ','
+148                  "FIELD_LEN"
+149               ','
+150                  "CODELIST"
+151               ','
+152                  "KEYFIELD"
+153               ','
+154                  "NLOW"
+155               ','
+156                  "NHIGH"
+157               ','
+158                  "SKIPCOND"
+159               ','
+160                  "RENDER"
+161               ','
+162                  "READONLY"
+163               ','
+164                  "SEQ"
+165               ','
+166                  "OBJTYPE"
+167               ','
+168                  "QTEXT"
+169               ;
+170             end;
+171           set  NDBMETA.DATA_DICT_0054_SEGMENT_B   end=EFIEOD;
+6                                         The SAS System              20:11 Thursday, May 17, 2018
+
+172               format PROTSEG $6. ;
+173               format SCREENID $3. ;
+174               format SCREENNAME $100. ;
+175               format FIELD_NAME $10. ;
+176               format FIELD_TYPE $1. ;
+177               format FIELD_LEN 8. ;
+178               format CODELIST $20. ;
+179               format KEYFIELD 1. ;
+180               format NLOW $60. ;
+181               format NHIGH $60. ;
+182               format SKIPCOND $200. ;
+183               format RENDER $137. ;
+184               format READONLY 1. ;
+185               format SEQ 4. ;
+186               format OBJTYPE $8. ;
+187               format QTEXT $200. ;
+188             do;
+189               EFIOUT + 1;
+190               put PROTSEG $ @;
+191               put SCREENID $ @;
+192               put SCREENNAME $ @;
+193               put FIELD_NAME $ @;
+194               put FIELD_TYPE $ @;
+195               put FIELD_LEN @;
+196               put CODELIST $ @;
+197               put KEYFIELD @;
+198               put NLOW $ @;
+199               put NHIGH $ @;
+200               put SKIPCOND $ @;
+201               put RENDER $ @;
+202               put READONLY @;
+203               put SEQ @;
+204               put OBJTYPE $ @;
+205               put QTEXT $ ;
+206               ;
+207             end;
+208            if _ERROR_ then call symputx('_EFIERR_',1);  /* set ERROR detection macro variable
+208      ! */
+209            if EFIEOD then call symputx('_EFIREC_',EFIOUT);
+210            run;
+
+NOTE: The file 'G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_B.csv' is:
+      Filename=G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_B.csv,
+      RECFM=V,LRECL=32767,File Size (bytes)=0,
+      Last Modified=17May2018:20:11:30,
+      Create Time=17May2018:20:11:30
+
+NOTE: 975 records were written to the file 
+      'G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_B.csv'.
+      The minimum record length was 37.
+      The maximum record length was 284.
+NOTE: There were 974 observations read from the data set NDBMETA.DATA_DICT_0054_SEGMENT_B.
+NOTE: DATA statement used (Total process time):
+7                                         The SAS System              20:11 Thursday, May 17, 2018
+
+      real time           0.15 seconds
+      cpu time            0.01 seconds
+      
+
+974 records created in 
+G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_B.csv from 
+NDBMETA.DATA_DICT_0054_SEGMENT_B.
+  
+  
+NOTE: "G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_B.csv" file was 
+      successfully created.
+NOTE: PROCEDURE EXPORT used (Total process time):
+      real time           0.35 seconds
+      cpu time            0.11 seconds
+      
+
+211        data ndbmeta.data_dict_0054_segment_Z;
+212            set ndbmeta.data_dict_0054_1;
+213            if SEGMENT = 'Z';
+214            drop SEGMENT;
+215        run;
+
+NOTE: There were 2016 observations read from the data set NDBMETA.DATA_DICT_0054_1.
+NOTE: The data set NDBMETA.DATA_DICT_0054_SEGMENT_Z has 38 observations and 16 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.12 seconds
+      cpu time            0.00 seconds
+      
+
+216        
+217        proc sort data=ndbmeta.data_dict_0054_segment_Z; by SCREENID SEQ FIELD_NAME;
+
+NOTE: There were 38 observations read from the data set NDBMETA.DATA_DICT_0054_SEGMENT_Z.
+NOTE: The data set NDBMETA.DATA_DICT_0054_SEGMENT_Z has 38 observations and 16 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.06 seconds
+      cpu time            0.01 seconds
+      
+
+218        proc export data=ndbmeta.data_dict_0054_segment_Z
+219            outfile='G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_Z.
+219      ! csv'
+220            dbms=csv
+221            replace;
+222        run;
+
+223         /**********************************************************************
+224         *   PRODUCT:   SAS
+225         *   VERSION:   9.4
+226         *   CREATOR:   External File Interface
+227         *   DATE:      17MAY18
+228         *   DESC:      Generated SAS Datastep Code
+229         *   TEMPLATE SOURCE:  (None Specified.)
+8                                         The SAS System              20:11 Thursday, May 17, 2018
+
+230         ***********************************************************************/
+231            data _null_;
+232            %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
+233            %let _EFIREC_ = 0;     /* clear export record count macro variable */
+234            file
+234      ! 'G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_Z.csv'
+234      ! delimiter=',' DSD DROPOVER lrecl=32767;
+235            if _n_ = 1 then        /* write column names or labels */
+236             do;
+237               put
+238                  "PROTSEG"
+239               ','
+240                  "SCREENID"
+241               ','
+242                  "SCREENNAME"
+243               ','
+244                  "FIELD_NAME"
+245               ','
+246                  "FIELD_TYPE"
+247               ','
+248                  "FIELD_LEN"
+249               ','
+250                  "CODELIST"
+251               ','
+252                  "KEYFIELD"
+253               ','
+254                  "NLOW"
+255               ','
+256                  "NHIGH"
+257               ','
+258                  "SKIPCOND"
+259               ','
+260                  "RENDER"
+261               ','
+262                  "READONLY"
+263               ','
+264                  "SEQ"
+265               ','
+266                  "OBJTYPE"
+267               ','
+268                  "QTEXT"
+269               ;
+270             end;
+271           set  NDBMETA.DATA_DICT_0054_SEGMENT_Z   end=EFIEOD;
+272               format PROTSEG $6. ;
+273               format SCREENID $3. ;
+274               format SCREENNAME $100. ;
+275               format FIELD_NAME $10. ;
+276               format FIELD_TYPE $1. ;
+277               format FIELD_LEN 8. ;
+278               format CODELIST $20. ;
+279               format KEYFIELD 1. ;
+280               format NLOW $60. ;
+9                                         The SAS System              20:11 Thursday, May 17, 2018
+
+281               format NHIGH $60. ;
+282               format SKIPCOND $200. ;
+283               format RENDER $137. ;
+284               format READONLY 1. ;
+285               format SEQ 4. ;
+286               format OBJTYPE $8. ;
+287               format QTEXT $200. ;
+288             do;
+289               EFIOUT + 1;
+290               put PROTSEG $ @;
+291               put SCREENID $ @;
+292               put SCREENNAME $ @;
+293               put FIELD_NAME $ @;
+294               put FIELD_TYPE $ @;
+295               put FIELD_LEN @;
+296               put CODELIST $ @;
+297               put KEYFIELD @;
+298               put NLOW $ @;
+299               put NHIGH $ @;
+300               put SKIPCOND $ @;
+301               put RENDER $ @;
+302               put READONLY @;
+303               put SEQ @;
+304               put OBJTYPE $ @;
+305               put QTEXT $ ;
+306               ;
+307             end;
+308            if _ERROR_ then call symputx('_EFIERR_',1);  /* set ERROR detection macro variable
+308      ! */
+309            if EFIEOD then call symputx('_EFIREC_',EFIOUT);
+310            run;
+
+NOTE: The file 'G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_Z.csv' is:
+      Filename=G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_Z.csv,
+      RECFM=V,LRECL=32767,File Size (bytes)=0,
+      Last Modified=17May2018:20:11:31,
+      Create Time=17May2018:20:11:31
+
+NOTE: 39 records were written to the file 
+      'G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_Z.csv'.
+      The minimum record length was 37.
+      The maximum record length was 256.
+NOTE: There were 38 observations read from the data set NDBMETA.DATA_DICT_0054_SEGMENT_Z.
+NOTE: DATA statement used (Total process time):
+      real time           0.08 seconds
+      cpu time            0.00 seconds
+      
+
+38 records created in 
+G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_Z.csv from 
+NDBMETA.DATA_DICT_0054_SEGMENT_Z.
+  
+  
+10                                        The SAS System              20:11 Thursday, May 17, 2018
+
+NOTE: "G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_Z.csv" file was 
+      successfully created.
+NOTE: PROCEDURE EXPORT used (Total process time):
+      real time           0.25 seconds
+      cpu time            0.04 seconds
+      
+
+
+NOTE: SAS Institute Inc., SAS Campus Drive, Cary, NC USA 27513-2414
+NOTE: The SAS System used:
+      real time           8.31 seconds
+      cpu time            0.99 seconds
+      

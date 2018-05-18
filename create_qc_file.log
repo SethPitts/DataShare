@@ -1,0 +1,473 @@
+1                                         The SAS System              20:11 Thursday, May 17, 2018
+
+NOTE: Copyright (c) 2002-2012 by SAS Institute Inc., Cary, NC, USA. 
+NOTE: SAS (r) Proprietary Software 9.4 (TS1M4) 
+      Licensed to THE EMMES CORPORATION, Site 70012501.
+NOTE: This session is executing on the W32_7PRO  platform.
+
+
+
+NOTE: Updated analytical products:
+      
+      SAS/STAT 14.2
+      SAS/IML 14.2
+
+NOTE: Additional host information:
+
+ W32_7PRO WIN 6.1.7601 Service Pack 1 Workstation
+
+NOTE: SAS initialization used:
+      real time           2.52 seconds
+      cpu time            0.29 seconds
+      
+1          
+2          /* QC program for 0054 data share */
+3          ods html close;
+4          
+5          %let input = G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data;
+6          libname in "&input";
+NOTE: Libref IN was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data
+7          
+8          
+9          *Get formats;
+10         
+11         options fmtsearch=(work input);
+12         
+13         ods rtf file="G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\QC\QC_&SYSDATE..rtf";
+NOTE: Writing RTF Body file: G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\QC\QC_17MAY18.rtf
+14         
+15         proc contents data=in.AD1 varnum; title 'AD1'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.82 seconds
+      cpu time            0.12 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 1-2.
+
+16         proc contents data=in.AD2 varnum; title 'AD2'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.05 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 3-5.
+2                                         The SAS System              20:11 Thursday, May 17, 2018
+
+
+17         proc contents data=in.AD3 varnum; title 'AD3'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 6-7.
+
+18         proc contents data=in.ASU varnum; title 'ASU'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.03 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 8-9.
+
+19         proc contents data=in.BBL varnum; title 'BBL'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.00 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 10-11.
+
+20         proc contents data=in.CHP varnum; title 'CHP'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.04 seconds
+      cpu time            0.00 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 12-13.
+
+21         proc contents data=in.D54 varnum; title 'D54'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.05 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 14-16.
+
+22         proc contents data=in.DSM varnum; title 'DSM'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.03 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 17-20.
+
+23         proc contents data=in.EC0054A varnum; title 'EC0054A'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.02 seconds
+3                                         The SAS System              20:11 Thursday, May 17, 2018
+
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed page 21.
+
+24         proc contents data=in.EC0054B varnum; title 'EC0054B'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 22-23.
+
+25         proc contents data=in.EC0054Z varnum; title 'EC0054Z'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 24-25.
+
+26         proc contents data=in.ECG varnum; title 'ECG'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.03 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 26-28.
+
+27         proc contents data=in.enroll varnum; title 'enroll'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.00 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed page 29.
+
+28         proc contents data=in.EOM varnum; title 'EOM'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.00 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed page 30.
+
+29         proc contents data=in.ER0054A varnum; title 'ER0054A'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.00 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed page 31.
+
+30         proc contents data=in.ER0054B varnum; title 'ER0054B'; run;
+4                                         The SAS System              20:11 Thursday, May 17, 2018
+
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 32-33.
+
+31         proc contents data=in.ER0054Z varnum; title 'ER0054Z'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.00 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 34-35.
+
+32         proc contents data=in.HIV varnum; title 'HIV'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.00 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed page 36.
+
+33         proc contents data=in.INA varnum; title 'INA'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.04 seconds
+      cpu time            0.00 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 37-39.
+
+34         proc contents data=in.INJ varnum; title 'INJ'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.00 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 40-41.
+
+35         proc contents data=in.INV varnum; title 'INV';
+ERROR: File IN.INV.DATA does not exist.
+35       !                                                run;
+
+NOTE: Statements not processed because of errors noted above.
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The SAS System stopped processing this step because of errors.
+
+
+36         proc contents data=in.INX varnum; title 'INX'; run;
+
+5                                         The SAS System              20:11 Thursday, May 17, 2018
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed page 42.
+
+37         proc contents data=in.LAB varnum; title 'LAB'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 43-45.
+
+38         proc contents data=in.MHX varnum; title 'MHX'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.09 seconds
+      cpu time            0.04 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 46-49.
+
+39         proc contents data=in.MVF varnum; title 'MVF'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed page 50.
+
+40         proc contents data=in.NXC varnum; title 'NXC'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 51-52.
+
+41         proc contents data=in.PBC varnum; title 'PBC'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 53-54.
+
+42         proc contents data=in.PCM varnum; title 'PCM'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed page 55.
+6                                         The SAS System              20:11 Thursday, May 17, 2018
+
+
+43         proc contents data=in.PDR varnum; title 'PDR'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 56-57.
+
+44         proc contents data=in.PDV varnum; title 'PDV'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.05 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed page 58.
+
+45         proc contents data=in.PEX varnum; title 'PEX'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.06 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 59-60.
+
+46         proc contents data=in.PO1 varnum; title 'PO1'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.04 seconds
+      cpu time            0.00 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 61-62.
+
+47         proc contents data=in.PO2 varnum; title 'PO2'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.04 seconds
+      cpu time            0.03 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 63-64.
+
+48         proc contents data=in.PO3 varnum; title 'PO3'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.04 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 65-66.
+
+49         proc contents data=in.PO4 varnum; title 'PO4'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.04 seconds
+7                                         The SAS System              20:11 Thursday, May 17, 2018
+
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 67-68.
+
+50         proc contents data=in.PRG varnum; title 'PRG'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 69-70.
+
+51         proc contents data=in.PSF varnum; title 'PSF'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.05 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 71-73.
+
+52         proc contents data=in.PXS varnum; title 'PXS'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 74-76.
+
+53         proc contents data=in.QLP varnum; title 'QLP'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.00 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed page 77.
+
+54         proc contents data=in.RXS varnum; title 'RXS'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 78-79.
+
+55         proc contents data=in.STT varnum; title 'STT'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.00 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed page 80.
+
+56         proc contents data=in.T54 varnum; title 'T54'; run;
+8                                         The SAS System              20:11 Thursday, May 17, 2018
+
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.04 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 81-84.
+
+57         proc contents data=in.TAP varnum; title 'TAP'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.00 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed page 85.
+
+58         proc contents data=in.TEA varnum; title 'TEA'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.05 seconds
+      cpu time            0.03 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 86-87.
+
+59         proc contents data=in.TUH varnum; title 'TUH'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 88-89.
+
+60         proc contents data=in.UDC varnum; title 'UDC'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.00 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 90-91.
+
+61         proc contents data=in.UDE varnum; title 'UDE';
+ERROR: File IN.UDE.DATA does not exist.
+61       !                                                run;
+
+NOTE: Statements not processed because of errors noted above.
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.00 seconds
+      
+NOTE: The SAS System stopped processing this step because of errors.
+
+
+62         proc contents data=in.UDS varnum; title 'UDS'; run;
+
+9                                         The SAS System              20:11 Thursday, May 17, 2018
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 92-94.
+
+63         proc contents data=in.VAS varnum; title 'VAS'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed page 95.
+
+64         proc contents data=in.VIS varnum; title 'VIS'; run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.01 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed pages 96-97.
+
+65         
+66         ods rtf close;
+ERROR: Errors printed on pages 4,8.
+
+NOTE: SAS Institute Inc., SAS Campus Drive, Cary, NC USA 27513-2414
+NOTE: The SAS System used:
+      real time           7.67 seconds
+      cpu time            1.32 seconds
+      

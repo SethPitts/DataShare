@@ -1,0 +1,330 @@
+                             Information Sheet for De-identification                             1
+                                                                      20:11 Thursday, May 17, 2018
+
+                           The following variables are free text fields                         
+     AD1         AD2         AD3         ASU         BBL         CHP         D54         DSM    
+  ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+   A1AEPSP     A2ADDINF    A3ADDINF    ASUCOMM     BBLCOMM     CHPCOMM     D54COMD1    DSMCOMM  
+   A1DESCPT    A2FOLLUP    A3ASRID     AUALCAGE    BBNBLDSP                D54COMD2             
+   AD1COMM     A2MEDHX      A3COMM     AUCOCAGE    BBPK1NSP                D54COMD3             
+                A2SUMM     A3REVID     AUCOCLSP    BBPK2NSP                D54COMD4             
+               A2_01DIN                AUHALAGE    BBPKACC                 D54COMD5             
+               A2_01DNM                AUHALLSP                            D54COMD6             
+               A2_02DIN                AUHERAGE                            D54COMD7             
+               A2_02DNM                AUINHAGE                            D54COMM              
+               A2_03DIN                AUINHLSP                                                 
+               A2_03DNM                AUOTHAGE                                                 
+               A2_04DIN                AUOTHLSP                                                 
+               A2_04DNM                AUPNKAGE                                                 
+               A2_05DIN                AUPNKLSP                                                 
+               A2_05DNM                AUSEDAGE                                                 
+               A2_06DIN                AUSEDLSP                                                 
+               A2_06DNM                AUSTMAGE                                                 
+               A2_07DIN                AUSTMLSP                                                 
+               A2_07DNM                AUTHCAGE                                                 
+               A2_08DIN                AUTHCLSP                                                 
+               A2_08DNM                AUTNQLSP                                                 
+               A2_09DIN                AUTRQAGE                                                 
+               A2_09DNM                                                                         
+               A2_10DIN                                                                         
+               A2_10DNM                                                                         
+               A2_1LBIN                                                                         
+               A2_1LBNM                                                                         
+               A2_1TIND                                                                         
+               A2_1TNME                                                                         
+               A2_2LBIN                                                                         
+               A2_2LBNM                                                                         
+               A2_2TIND                                                                         
+               A2_2TNME                                                                         
+               A2_3LBIN                                                                         
+               A2_3LBNM                                                                         
+               A2_3TIND                                                                         
+               A2_3TNME                                                                         
+               A2_4LBIN                                                                         
+               A2_4LBNM                                                                         
+               A2_4TIND                                                                         
+               A2_4TNME                                                                         
+               A2_5LBIN                                                                         
+               A2_5LBNM                                                                         
+               A2_5TIND                                                                         
+               A2_5TNME                                                                         
+ 
+•	We recommend AD1.A1DESCPT not be dropped because it is the verbatim AE term used for MedDRA codi
+•	Two fields in one cell with a dash indicates an array of fields with the numeric portion of the 
+     •	We recommend that date variables be replaced by days from informed consent (S1CNSTDT).
+•	HIV.HITESTMO and HIV.HITESTYR denote the month and year (respectively) of a participant’s most r
+                             Information Sheet for De-identification                             2
+                                                                      20:11 Thursday, May 17, 2018
+
+                           The following variables are free text fields                         
+     ECG         ENR         EOM         HIV         INA         INJ         INV         INX    
+  ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+   ECGCOMM      R3COMM     EOLDSRSP    HITESTMO    INACOMM     INADMNSP    INADLTEA    INXCOMM  
+   ECOTHSP     R3JGOTSP    EOMCOMM     HIVCOMM     INECOM1     INDIFRES    INBFLYEA             
+     ECPR       S3COMM     EOSTOPSP                INECOM10    INJCOMM     INFRZSHP             
+    ECQRS                                          INECOM11                INNHLDEA             
+    ECQTC                                          INECOM12                INOPI300             
+   ECVENTRT                                        INECOM2                  INPKKT              
+                                                   INECOM3                 INPREGEA             
+                                                   INECOM4                 INPRLABL             
+                                                   INECOM5                 INPRVIAL             
+                                                   INECOM6                 INSCFUKT             
+                                                   INECOM7                 INTEMPEA             
+                                                   INECOM8                 INUDSEA              
+                                                   INECOM9                 INUDSKT              
+                                                   INETRT1                 INVCOMM              
+                                                   INETRT10                INVIVTEA             
+                                                   INETRT11                                     
+                                                   INETRT12                                     
+                                                   INETRT2                                      
+                                                   INETRT3                                      
+                                                   INETRT4                                      
+                                                   INETRT5                                      
+                                                   INETRT6                                      
+                                                   INETRT7                                      
+                                                   INETRT8                                      
+                                                   INETRT9                                      
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+ 
+•	We recommend AD1.A1DESCPT not be dropped because it is the verbatim AE term used for MedDRA codi
+•	Two fields in one cell with a dash indicates an array of fields with the numeric portion of the 
+     •	We recommend that date variables be replaced by days from informed consent (S1CNSTDT).
+•	HIV.HITESTMO and HIV.HITESTYR denote the month and year (respectively) of a participant’s most r
+                             Information Sheet for De-identification                             3
+                                                                      20:11 Thursday, May 17, 2018
+
+                           The following variables are free text fields                         
+     LAB         MHX         MVF         NXC         PBC         PCM         PDR         PDV    
+  ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+    LAAGAP     MHADHDSP    MVFCOMM     NXCCOMM     PBBCOSP     PCINDOTH    PDIRBSP     PDACTION 
+   LAALBUMN    MHANXSP     MVOTHRSP                PBCCOMM     PCMCOMM     PDPLATRA    PDDESCPT 
+   LABCOMM     MHBPLRSP                                                    PDPMRVID    PDPREVRE 
+   LABUNCRT    MHCARDSP                                                    PDPSCOMM    PDTYPSP  
+     LACL      MHEARSP                                                     PDPSRVID    PDVCOMM  
+    LACO2      MHELPYSP                                                    PDSECTN              
+   LAGLOBIN    MHENDOSP                                                    PDSITESP             
+     LAK       MHEYESP                                                      PVCOMM              
+     LANA       MHGISP                                                                          
+     LAPH      MHHBEHSP                                                                         
+   LAPROTEN    MHHIDSP                                                                          
+               MHLIVRSP                                                                         
+               MHMDDSP                                                                          
+               MHMETASP                                                                         
+               MHMUSCSP                                                                         
+               MHNERVSP                                                                         
+               MHNEURSP                                                                         
+               MHOTHR1                                                                          
+               MHOTHR1S                                                                         
+               MHOTHR2                                                                          
+               MHOTHR2S                                                                         
+               MHOTHR3                                                                          
+               MHOTHR3S                                                                         
+               MHPSYESP                                                                         
+               MHPSYOSP                                                                         
+               MHRENLSP                                                                         
+               MHREPOSP                                                                         
+               MHRESPSP                                                                         
+               MHSBEHSP                                                                         
+               MHSCHZSP                                                                         
+               MHSIDSP                                                                          
+               MHSKINSP                                                                         
+                MHSRG1                                                                          
+                MHSRG2                                                                          
+                MHSRG3                                                                          
+                MHSRG4                                                                          
+                MHSRG5                                                                          
+               MHVBEHSP                                                                         
+               MHXCOMM                                                                          
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+ 
+•	We recommend AD1.A1DESCPT not be dropped because it is the verbatim AE term used for MedDRA codi
+•	Two fields in one cell with a dash indicates an array of fields with the numeric portion of the 
+     •	We recommend that date variables be replaced by days from informed consent (S1CNSTDT).
+•	HIV.HITESTMO and HIV.HITESTYR denote the month and year (respectively) of a participant’s most r
+                             Information Sheet for De-identification                             4
+                                                                      20:11 Thursday, May 17, 2018
+
+                           The following variables are free text fields                         
+     PEX         PO1         PO2         PO3         PO4         PRG         PSF         PXS    
+  ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+   PEBDHBSP    PO1ABNSP    PO2ABNSP    PO3ABNSP    PO4ABNSP    PRGCOMM      PSAGE      PXCOMCEL 
+   PECARDSP    PO1APG1M    PO2APG1M    PO3APG1M    PO4APG1M    PROTCMSP    PSFCOMM     PXCOMPAR 
+   PEENTSP     PO1APG5M    PO2APG5M    PO3APG5M    PO4APG5M    PROTCNSP    PSFINDSP    PXHELPSP 
+   PEEXTRSP    PO1COMM     PO2COMM     PO3COMM     PO4COMM     PRRSOBSP    PSMEDSP     PXPTANSP 
+    PEGASP     PO1GESDY    PO2GESDY    PO3GESDY    PO4GESDY                PSMETDAY    PXPTAYSP 
+   PEGASTSP    PO1GESWK    PO2GESWK    PO3GESWK    PO4GESWK                PSPRMSP     PXSCOMM  
+   PEHDNKSP    PO1WTLBS    PO2WTLBS    PO3WTLBS    PO4WTLBS                PSPSYHSP             
+   PEINJSSP    PO1WTOZ     PO2WTOZ     PO3WTOZ     PO4WTOZ                 PSSCHSP              
+   PELYMPSP                                                                PSTRTSRV             
+   PEMUSCSP                                                                PSUSESP              
+   PENEURSP                                                                                     
+   PEOTHESP                                                                                     
+   PERESPSP                                                                                     
+   PESHNSP                                                                                      
+   PEXCOMM                                                                                      
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+ 
+•	We recommend AD1.A1DESCPT not be dropped because it is the verbatim AE term used for MedDRA codi
+•	Two fields in one cell with a dash indicates an array of fields with the numeric portion of the 
+     •	We recommend that date variables be replaced by days from informed consent (S1CNSTDT).
+•	HIV.HITESTMO and HIV.HITESTYR denote the month and year (respectively) of a participant’s most r
+                             Information Sheet for De-identification                             5
+                                                                      20:11 Thursday, May 17, 2018
+
+                           The following variables are free text fields                         
+     QLP         RXS         STT         T54         TAP         TEA         TUH         UDC    
+  ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+    QLACT       RXCOMM     STPISIGN    T54COMM     TAPCOMM     TEACOMM     TU30AVG     UDCCOMM  
+   QLHLTNGD                STTCOMM     TLALCHL1                TECOMRM     TU30DAYS    UDCENACC 
+   QLMTLNG                 STTRMOSP    TLALCHL2                TEHLTHRM    TUHCOMM      UDSPNO  
+   QLPCOMM                             TLALCHL3                TELIFERM    TUNUMDY              
+                                       TLALCHL4                TSSUBRM     TUNUMEDY             
+                                       TLALCHL5                            TUNUMRDY             
+                                       TLALCHL6                            TUSTRTAG             
+                                       TLALCHL7                            TUSTRTRG             
+                                       TLOTSP11                                                 
+                                       TLOTSP12                                                 
+                                       TLOTSP13                                                 
+                                       TLOTSP14                                                 
+                                       TLOTSP15                                                 
+                                       TLOTSP16                                                 
+                                       TLOTSP17                                                 
+                                       TLOTSP21                                                 
+                                       TLOTSP22                                                 
+                                       TLOTSP23                                                 
+                                       TLOTSP24                                                 
+                                       TLOTSP25                                                 
+                                       TLOTSP26                                                 
+                                       TLOTSP27                                                 
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+ 
+•	We recommend AD1.A1DESCPT not be dropped because it is the verbatim AE term used for MedDRA codi
+•	Two fields in one cell with a dash indicates an array of fields with the numeric portion of the 
+     •	We recommend that date variables be replaced by days from informed consent (S1CNSTDT).
+•	HIV.HITESTMO and HIV.HITESTYR denote the month and year (respectively) of a participant’s most r
+                             Information Sheet for De-identification                             6
+                                                                      20:11 Thursday, May 17, 2018
+
+                           The following variables are free text fields 
+                             UDE         UDS         VAS         VIS    
+                          ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+                           UDECOMM     UDNOSP1     VACRMETH    VIBDIS3  
+                           UDNOSP1     UDNOSP2     VASCOMM      VIBMI   
+                           UDNOSP2     UDSCOMM                 VIBPDIS1 
+                                                               VIBPDIS2 
+                                                               VIBPSYS1 
+                                                               VIBPSYS2 
+                                                               VIBSYS3  
+                                                               VIHGTCM  
+                                                               VIPULSE  
+                                                               VIRESPS  
+                                                               VISCOMM  
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+ 
+•	We recommend AD1.A1DESCPT not be dropped because it is the verbatim AE term used for MedDRA codi
+•	Two fields in one cell with a dash indicates an array of fields with the numeric portion of the 
+     •	We recommend that date variables be replaced by days from informed consent (S1CNSTDT).
+•	HIV.HITESTMO and HIV.HITESTYR denote the month and year (respectively) of a participant’s most r
