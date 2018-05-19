@@ -1,5 +1,5 @@
 
-LIBNAME metadata "G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data";
+LIBNAME metadata "Data";
 
 data filter_meta;
 	set metadata.meta;
@@ -32,7 +32,7 @@ footnote2 j=center "•	Two fields in one cell with a dash indicates an array of f
 footnote3 j=center "•	We recommend that date variables be replaced by days from informed consent (S1CNSTDT).";
 footnote4 j=center "•	HIV.HITESTMO and HIV.HITESTYR denote the month and year (respectively) of a participant’s most recent HIV test.";
 
-ods rtf file="G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Documents\deidentification_0054_raw.rtf";
+ods rtf file="Documents\deidentification_0054_raw.rtf";
 
 proc report data=final split='|' headline center nowd;
 	 columns ("The following variables are free text fields" AD1--VIS);
