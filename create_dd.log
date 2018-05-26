@@ -1,4 +1,4 @@
-1                                         The SAS System              20:10 Thursday, May 17, 2018
+1                                         The SAS System              16:06 Saturday, May 26, 2018
 
 NOTE: Copyright (c) 2002-2012 by SAS Institute Inc., Cary, NC, USA. 
 NOTE: SAS (r) Proprietary Software 9.4 (TS1M4) 
@@ -17,11 +17,11 @@ NOTE: Additional host information:
  W32_7PRO WIN 6.1.7601 Service Pack 1 Workstation
 
 NOTE: SAS initialization used:
-      real time           2.85 seconds
-      cpu time            0.43 seconds
+      real time           3.08 seconds
+      cpu time            0.34 seconds
       
 1          
-2              LIBNAME ndbmeta "G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data";
+2              LIBNAME ndbmeta "Data";
 NOTE: Libref NDBMETA was successfully assigned as follows: 
       Engine:        V9 
       Physical Name: G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data
@@ -43,7 +43,7 @@ NOTE: Libref NDBMETA was successfully assigned as follows:
 NOTE: There were 18109 observations read from the data set NDBMETA.META.
 NOTE: The data set NDBMETA.DATA_DICT_0054_1 has 2016 observations and 17 variables.
 NOTE: DATA statement used (Total process time):
-      real time           4.79 seconds
+      real time           4.77 seconds
       cpu time            0.06 seconds
       
 
@@ -53,12 +53,12 @@ NOTE: DATA statement used (Total process time):
 18         proc sort data=ndbmeta.data_dict_0054_1; by PROTSEG SCREENID SEQ FIELD_NAME; run;
 
 NOTE: There were 2016 observations read from the data set NDBMETA.DATA_DICT_0054_1.
-2                                         The SAS System              20:10 Thursday, May 17, 2018
+2                                         The SAS System              16:06 Saturday, May 26, 2018
 
 NOTE: The data set NDBMETA.DATA_DICT_0054_1 has 2016 observations and 17 variables.
 NOTE: PROCEDURE SORT used (Total process time):
-      real time           0.57 seconds
-      cpu time            0.01 seconds
+      real time           0.56 seconds
+      cpu time            0.03 seconds
       
 
 19         
@@ -70,14 +70,13 @@ NOTE: PROCEDURE SORT used (Total process time):
 NOTE: There were 2016 observations read from the data set NDBMETA.DATA_DICT_0054_1.
 NOTE: The data set NDBMETA.DATA_DICT_0054_FINAL has 2016 observations and 15 variables.
 NOTE: DATA statement used (Total process time):
-      real time           0.42 seconds
-      cpu time            0.01 seconds
+      real time           0.45 seconds
+      cpu time            0.04 seconds
       
 
 24         
 25         proc export data=ndbmeta.data_dict_0054_final
-26         	outfile='G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Documents\DataDictionary_ra
-26       ! w.csv'
+26         	outfile='Data\DataDictionary_raw.csv'
 27         	dbms=csv
 28         	replace;
 29         run;
@@ -86,16 +85,14 @@ NOTE: DATA statement used (Total process time):
 31          *   PRODUCT:   SAS
 32          *   VERSION:   9.4
 33          *   CREATOR:   External File Interface
-34          *   DATE:      17MAY18
+34          *   DATE:      26MAY18
 35          *   DESC:      Generated SAS Datastep Code
 36          *   TEMPLATE SOURCE:  (None Specified.)
 37          ***********************************************************************/
 38             data _null_;
 39             %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
 40             %let _EFIREC_ = 0;     /* clear export record count macro variable */
-41             file
-41       ! 'G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Documents\DataDictionary_raw.csv'
-41       ! delimiter=',' DSD DROPOVER lrecl=32767;
+41             file 'Data\DataDictionary_raw.csv' delimiter=',' DSD DROPOVER lrecl=32767;
 42             if _n_ = 1 then        /* write column names or labels */
 43              do;
 44                put
@@ -108,11 +105,11 @@ NOTE: DATA statement used (Total process time):
 51                   "FIELD_NAME"
 52                ','
 53                   "FIELD_TYPE"
-3                                         The SAS System              20:10 Thursday, May 17, 2018
-
 54                ','
 55                   "FIELD_LEN"
 56                ','
+3                                         The SAS System              16:06 Saturday, May 26, 2018
+
 57                   "CODELIST"
 58                ','
 59                   "KEYFIELD"
@@ -163,44 +160,39 @@ NOTE: DATA statement used (Total process time):
 104               put SKIPCOND $ @;
 105               put RENDER $ @;
 106               put READONLY @;
-4                                         The SAS System              20:10 Thursday, May 17, 2018
-
 107               put OBJTYPE $ @;
 108               put QTEXT $ ;
 109               ;
+4                                         The SAS System              16:06 Saturday, May 26, 2018
+
 110             end;
 111            if _ERROR_ then call symputx('_EFIERR_',1);  /* set ERROR detection macro variable
 111      ! */
 112            if EFIEOD then call symputx('_EFIREC_',EFIOUT);
 113            run;
 
-NOTE: The file 
-      'G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Documents\DataDictionary_raw.csv' is:
-      Filename=G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Documents\DataDictionary_raw.csv,
+NOTE: The file 'Data\DataDictionary_raw.csv' is:
+      Filename=G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDictionary_raw.csv,
       RECFM=V,LRECL=32767,File Size (bytes)=0,
-      Last Modified=17May2018:20:11:00,
-      Create Time=17May2018:20:11:00
+      Last Modified=26May2018:16:07:01,
+      Create Time=26May2018:16:07:01
 
-NOTE: 2017 records were written to the file 
-      'G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Documents\DataDictionary_raw.csv'.
+NOTE: 2017 records were written to the file 'Data\DataDictionary_raw.csv'.
       The minimum record length was 35.
       The maximum record length was 297.
 NOTE: There were 2016 observations read from the data set NDBMETA.DATA_DICT_0054_FINAL.
 NOTE: DATA statement used (Total process time):
-      real time           0.31 seconds
-      cpu time            0.04 seconds
+      real time           0.32 seconds
+      cpu time            0.03 seconds
       
 
-2016 records created in 
-G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Documents\DataDictionary_raw.csv from 
-NDBMETA.DATA_DICT_0054_FINAL.
+2016 records created in Data\DataDictionary_raw.csv from NDBMETA.DATA_DICT_0054_FINAL.
   
   
-NOTE: "G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Documents\DataDictionary_raw.csv" file 
-      was successfully created.
+NOTE: "Data\DataDictionary_raw.csv" file was successfully created.
 NOTE: PROCEDURE EXPORT used (Total process time):
-      real time           2.79 seconds
-      cpu time            0.28 seconds
+      real time           2.96 seconds
+      cpu time            0.20 seconds
       
 
 114        
@@ -215,11 +207,9 @@ NOTE: PROCEDURE EXPORT used (Total process time):
 NOTE: There were 2016 observations read from the data set NDBMETA.DATA_DICT_0054_FINAL.
 NOTE: The data set NDBMETA.SCREENS has 2016 observations and 1 variables.
 NOTE: DATA statement used (Total process time):
-      real time           0.12 seconds
-      cpu time            0.03 seconds
+      real time           0.14 seconds
+      cpu time            0.00 seconds
       
-5                                         The SAS System              20:10 Thursday, May 17, 2018
-
 
 122        
 123        proc sort data=ndbmeta.screens nodups; by SCREENID; run;
@@ -228,12 +218,14 @@ NOTE: There were 2016 observations read from the data set NDBMETA.SCREENS.
 NOTE: 1972 duplicate observations were deleted.
 NOTE: The data set NDBMETA.SCREENS has 44 observations and 1 variables.
 NOTE: PROCEDURE SORT used (Total process time):
+5                                         The SAS System              16:06 Saturday, May 26, 2018
+
       real time           0.06 seconds
       cpu time            0.00 seconds
       
 
 124        proc export data=ndbmeta.screens
-125        	outfile='G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\screens.csv'
+125        	outfile='Data\screens.csv'
 126        	dbms=csv
 127        	replace;
 128        run;
@@ -242,15 +234,14 @@ NOTE: PROCEDURE SORT used (Total process time):
 130         *   PRODUCT:   SAS
 131         *   VERSION:   9.4
 132         *   CREATOR:   External File Interface
-133         *   DATE:      17MAY18
+133         *   DATE:      26MAY18
 134         *   DESC:      Generated SAS Datastep Code
 135         *   TEMPLATE SOURCE:  (None Specified.)
 136         ***********************************************************************/
 137            data _null_;
 138            %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
 139            %let _EFIREC_ = 0;     /* clear export record count macro variable */
-140            file 'G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\screens.csv'
-140      ! delimiter=',' DSD DROPOVER lrecl=32767;
+140            file 'Data\screens.csv' delimiter=',' DSD DROPOVER lrecl=32767;
 141            if _n_ = 1 then        /* write column names or labels */
 142             do;
 143               put
@@ -269,33 +260,30 @@ NOTE: PROCEDURE SORT used (Total process time):
 155            if EFIEOD then call symputx('_EFIREC_',EFIOUT);
 156            run;
 
-NOTE: The file 'G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\screens.csv' is:
+NOTE: The file 'Data\screens.csv' is:
       Filename=G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\screens.csv,
       RECFM=V,LRECL=32767,File Size (bytes)=0,
-      Last Modified=17May2018:20:11:01,
-6                                         The SAS System              20:10 Thursday, May 17, 2018
+      Last Modified=26May2018:16:07:02,
+      Create Time=26May2018:16:07:02
 
-      Create Time=17May2018:20:11:01
-
-NOTE: 45 records were written to the file 
-      'G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\screens.csv'.
+NOTE: 45 records were written to the file 'Data\screens.csv'.
       The minimum record length was 3.
       The maximum record length was 8.
 NOTE: There were 44 observations read from the data set NDBMETA.SCREENS.
 NOTE: DATA statement used (Total process time):
       real time           0.09 seconds
-      cpu time            0.00 seconds
+      cpu time            0.01 seconds
+6                                         The SAS System              16:06 Saturday, May 26, 2018
+
       
 
-44 records created in G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\screens.csv from 
-NDBMETA.SCREENS.
+44 records created in Data\screens.csv from NDBMETA.SCREENS.
   
   
-NOTE: "G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\screens.csv" file was successfully 
-      created.
+NOTE: "Data\screens.csv" file was successfully created.
 NOTE: PROCEDURE EXPORT used (Total process time):
-      real time           0.27 seconds
-      cpu time            0.04 seconds
+      real time           0.40 seconds
+      cpu time            0.07 seconds
       
 
 157        
@@ -307,8 +295,8 @@ NOTE: PROCEDURE EXPORT used (Total process time):
 NOTE: There were 2016 observations read from the data set NDBMETA.DATA_DICT_0054_1.
 NOTE: The data set NDBMETA.ALL_SEGMENTS has 2016 observations and 1 variables.
 NOTE: DATA statement used (Total process time):
-      real time           0.11 seconds
-      cpu time            0.01 seconds
+      real time           0.14 seconds
+      cpu time            0.03 seconds
       
 
 162        
@@ -318,31 +306,30 @@ NOTE: There were 2016 observations read from the data set NDBMETA.ALL_SEGMENTS.
 NOTE: 2013 duplicate observations were deleted.
 NOTE: The data set NDBMETA.ALL_SEGMENTS has 3 observations and 1 variables.
 NOTE: PROCEDURE SORT used (Total process time):
-      real time           0.05 seconds
-      cpu time            0.00 seconds
+      real time           0.07 seconds
+      cpu time            0.03 seconds
       
 
 164        proc export data=ndbmeta.all_segments
-165        	outfile='G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\segments.csv'
+165        	outfile='Data\segments.csv'
 166        	dbms=csv
 167        	replace;
 168        run;
-
-7                                         The SAS System              20:10 Thursday, May 17, 2018
 
 169         /**********************************************************************
 170         *   PRODUCT:   SAS
 171         *   VERSION:   9.4
 172         *   CREATOR:   External File Interface
-173         *   DATE:      17MAY18
+173         *   DATE:      26MAY18
 174         *   DESC:      Generated SAS Datastep Code
 175         *   TEMPLATE SOURCE:  (None Specified.)
 176         ***********************************************************************/
 177            data _null_;
 178            %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
 179            %let _EFIREC_ = 0;     /* clear export record count macro variable */
-180            file 'G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\segments.csv'
-180      ! delimiter=',' DSD DROPOVER lrecl=32767;
+180            file 'Data\segments.csv' delimiter=',' DSD DROPOVER lrecl=32767;
+7                                         The SAS System              16:06 Saturday, May 26, 2018
+
 181            if _n_ = 1 then        /* write column names or labels */
 182             do;
 183               put
@@ -361,14 +348,13 @@ NOTE: PROCEDURE SORT used (Total process time):
 195            if EFIEOD then call symputx('_EFIREC_',EFIOUT);
 196            run;
 
-NOTE: The file 'G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\segments.csv' is:
+NOTE: The file 'Data\segments.csv' is:
       Filename=G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\segments.csv,
       RECFM=V,LRECL=32767,File Size (bytes)=0,
-      Last Modified=17May2018:20:11:01,
-      Create Time=17May2018:20:11:01
+      Last Modified=26May2018:16:07:03,
+      Create Time=26May2018:16:07:03
 
-NOTE: 4 records were written to the file 
-      'G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\segments.csv'.
+NOTE: 4 records were written to the file 'Data\segments.csv'.
       The minimum record length was 1.
       The maximum record length was 7.
 NOTE: There were 3 observations read from the data set NDBMETA.ALL_SEGMENTS.
@@ -377,16 +363,12 @@ NOTE: DATA statement used (Total process time):
       cpu time            0.00 seconds
       
 
-3 records created in G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\segments.csv from 
-NDBMETA.ALL_SEGMENTS.
+3 records created in Data\segments.csv from NDBMETA.ALL_SEGMENTS.
   
   
-NOTE: "G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\segments.csv" file was successfully 
-      created.
-8                                         The SAS System              20:10 Thursday, May 17, 2018
-
+NOTE: "Data\segments.csv" file was successfully created.
 NOTE: PROCEDURE EXPORT used (Total process time):
-      real time           0.26 seconds
+      real time           0.42 seconds
       cpu time            0.03 seconds
       
 
@@ -394,6 +376,6 @@ NOTE: PROCEDURE EXPORT used (Total process time):
 
 NOTE: SAS Institute Inc., SAS Campus Drive, Cary, NC USA 27513-2414
 NOTE: The SAS System used:
-      real time           13.06 seconds
-      cpu time            0.98 seconds
+      real time           13.83 seconds
+      cpu time            0.85 seconds
       

@@ -1,26 +1,32 @@
 import csv
 import os
 
-PROTOCOL = '0054'
-DATA_SHARE_PATHWAY = "Data"
-QC_FOLDER_PATHWAY = "QC"
-DOCUMENT_FOLDER_PATHWAY = "Documents"
-DATA_FOLDER_PATH = "Data"
 
-DATA_SHARE_INFO = {'PROTOCOL': PROTOCOL,
-                   'DATA_SHARE_PATHWAY': DATA_SHARE_PATHWAY,
-                   'QC_FOLDER_PATHWAY': QC_FOLDER_PATHWAY,
-                   'DOCUMENT_FOLDER_PATHWAY': DOCUMENT_FOLDER_PATHWAY,
-                   'DATA_FOLDER_PATH': DATA_FOLDER_PATH
-                   }
+def get_data_share_info():
+    """
+    Gets the pathway info for the current data share
+    :return: dict containing the data share path info
+    """
+    PROTOCOL = '0054'
+    DATA_SHARE_PATHWAY = "Data"
+    QC_FOLDER_PATHWAY = "QC"
+    DOCUMENT_FOLDER_PATHWAY = "Documents"
+    DATA_FOLDER_PATH = "Data"
+    DATA_SHARE_INFO = {'PROTOCOL': PROTOCOL,
+                       'DATA_SHARE_PATHWAY': DATA_SHARE_PATHWAY,
+                       'QC_FOLDER_PATHWAY': QC_FOLDER_PATHWAY,
+                       'DOCUMENT_FOLDER_PATHWAY': DOCUMENT_FOLDER_PATHWAY,
+                       'DATA_FOLDER_PATH': DATA_FOLDER_PATH
+                       }
+    return DATA_SHARE_INFO
 
 
-def create_dd_sas_file():
+def create_dd_sas_file(DATA_SHARE_INFO):
     """
     Creates the sas file to create the data dictionary for the PROTOCOL
     :return: No return
     """
-    dd_sas_files_path = os.path.join(DATA_FOLDER_PATH, 'create_dd.sas')
+    dd_sas_files_path = os.path.join(DATA_SHARE_INFO['DATA_FOLDER_PATH'], 'create_dd.sas')
     sas_file_template = r"""
     LIBNAME ndbmeta "{DATA_FOLDER_PATH}";
 
@@ -82,12 +88,13 @@ run;
     print(sas_file_template, file=open(dd_sas_files_path, 'w'))
 
 
-def create_qc_sas_file():
+def create_qc_sas_file(DATA_SHARE_INFO):
     """
     Create QC sas file
     :return:
     """
     # Get Screens
+    DATA_FOLDER_PATH = DATA_SHARE_INFO['DATA_FOLDER_PATH']
     screen_file = os.path.join(DATA_FOLDER_PATH, 'screens.csv')  # ALl screens in the DD
     segments_file = os.path.join(DATA_FOLDER_PATH, 'segments.csv')  # ALl segments in the DD
     sas_file_name = os.path.join(DATA_FOLDER_PATH, 'create_qc_file.sas')
@@ -120,10 +127,11 @@ ods rtf file="{QC_FOLDER_PATHWAY}\QC_&SYSDATE..rtf";""" + "\n"
         enr_tables = []
         for segment in segments:
             for template in enr_table_templates:
-                enr_tables.append(template.format(PROTOCOL, segment))
+                enr_tables.append(template.format(DATA_SHARE_INFO['PROTOCOL'], segment))
         screens += enr_tables
         screens.remove('ENR')
         screens.append('enroll')
+        screens.append('dem')
         proc_contents_template = r"""proc contents data=in.{} varnum; title '{}'; run;"""
         screens.sort(key=lambda x: x.lower())
         for screen in screens:
@@ -132,8 +140,8 @@ ods rtf file="{QC_FOLDER_PATHWAY}\QC_&SYSDATE..rtf";""" + "\n"
         sas_file.write('\nods rtf close;')
 
 
-def create_dd_by_segment_file():
-    segments_file = os.path.join(DATA_FOLDER_PATH, 'segments.csv')
+def create_dd_by_segment_file(DATA_SHARE_INFO):
+    segments_file = os.path.join(DATA_SHARE_INFO['DATA_FOLDER_PATH'], 'segments.csv')
     with open(segments_file, 'r') as segments_csv:
         segments = csv.reader(segments_csv)
         # skip headers
@@ -163,19 +171,19 @@ proc export data=ndbmeta.data_dict_{PROTOCOL}_segment_{SEGMENT}
     replace;
 run;"""
 
-    with open(os.path.join(DATA_FOLDER_PATH, 'create_segments_dd.sas'), 'w') as sas_file:
+    with open(os.path.join(DATA_SHARE_INFO['DATA_FOLDER_PATH'], 'create_segments_dd.sas'), 'w') as sas_file:
         sas_file.write(base_template + "\n\n")
 
         for segment in segments:
-            segment_info = {'PROTOCOL': PROTOCOL,
+            segment_info = {'PROTOCOL': DATA_SHARE_INFO['PROTOCOL'],
                             'SEGMENT': segment,
-                            'DATA_FOLDER_PATH': DATA_FOLDER_PATH
+                            'DATA_FOLDER_PATH': DATA_SHARE_INFO['DATA_FOLDER_PATH']
                             }
             sas_file.write(data_template.format(**segment_info))
 
 
-def create_text_fields_file():
-    text_fields_file_name = os.path.join(DATA_FOLDER_PATH, 'find_free_text_fields.sas')
+def create_text_fields_file(DATA_SHARE_INFO):
+    text_fields_file_name = os.path.join(DATA_SHARE_INFO['DATA_FOLDER_PATH'], 'find_free_text_fields.sas')
     template = r"""
 LIBNAME metadata "{DATA_FOLDER_PATH}";
 
@@ -210,7 +218,7 @@ footnote2 j=center "•	Two fields in one cell with a dash indicates an array of
 footnote3 j=center "•	We recommend that date variables be replaced by days from informed consent (S1CNSTDT).";
 footnote4 j=center "•	HIV.HITESTMO and HIV.HITESTYR denote the month and year (respectively) of a participant’s most recent HIV test.";
 
-ods rtf file="{DOCUMENT_FOLDER_PATHWAY}\deidentification_0054_raw.rtf";
+ods rtf file="{DOCUMENT_FOLDER_PATHWAY}\deidentification_{PROTOCOL}_raw.rtf";
 
 proc report data=final split='|' headline center nowd;
 	 columns ("The following variables are free text fields" AD1--VIS);
@@ -218,15 +226,17 @@ proc report data=final split='|' headline center nowd;
 run;
 ods rtf close;
 """.format(**DATA_SHARE_INFO)
+
     with open(text_fields_file_name, 'w') as outfile:
         outfile.write(template)
 
 
 def main():
-    # create_qc_sas_file()
-    create_text_fields_file()
-    create_dd_sas_file()
-    # create_dd_by_segment_file()
+    DATA_SHARE_INFO = get_data_share_info()
+    create_qc_sas_file(DATA_SHARE_INFO)
+    create_text_fields_file(DATA_SHARE_INFO)
+    create_dd_sas_file(DATA_SHARE_INFO)
+    create_dd_by_segment_file(DATA_SHARE_INFO)
 
 
 if __name__ == '__main__':

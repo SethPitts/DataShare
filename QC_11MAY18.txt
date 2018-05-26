@@ -1,623 +1,0 @@
-﻿Data Set NameIN.AD1Observations275Member TypeDATAVariables29EngineV9Indexes0Created05/11/2018 16:26:30Observation Length2192Last Modified05/11/2018 16:26:30Deleted Observations0ProtectionCompressedNOData Set TypeSortedNOLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size176128Number of Data Set Pages4First Data Page1Max Obs per Page80Obs in First Data Page78Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\ad1.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5AEDATENum8MMDDYY8.DATETIME22.3Adverse event onset date6AESEQNUMChar2$XAE_SEQNOX.$2.Event number7A1DESCPTChar30$30.$30.Adverse event description8A1AWARDTNum8MMDDYY8.DATETIME22.3Site awareness date9A1SEVRTYChar1$X122X.$1.Severity of event10A1RDRUG2Char1$X366X.$1.Relationship drug211A1ADRUG2Char1$X383X.$1.Action with drug212A1RDRUG1Char1$X338X.$1.Relationship drug113A1ADRUG1Char1$X361X.$1.Action with drug114A1ALTESDChar2$X384X.$2.Alternative etio studydrg15A1AEPSPChar75$75.$75.Alt etiol sd other spfy16A1OUTCMChar2$X3232X.$2.Outcome of the event17A1RESDTNum8MMDDYY8.DATETIME22.3Date of resolution18A1ASSOCChar2$X3240X.$2.Event association19A1DTHDTNum8MMDDYY8.DATETIME22.3Date of death20A1HOSPADNum8MMDDYY8.DATETIME22.3Date of hosp admission21A1HOSPDCNum8MMDDYY8.DATETIME22.3Date of hosp discharge22AD1COMMChar1367$1367.$2000.Comments23VERBATIMChar100$100.$100.AE Verbatim24VERSIONChar20$20.$20.MedDRA Version25PTChar100$100.$100.Preferred Term26SOCChar100$100.$100.System Organ Class27LLTChar100$100.$100.Low Level Term28HLTChar100$100.$100.High Level Term29HLGTChar100$100.$100.High Level Group Term
-Data Set NameIN.AD2Observations2Member TypeDATAVariables65EngineV9Indexes0Created05/11/2018 16:26:30Observation Length3848Last Modified05/11/2018 16:26:30Deleted Observations0ProtectionCompressedNOData Set TypeSortedNOLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size262144Number of Data Set Pages1First Data Page1Max Obs per Page68Obs in First Data Page2Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\ad2.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5AEDATENum8MMDDYY8.DATETIME22.3Adverse event onset date6AESEQNUMChar2$XAE_SEQNOX.$2.Event number7A2SUMMChar1306$1306.$2000.ADVERSE EVENT SUMMARY8A2SAEMHXChar2$X138X.$2.REL PAST MED HX AVAILABLE9A2MEDHXChar218$218.$2000.RELEVANT PAST MEDICAL HX10A2SAEMEDChar2$X139X.$2.MEDS AT TIME OF EVENT11A2_01DNMChar30$30.$30.DRUG 1 NAME12A2_01DINChar30$30.$30.DRUG 1 INDICATION13A2_02DNMChar30$30.$30.DRUG 2 NAME14A2_02DINChar30$30.$30.DRUG 2 INDICATION15A2_03DNMChar30$30.$30.DRUG 3 NAME16A2_03DINChar30$30.$30.DRUG 3 INDICATION17A2_04DNMChar30$30.$30.DRUG 4 NAME18A2_04DINChar30$30.$30.DRUG 4 INDICATION19A2_05DNMChar30$30.$30.DRUG 5 NAME20A2_05DINChar30$30.$30.DRUG 5 INDICATION21A2_06DNMChar30$30.$30.DRUG 6 NAME22A2_06DINChar30$30.$30.DRUG 6 INDICATION23A2_07DNMChar30$30.$30.DRUG 7 NAME24A2_07DINChar30$30.$30.DRUG 7 INDICATION25A2_08DNMChar30$30.$30.DRUG 8 NAME26A2_08DINChar30$30.$30.DRUG 8 INDICATION27A2_09DNMChar30$30.$30.DRUG 9 NAME28A2_09DINChar30$30.$30.DRUG 9 INDICATION29A2_10DNMChar30$30.$30.DRUG 10 NAME30A2_10DINChar30$30.$30.DRUG 10 INDICATION31A2SAETRTChar2$X570X.$2.TRTS AT TIME OF EVENT32A2_1TNMEChar30$30.$30.TREATMENT 1 NAME33A2_1TINDChar30$30.$30.TREATMENT 1 INDICATION34A2_1LTDTNum8MMDDYY8.DATETIME22.3TREATMENT 1 LAST DATE35A2_2TNMEChar30$30.$30.TREATMENT 2 NAME36A2_2TINDChar30$30.$30.TREATMENT 2 INDICATION37A2_2LTDTNum8MMDDYY8.DATETIME22.3TREATMENT 2 LAST DATE38A2_3TNMEChar30$30.$30.TREATMENT 3 NAME39A2_3TINDChar30$30.$30.TREATMENT 3 INDICATION40A2_3LTDTNum8MMDDYY8.DATETIME22.3TREATMENT 3 LAST DATE41A2_4TNMEChar30$30.$30.TREATMENT 4 NAME42A2_4TINDChar30$30.$30.TREATMENT 4 INDICATION43A2_4LTDTNum8MMDDYY8.DATETIME22.3TREATMENT 4 LAST DATE44A2_5TNMEChar30$30.$30.TREATMENT 5 NAME45A2_5TINDChar30$30.$30.TREATMENT 5 INDICATION46A2_5LTDTNum8MMDDYY8.DATETIME22.3TREATMENT 5 LAST DATE47A2SAELABChar2$X571X.$2.TESTS LABS FOR EVENT48A2_1LBNMChar30$30.$30.LAB TEST 1 NAME49A2_1LBINChar70$70.$70.LAB TEST 1 INFO50A2_1LBDTNum8MMDDYY8.DATETIME22.3LAB TEST 1 DATE51A2_2LBNMChar30$30.$30.LAB TEST 2 NAME52A2_2LBINChar70$70.$70.LAB TEST 2 INFO53A2_2LBDTNum8MMDDYY8.DATETIME22.3LAB TEST 2 DATE54A2_3LBNMChar30$30.$30.LAB TEST 3 NAME55A2_3LBINChar70$70.$70.LAB TEST 3 INFO56A2_3LBDTNum8MMDDYY8.DATETIME22.3LAB TEST 3 DATE57A2_4LBNMChar30$30.$30.LAB TEST 4 NAME58A2_4LBINChar70$70.$70.LAB TEST 4 INFO59A2_4LBDTNum8MMDDYY8.DATETIME22.3LAB TEST 4 DATE60A2_5LBNMChar30$30.$30.LAB TEST 5 NAME61A2_5LBINChar70$70.$70.LAB TEST 5 INFO62A2_5LBDTNum8MMDDYY8.DATETIME22.3LAB TEST 5 DATE63A2FOLLUPChar412$412.$2000.FOLLOW-UP64A2ADDINFChar373$373.$2000.ADDITIONAL INFO REQ65A2RQADDRChar1$X1061X.$1.REVIEWER REQ ADDRESSED
-Data Set NameIN.AD3Observations2Member TypeDATAVariables19EngineV9Indexes0Created05/11/2018 16:26:30Observation Length752Last Modified05/11/2018 16:26:30Deleted Observations0ProtectionCompressedNOData Set TypeSortedNOLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page87Obs in First Data Page2Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\ad3.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5AEDATENum8MMDDYY8.DATETIME22.3Adverse event onset date6AESEQNUMChar2$XAE_SEQNOX.$2.Event number7A3SAEChar1$X385X.$1.SAE determined8A3RXRNTXChar1$X590X.$1.Related XRNTX9A3RELDRGChar1$X386X.$1.Related study drug10A3EXPECTChar1$X619X.$1.Event expected11A3EXPFDAChar1$X620X.$1.Standard expedited12A3EXPOTHChar1$X621X.$1.Other expedited13A3MPROTChar1$X623X.$1.Modify protocol req14A3MCNSTChar1$X624X.$1.Modify consent form15A3REVDNEChar1$X625X.$1.Review complete16A3ADDINFChar233$233.$2000.Additional info requested17A3ASRIDChar3$3.$3.Assessor initials18A3REVIDChar3$3.$3.Reviewer initials19A3COMMChar454$454.$2000.Comments
-Data Set NameIN.ASUObservations114Member TypeDATAVariables39EngineV9Indexes0Created05/11/2018 16:26:08Observation Length760Last Modified05/11/2018 16:26:08Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages2First Data Page1Max Obs per Page86Obs in First Data Page78Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\asu.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6VISNOChar4$4.$4.Visit Number7ASUASMDTNum8MMDDYY8.DATETIME22.3Date of assessment8AUALCLFTChar1$X741X.$1.Lifetime alcohol use9AUALCAGENum83.3.Age of first alcohol use10AUSEDLFTChar1$X3164X.$1.Lifetime sedative use11AUSEDLSPChar50$50.$50.Lifetime sed use specify12AUSEDAGENum83.3.Age of first sedative use13AUTNQLFTChar1$X3165X.$1.Lifetime tranquilizer use14AUTNQLSPChar50$50.$50.Lifetime tranq use spcfy15AUTRQAGENum83.3.Age of first tranquilizer16AUPNKLFTChar1$X3166X.$1.Lifetime pain killer use17AUPNKLSPChar50$50.$50.Lifetime pain killer spc18AUPNKAGENum83.3.Age of first pain killer19AUSTMLFTChar1$X3233X.$1.Lifetime stimulant use20AUSTMLSPChar50$50.$50.Lifetime stimulant use sp21AUSTMAGENum83.3.Age of first stimlnt use22AUTHCLFTChar1$X3234X.$1.Lifetime THC use23AUTHCLSPChar50$50.$50.Lifetime THC use specify24AUTHCAGENum83.3.Age of first THC use25AUCOCLFTChar1$X3235X.$1.Lifetime coke crack use26AUCOCLSPChar50$50.$50.Lifetime coke crack spec27AUCOCAGENum83.3.Age of first coke crack28AUHALLFTChar1$X3236X.$1.Lifetime hallucinogen use29AUHALLSPChar50$50.$50.Lifetime halluc use spec30AUHALAGENum83.3.Age of first halluc use31AUINHLFTChar1$X3237X.$1.Lifetime inhalants use32AUINHLSPChar50$50.$50.Lifetime inhalants use sp33AUINHAGENum83.3.Age of first inhalants us34AUHERLFTChar1$X3238X.$1.Lifetime heroin use35AUHERAGENum83.3.Age of first heroin use36AUOTHLFTChar1$X3239X.$1.Lifetime other use37AUOTHLSPChar50$50.$50.Lifetime other use spec38AUOTHAGENum83.3.Age of first other use39ASUCOMMChar163$163.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.BBLObservations87Member TypeDATAVariables22EngineV9Indexes0Created05/11/2018 16:26:08Observation Length640Last Modified05/11/2018 16:26:08Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page102Obs in First Data Page87Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\bbl.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6VISNOChar4$4.$4.Visit Number7BBBLDCLTChar1$X1X.$1.Blood sample collected8BBNBLDSPChar50$50.$50.Specify no blood smpl9BBCLTDTNum8MMDDYY8.DATETIME22.3Date sample collected10BBCLTTMChar5$5.$5.Time sample collected11BBPKACCChar15$15.$15.PK accession number12BBBUPDTNum8MMDDYY8.DATETIME22.3Date of last BUP Dose13BBBUPTMChar5$5.$5.Time of last BUP dose14BBVVTLDTNum8MMDDYY8.DATETIME22.3Date last vivitrol XR NTX15BBVVTLTMChar5$5.$5.Time last vivitrol XRNTX16BBPK1SHPChar1$X2X.$1.Primary PK sample shipped17BBPK1NSPChar50$50.$50.No primary PK ship sp18BBPK1SDTNum8MMDDYY8.DATETIME22.3Primary PK ship date19BBPK2SHPChar1$X3X.$1.Seconday PK sample ship20BBPK2NSPChar50$50.$50.No secondary Pk ship sp21BBPK2SDTNum8MMDDYY8.DATETIME22.3Secondary PK ship date22BBLCOMMChar375$375.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.BLABObservations85Member TypeDATAVariables13EngineV9Indexes0Created05/11/2018 16:26:32Observation Length240Last Modified05/11/2018 16:26:32Deleted Observations0ProtectionCompressedNOData Set TypeSortedNOLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page272Obs in First Data Page85Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\blab.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar102$102.$102.Protocol2SITEChar5$5.$5.Site3PATIDChar13$13.$13.Participant ID4VISNONum8Visit5ACCNOChar9$9.$9.Accession Number6COLLDATENum8MMDDYY10.Date Blood Sample Collected by Site7RECDATENum8MMDDYY10.Date Blood Sample Received by Lab8BUPNum8Bupropion Blood Result9BUPMETANum8HydroxyBupropion Blood Result10COMMENTChar48Comment11RECDATE_NEWNum8MMDDYY10.Date Backup Sample Received by Lab12BUP_NEWChar5$5.$5.Bupropion Blood Result for Backup Sample13BUPMETA_NEWChar5$5.$5.HydroxyBupropion Blood Result for Backup Sample
-Data Set NameIN.CHPObservations304Member TypeDATAVariables24EngineV9Indexes0Created05/11/2018 16:26:09Observation Length1008Last Modified05/11/2018 16:26:09Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size81920Number of Data Set Pages4First Data Page1Max Obs per Page81Obs in First Data Page77Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\chp.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6VISNOChar4$4.$4.Visit Number7CHPASMDTNum8MMDDYY8.DATETIME22.3Date of assessment8CHNVRBTRChar1$X3259X.$1.Never going to get better9CHNOFUTRChar1$X3260X.$1.I have no future10CHNORGHTChar1$X3261X.$1.I can do nothing right11CHWRONGChar1$X3262X.$1.Everything turns wrong12CHDEPENDChar1$X3263X.$1.No one I can depend on13CHPPLGNEChar1$X3264X.$1.People I care for gone14CHSUFFERChar1$X3265X.$1.Wish suffering be over15CHRSLIVEChar1$X3266X.$1.I have no reason to live16CHSLEEPChar1$X3294X.$1.Sleep and not wake up17CHNOTHNKChar1$X3305X.$1.Doing without thinking18CHIMPULSChar1$X3306X.$1.Decisions on impulse19CHIRRITEChar1$X3307X.$1.Feel irritable20CHOVRRCTChar1$X3308X.$1.Easily overact21CHKILLMSChar1$X3309X.$1.Thoughts killing myself22CHHOWKILChar1$X3320X.$1.Thoughts how to kill me23CHPLNKILChar1$X3321X.$1.Plans to kill myself24CHPCOMMChar943$943.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.D54Observations441Member TypeDATAVariables63EngineV9Indexes0Created05/11/2018 16:26:30Observation Length1200Last Modified05/11/2018 16:26:30Deleted Observations0ProtectionCompressedNOData Set TypeSortedNOLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size98304Number of Data Set Pages6First Data Page1Max Obs per Page81Obs in First Data Page74Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\d54.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1SITEChar5$SITE.$5.Site2PROTChar5$PROTOCOL.$5.Protocol3PATIDChar15$15.Participant ID4PROTSEGChar1$1.$1.Segment5RandDtNum8MMDDYY8.Randomization Date6WKNM54Num82.2.Study week7D54DTD1Num8MMDDYY8.DATETIME22.3Day 1 date8D54D15D1Char1$X732X.$1.Day 1 150mg dispensed9D54DSDT1Num8MMDDYY8.DATETIME22.3Day 1 dispense date10D54T15D1Char2$X733X.$2.Day 1 150mg dose taken11D54LOCD1Char1$X734X.$1.Day 1 location12D54VIDD1Char1$X735X.$1.Day 1 valid video13D54V15D1Char1$X736X.$1.Day 1 150mg vid cnfrm dse14D54COMD1Char40$40.$40.Day 1 comments15D54DTD2Num8MMDDYY8.DATETIME22.3Day 2 date16D54D15D2Char1$X738X.$1.Day 2 150mg dispensed17D54DSDT2Num8MMDDYY8.DATETIME22.3Day 2 dispense date18D54T15D2Char2$X739X.$2.Day 2 150mg dose taken19D54LOCD2Char1$X740X.$1.Day 2 location20D54VIDD2Char1$X746X.$1.Day 2 valid video21D54V15D2Char1$X754X.$1.Day 2 150mg vid cnfrm dse22D54COMD2Char40$40.$40.Day 2 comments23D54DTD3Num8MMDDYY8.DATETIME22.3Day 3 date24D54D15D3Char1$X758X.$1.Day 3 150mg dispensed25D54DSDT3Num8MMDDYY8.DATETIME22.3Day 3 dispense date26D54T15D3Char2$X759X.$2.Day 3 150mg dose taken27D54LOCD3Char1$X760X.$1.Day 3 location28D54VIDD3Char1$X761X.$1.Day 3 valid video29D54V15D3Char1$X762X.$1.Day 3 150mg vid cnfrm dse30D54COMD3Char40$40.$40.Day 3 comments31D54DTD4Num8MMDDYY8.DATETIME22.3Day 4 date32D54D15D4Char1$X767X.$1.Day 4 150mg dispensed33D54DSDT4Num8MMDDYY8.DATETIME22.3Day 4 dispense date34D54T15D4Char2$X768X.$2.Day 4 150mg dose taken35D54LOCD4Char1$X769X.$1.Day 4 location36D54VIDD4Char1$X871X.$1.Day 4 valid video37D54V15D4Char1$X872X.$1.Day 4 150mg vid cnfrm dse38D54COMD4Char40$40.$40.Day 4 comments39D54DTD5Num8MMDDYY8.DATETIME22.3Day 5 date40D54D15D5Char1$X873X.$1.Day 5 150mg dispensed41D54DSDT5Num8MMDDYY8.DATETIME22.3Day 5 dispense date42D54T15D5Char2$X893X.$2.Day 5 150mg dose taken43D54LOCD5Char1$X894X.$1.Day 5 location44D54VIDD5Char1$X895X.$1.Day 5 valid video45D54V15D5Char1$X896X.$1.Day 5 150mg vid cnfrm dse46D54COMD5Char40$40.$40.Day 5 Comments47D54DTD6Num8MMDDYY8.DATETIME22.3Day 6 date48D54D15D6Char1$X897X.$1.Day 6 150mg dispensed49D54DSDT6Num8MMDDYY8.DATETIME22.3Day 6 dispense date50D54T15D6Char2$X898X.$2.Day 6 150mg dose taken51D54LOCD6Char1$X902X.$1.Day 6 location52D54VIDD6Char1$X903X.$1.Day 6 valid video53D54V15D6Char1$X904X.$1.Day 6 150mg vid cnfrm dse54D54COMD6Char40$40.$40.Day 6 comments55D54DTD7Num8MMDDYY8.DATETIME22.3Day 7 date56D54D15D7Char1$X911X.$1.Day 7 150mg dispensed57D54DSDT7Num8MMDDYY8.DATETIME22.3Day 7 dispense date58D54T15D7Char2$X918X.$2.Day 7 150mg dose taken59D54LOCD7Char1$X919X.$1.Day 7 location60D54VIDD7Char1$X920X.$1.Day 7 valid video61D54V15D7Char1$X921X.$1.Day 7 150mg vid cnfrm dse62D54COMD7Char40$40.$40.Day 7 comments63D54COMMChar717$717.$2000.Comments
-Data Set NameIN.DEMObservations116Member TypeDATAVariables34EngineV9Indexes0Created05/11/2018 16:26:30Observation Length488Last Modified05/11/2018 16:26:30Deleted Observations0ProtectionCompressedNOData Set TypeSortedNOLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page134Obs in First Data Page116Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\dem.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.$15.Participant ID3SITEChar5$SITE.Site4RANDDTNum8MMDDYY8.DATETIME22.3Randomization Date5DEBRTHDTNum8MMDDYY8.DATETIME22.3Date of birth6DEGENDERChar2$X2534X.$2.Participant gender7DEHISPNCChar2$X2535X.$2.Hispanic8DEHISPSPChar2$X2536X.$2.Hispanic specify9DEWHITEChar1$X2932X.$1.White10DEBLACKChar1$X2938X.$1.Black or African American11DEAMEINDChar1$X2939X.$1.Indian American12DEALASKAChar1$X2940X.$1.Alaska native13DEHAWAIIChar1$X2941X.$1.Native Hawaiian14DEGUAMChar1$X2942X.$1.Guamanian15DESAMOANChar1$X2943X.$1.Samoan16DEPACISLChar1$X2944X.$1.Pacific Islander17DEPACISOChar50$50.$50.Pacific Islander other sp18DEASAINDChar1$X2945X.$1.Asian Indian19DECHINAChar1$X2946X.$1.Chinese20DEFILIPNChar1$X2955X.$1.Filipino21DEJAPANChar1$X2956X.$1.Japanese22DEKOREAChar1$X2957X.$1.Korean23DEVIETNMChar1$X2958X.$1.Vietnamese24DEASIANChar1$X2959X.$1.Asian other25DEASIAOTChar50$50.$50.Other Asian specify26DERACEOTChar1$X2960X.$1.Any other race27DERACESPChar25$25.$25.Race other specfiy28DERACEDKChar1$X2961X.$1.Race dont know29DERACERFChar1$X2962X.$1.Race refused30DEEDUCTNChar2$X2537X.$2.Education31DEJOBChar2$X2538X.$2.Employment status32DEJOBSPChar50$50.$50.Other job specify33DEMARTLChar2$X2539X.$2.Marital stauts34DEMCOMMChar241$241.$2000.Comments
-Data Set NameIN.DSMObservations115Member TypeDATAVariables99EngineV9Indexes0Created05/11/2018 16:26:30Observation Length352Last Modified05/11/2018 16:26:30Deleted Observations0ProtectionCompressedNOData Set TypeSortedNOLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page186Obs in First Data Page115Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\dsm.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6VISNOChar4$4.$4.Visit Number7DSMASMDTNum8MMDDYY8.DATETIME22.3Date of assessment8DSOPI12MChar1$X5X.$1.Opiods past 12 months9DSALC12MChar1$X17X.$1.Alcohol past 12 months10DSAMP12MChar1$X36X.$1.Amphet past 12 months11DSMET12MChar1$X37X.$1.Methamphetamine past 12m12DSTHC12MChar1$X45X.$1.Cannabis past 12 months13DSCOC12MChar1$X1731X.$1.Cocaine past 12 months14DSSED12MChar1$X1761X.$1.Sedatives past 12 months15DSOPIOBLChar1$X1762X.$1.Opi recurren obligat fail16DSALCOBLChar1$X1763X.$1.Alc recurren obligat fail17DSAMPOBLChar1$X1764X.$1.Amp recurren obligat fail18DSMETOBLChar1$X1769X.$1.Met recurren obligat fail19DSTHCOBLChar1$X1792X.$1.Can recurren obligat fail20DSCOCOBLChar1$X1793X.$1.Coc recurren obligat fail21DSSEDOBLChar1$X1798X.$1.Sed recurren obligat fail22DSOPIHAZChar1$X1799X.$1.Opi recurr phy hazard23DSALCHAZChar1$X1800X.$1.Alc recurr phy hazard24DSAMPHAZChar1$X1814X.$1.Amp recurr phy hazard25DSMETHAZChar1$X1815X.$1.Met recurr phy hazard26DSTHCHAZChar1$X1851X.$1.Can recurr phy hazard27DSCOCHAZChar1$X1852X.$1.Coc recurr phy hazard28DSSEDHAZChar1$X1853X.$1.Coc recurr phy hazard29DSOPISOCChar1$X2002X.$1.Opi recurr social problem30DSALCSOCChar1$X2003X.$1.Alc recurr social problem31DSAMPSOCChar1$X2004X.$1.Amp recurr social problem32DSMETSOCChar1$X2005X.$1.Met recurr social problem33DSTHCSOCChar1$X2006X.$1.Can recurr social problem34DSCOCSOCChar1$X2007X.$1.Coc recurr social problem35DSSEDSOCChar1$X2008X.$1.Sed recurr social problem36DSOPITOLChar1$X2009X.$1.Opi drug tolerance37DSALCTOLChar1$X2012X.$1.Alc drug tolerance38DSAMPTOLChar1$X2013X.$1.Amp drug tolerance39DSMETTOLChar1$X2014X.$1.Met drug tolerance40DSTHCTOLChar1$X2015X.$1.Can drug tolerance41DSCOCTOLChar1$X2016X.$1.Coc drug tolerance42DSSEDTOLChar1$X2017X.$1.Sed drug tolerance43DSOPIWITChar1$X2053X.$1.Opi withdrawal44DSALCWITChar1$X2054X.$1.Alc withdrawal45DSAMPWITChar1$X2079X.$1.Amp withdrawal46DSMETWITChar1$X2080X.$1.Met withdrawal47DSTHCWITChar1$X2081X.$1.Can withdrawal48DSCOCWITChar1$X2082X.$1.Coc withdrawal49DSSEDWITChar1$X2083X.$1.Sed withdrawal50DSOPIDOSChar1$X2084X.$1.Opi larger longer dose51DSALCDOSChar1$X2085X.$1.Alc larger longer dose52DSAMPDOSChar1$X2086X.$1.Amp larger longer dose53DSMETDOSChar1$X2087X.$1.Met larger longer dose54DSTHCDOSChar1$X2088X.$1.Can larger longer dose55DSCOCDOSChar1$X2154X.$1.Coc larger longer dose56DSSEDDOSChar1$X2165X.$1.Sed larger longer dose57DSOPICUTChar1$X2166X.$1.Opi cut back unsuccess58DSALCCUTChar1$X2167X.$1.Alc cut back unsuccess59DSAMPCUTChar1$X2168X.$1.Amp cut back unsuccess60DSMETCUTChar1$X2171X.$1.Met cut back unsuccess61DSTHCCUTChar1$X2172X.$1.Can cut back unsuccess62DSCOCCUTChar1$X2173X.$1.Coc cut back unsuccess63DSSEDCUTChar1$X2174X.$1.Sed cut back unsuccess64DSOPITIMChar1$X2175X.$1.Opi time spent65DSALCTIMChar1$X2176X.$1.Alc time spent66DSAMPTIMChar1$X2188X.$1.Amp time spent67DSMETTIMChar1$X2189X.$1.Met time spent68DSTHCTIMChar1$X2190X.$1.Can time spent69DSCOCTIMChar1$X2191X.$1.Coc time spent70DSSEDTIMChar1$X2192X.$1.Sed time spent71DSOPIACTChar1$X2193X.$1.Opi imprtnt activty reduc72DSALCACTChar1$X2194X.$1.Alc imprtnt activty reduc73DSAMPACTChar1$X2195X.$1.Amp imprtnt activty reduc74DSMETACTChar1$X2196X.$1.Met imprtnt activty reduc75DSTHCACTChar1$X2197X.$1.Can imprtnt activty reduc76DSCOCACTChar1$X2198X.$1.Coc imprtnt activty reduc77DSSEDACTChar1$X2199X.$1.Sed imprtnt activty reduc78DSOPICONChar1$X2200X.$1.Opi continue despit prob79DSALCCONChar1$X2201X.$1.Alc continue despit prob80DSAMPCONChar1$X2202X.$1.Amp continue despit prob81DSMETCONChar1$X2203X.$1.Met continue despit prob82DSTHCCONChar1$X2204X.$1.Can continue despit prob83DSCOCCONChar1$X2205X.$1.Coc continue despit prob84DSSEDCONChar1$X2206X.$1.Sed continue despit prob85DSOPICRAChar1$X2207X.$1.Opi strong craving for86DSALCCRAChar1$X2208X.$1.Alc strong craving for87DSAMPCRAChar1$X2209X.$1.Amp strong craving for88DSMETCRAChar1$X2210X.$1.Met strong craving for89DSTHCCRAChar1$X2217X.$1.Can strong craving for90DSCOCCRAChar1$X2218X.$1.Coc strong craving for91DSSEDCRAChar1$X2219X.$1.Sed strong craving for92DSOPISCOChar1$X2268X.$1.Opi score93DSALCSCOChar1$X2285X.$1.Alc score94DSAMPSCOChar1$X2286X.$1.Amp score95DSMETSCOChar1$X2287X.$1.Met score96DSTHCSCOChar1$X2288X.$1.Can score97DSCOCSCOChar1$X2289X.$1.Coc score98DSSEDSCOChar1$X2290X.$1.Sed score99DSMCOMMChar210$210.$2000.Comments
-Data Set NameIN.ECGObservations87Member TypeDATAVariables52EngineV9Indexes0Created05/11/2018 16:26:10Observation Length448Last Modified05/11/2018 16:26:10Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page146Obs in First Data Page87Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\ecg.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6VISNOChar4$4.$4.Visit Number7ECGASMDTNum8MMDDYY8.DATETIME22.3Date of assessment8ECSINRTMChar1$X94X.$1.Normal sinus rhythm9ECVENTRTNum84.4.Ventricular rate (bpm)10ECQTCNum84.4.QTc11ECPRNum84.4.PR12ECQRSNum84.4.QRS13EC1PRAXSNum85.5.PRT Axis 1 - P14EC2PRAXSNum85.5.PRT Axis 2 - R15EC3PRAXSNum85.5.PRT Axis 3 - T16ECQTCPLGChar1$X1682X.$1.QTC prolongation17ECATFIBChar1$X1683X.$1.Atrial fibrillation18ECATFLRChar1$X1684X.$1.Atrial flutter19EC2AVBLKChar1$X1685X.$1.2nd degree AV block20EC3AVBLKChar1$X1686X.$1.3rd degree av block21ECSUMOTHChar1$X95X.$1.ECG summary other22ECQRSINCChar1$X1687X.$1.Increased QRS voltage23ECSVPBChar1$X1765X.$1.Supraventricular pre beat24ECLAHYPYChar1$X1766X.$1.Left atrial hypertrophy25ECVPBChar1$X1767X.$1.Ventricular premat beat26ECRAHYPYChar1$X1768X.$1.Right atrial hypertrophy27ECSPVTTYChar1$X2229X.$1.Supraventricular tachy28ECLVHYPYChar1$X2230X.$1.Left vent hypertrophy29ECVTTYChar1$X2231X.$1.Ventricular tachycardia30ECRVHYPChar1$X2232X.$1.Right vent hypertrophy31ECOTHRAChar1$X2233X.$1.Other Rhythm Abnormal32ECACTINFChar1$X2234X.$1.Acute Infarction33ECPACEMKChar1$X2235X.$1.Implanted pacemaker34ECSATINFChar1$X2236X.$1.Subacute infarction35EC1AVBLKChar1$X2237X.$1.1st degree AV block36ECINFOLDChar1$X2238X.$1.Old infarction37ECLBBBLKChar1$X2239X.$1.LBB block38ECMYISCHChar1$X2240X.$1.Myocardial ischemia39ECRBBBLKChar1$X2241X.$1.RBB Block40ECDGTEFTChar1$X2242X.$1.Digitalis Effect41ECPESChar1$X2243X.$1.Pre excitation syndrome42ECSTWIChar1$X2244X.$1.Symmetrical t-wave inv43ECOTHIVBChar1$X2245X.$1.Other Intravent cond blk44ECPRWPGChar1$X2246X.$1.Poor R-Wave Progression45ECOTHSPChar26$26.$26.Other abnormal specify46ECOTHChar1$X2247X.$1.Other abnormal result47ECOTHSTTChar1$X2248X.$1.Other nonspecific ST T48ECSTACHYChar1$X2249X.$1.Sinus tachycardia49ECSBRADYChar1$X2250X.$1.Sinus bradycardia50ECGELIG1Char1$X97X.$1.Ppt in trial ECG ok51ECGELIG2Char1$X98X.$1.Other abnormal ECG find52ECGCOMMChar284$284.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.EC0054AObservations116Member TypeDATAVariables7EngineV9Indexes0Created05/11/2018 16:26:10Observation Length88Last Modified05/11/2018 16:26:10Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page743Obs in First Data Page116Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\ec0054a.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5S3CNSTDTNum8MMDDYY8.DATETIME22.3Date consent signed6S3SCRNIDNum85.5.Prescreen ID7S3COMMChar38$38.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.EC0054BObservations49Member TypeDATAVariables40EngineV9Indexes0Created05/11/2018 16:26:30Observation Length504Last Modified05/11/2018 16:26:30Deleted Observations0ProtectionCompressedNOData Set TypeSortedNOLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page129Obs in First Data Page49Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\ec0054b.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5R3ASMDTNum8MMDDYY8.DATETIME22.3Date of assessment6R3PTAGEChar2$X1402X.$2.Age 18 to 65 years7R3ENGLSHChar2$X1403X.$2.Speaks english8R3COMPTChar2$X1404X.$2.Passes competency tool9R3METSTPChar2$X1405X.$2.Interest stop using meth10R3METDSMChar2$X1406X.$2.DSM5 MET mod severe11R3MET20DChar2$X1407X.$2.Self report 20 days meth12R3METUDSChar2$X1525X.$2.MET positive urines13R3OPFREEChar2$X1526X.$2.Opioid free14R3BCUSEChar2$X1527X.$2.Female uses birth contr15R3VIDEOChar2$X1528X.$2.Home dose with cell video16R3PSYCHChar2$X1529X.$2.Psychiatric disorders17R3HYPTENChar2$X1530X.$2.Stage II hypertension18R3SUICDEChar2$X1567X.$2.Suicide risk19R3ALERGYChar2$X1568X.$2.Allergy to study trtmnt20R3SEIZURChar2$X1569X.$2.History of seizure/neuro21R3BLOCKChar2$X1570X.$2.Heart block 2nd or 3d deg22R3LIVERChar2$X1580X.$2.Liver function test23R3PLATEChar2$X1581X.$2.Platelet count24R3HABTUSChar2$X1629X.$2.Body habitus present25R3STUDYChar2$X1630X.$2.Recent study for meth26R3INDDRUChar2$X1631X.$2.Recent IND drug27R3CTPChar2$X1632X.$2.Addict svs at CTP28R3TREATChar2$X1633X.$2.Ongoing trmnt neuro meds29R3PRESCRChar2$X1634X.$2.Nltrx or bupro past 30 d30R3LEGALChar2$X1670X.$2.Pending legal action31R3SURGRYChar2$X1695X.$2.Planned surgery32R3OPMEDChar2$X1696X.$2.Treat with opioid meds33R3SEDATEChar2$X1697X.$2.Pattern of alc or benzo34R3PREGNTChar2$X1698X.$2.Pregnant or breast feedin35R3ELGSTYChar1$X1699X.$1.Inclusion/exclusion eligb36R3ELGRDMChar1$X1700X.$1.Enrollment eligibility37R3NORSPChar2$X1701X.$2.Not enrolled specify38R3JGOTSPChar1$1.$2000.Judgmnt other spcify39R3COMMChar392$392.$2000.Comments40STRATAChar4$4.$4.Strata
-Data Set NameIN.EC0054ZObservations67Member TypeDATAVariables39EngineV9Indexes0Created05/11/2018 16:26:30Observation Length672Last Modified05/11/2018 16:26:30Deleted Observations0ProtectionCompressedNOData Set TypeSortedNOLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page97Obs in First Data Page67Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\ec0054z.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5R3ASMDTNum8MMDDYY8.DATETIME22.3Date of assessment6R3PTAGEChar2$X1702X.$2.Age 18 to 65 years7R3ENGLSHChar2$X1703X.$2.Speaks english8R3COMPTChar2$X1704X.$2.Passes competency tool9R3METSTPChar2$X1705X.$2.Interest stop using meth10R3METDSMChar2$X1706X.$2.DSM5 MET mod severe11R3MET20DChar2$X1830X.$2.Self report 20 days meth12R3METUDSChar2$X1831X.$2.MET positive urines13R3OPFREEChar2$X1832X.$2.Opioid free14R3BCUSEChar2$X1833X.$2.Female uses birth contr15R3VIDEOChar2$X1834X.$2.Home dose with cell video16R3PSYCHChar2$X1835X.$2.Psychiatric disorders17R3HYPTENChar2$X1836X.$2.Stage II hypertension18R3SUICDEChar2$X1837X.$2.Suicide risk19R3ALERGYChar2$X1838X.$2.Allergy to study trtmnt20R3SEIZURChar2$X1839X.$2.History of seizure/neuro21R3BLOCKChar2$X1840X.$2.Heart block 2nd or 3d deg22R3LIVERChar2$X1841X.$2.Liver function test23R3PLATEChar2$X1842X.$2.Platelet count24R3HABTUSChar2$X1843X.$2.Body habitus present25R3STUDYChar2$X1844X.$2.Recent study for meth26R3INDDRUChar2$X1845X.$2.Recent IND drug27R3CTPChar2$X1854X.$2.Addict svs at CTP28R3TREATChar2$X1855X.$2.Ongoing trmnt neuro meds29R3PRESCRChar2$X1856X.$2.Nltrx or bupro past 30 d30R3LEGALChar2$X1857X.$2.Pending legal action31R3SURGRYChar2$X1858X.$2.Planned surgery32R3OPMEDChar2$X1859X.$2.Treat with opioid meds33R3SEDATEChar2$X1860X.$2.Pattern of alc or benzo34R3PREGNTChar2$X1861X.$2.Pregnant or breast feedin35R3ELGSTYChar1$X1862X.$1.Inclusion/exclusion eligb36R3ELGRDMChar1$X1887X.$1.Enrollment eligibility37R3NORSPChar2$X1888X.$2.Not enrolled specify38R3JGOTSPChar1$1.$2000.Judgmnt other spcify39R3COMMChar565$565.$2000.Comments
-Data Set NameIN.ER0054AObservations116Member TypeDATAVariables7EngineV9Indexes0Created05/11/2018 16:26:27Observation Length56Last Modified05/11/2018 16:26:27Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page1167Obs in First Data Page116Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\er0054a.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5S3CNSTDTNum8MMDDYY8.DATETIME22.3Date consent signed6S3SCRNIDNum85.5.Prescreen ID7S3COMMChar1$1.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.ER0054BObservations49Member TypeDATAVariables40EngineV9Indexes0Created05/11/2018 16:26:31Observation Length112Last Modified05/11/2018 16:26:31Deleted Observations0ProtectionCompressedNOData Set TypeSortedNOLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page584Obs in First Data Page49Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\er0054b.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5R3ASMDTNum8MMDDYY8.DATETIME22.3Date of assessment6R3PTAGEChar2$X1402X.$2.Age 18 to 65 years7R3ENGLSHChar2$X1403X.$2.Speaks english8R3COMPTChar2$X1404X.$2.Passes competency tool9R3METSTPChar2$X1405X.$2.Interest stop using meth10R3METDSMChar2$X1406X.$2.DSM5 MET mod severe11R3MET20DChar2$X1407X.$2.Self report 20 days meth12R3METUDSChar2$X1525X.$2.MET positive urines13R3OPFREEChar2$X1526X.$2.Opioid free14R3BCUSEChar2$X1527X.$2.Female uses birth contr15R3VIDEOChar2$X1528X.$2.Home dose with cell video16R3PSYCHChar2$X1529X.$2.Psychiatric disorders17R3HYPTENChar2$X1530X.$2.Stage II hypertension18R3SUICDEChar2$X1567X.$2.Suicide risk19R3ALERGYChar2$X1568X.$2.Allergy to study trtmnt20R3SEIZURChar2$X1569X.$2.History of seizure/neuro21R3BLOCKChar2$X1570X.$2.Heart block 2nd or 3d deg22R3LIVERChar2$X1580X.$2.Liver function test23R3PLATEChar2$X1581X.$2.Platelet count24R3HABTUSChar2$X1629X.$2.Body habitus present25R3STUDYChar2$X1630X.$2.Recent study for meth26R3INDDRUChar2$X1631X.$2.Recent IND drug27R3CTPChar2$X1632X.$2.Addict svs at CTP28R3TREATChar2$X1633X.$2.Ongoing trmnt neuro meds29R3PRESCRChar2$X1634X.$2.Nltrx or bupro past 30 d30R3LEGALChar2$X1670X.$2.Pending legal action31R3SURGRYChar2$X1695X.$2.Planned surgery32R3OPMEDChar2$X1696X.$2.Treat with opioid meds33R3SEDATEChar2$X1697X.$2.Pattern of alc or benzo34R3PREGNTChar2$X1698X.$2.Pregnant or breast feedin35R3ELGSTYChar1$X1699X.$1.Inclusion/exclusion eligb36R3ELGRDMChar1$X1700X.$1.Enrollment eligibility37R3NORSPChar2$X1701X.$2.Not enrolled specify38R3JGOTSPChar1$1.$2000.Judgmnt other spcify39R3COMMChar1$1.$2000.Comments40STRATAChar4$4.$4.Strata
-Data Set NameIN.ER0054ZObservations67Member TypeDATAVariables39EngineV9Indexes0Created05/11/2018 16:26:31Observation Length352Last Modified05/11/2018 16:26:31Deleted Observations0ProtectionCompressedNOData Set TypeSortedNOLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page186Obs in First Data Page67Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\er0054z.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5R3ASMDTNum8MMDDYY8.DATETIME22.3Date of assessment6R3PTAGEChar2$X1702X.$2.Age 18 to 65 years7R3ENGLSHChar2$X1703X.$2.Speaks english8R3COMPTChar2$X1704X.$2.Passes competency tool9R3METSTPChar2$X1705X.$2.Interest stop using meth10R3METDSMChar2$X1706X.$2.DSM5 MET mod severe11R3MET20DChar2$X1830X.$2.Self report 20 days meth12R3METUDSChar2$X1831X.$2.MET positive urines13R3OPFREEChar2$X1832X.$2.Opioid free14R3BCUSEChar2$X1833X.$2.Female uses birth contr15R3VIDEOChar2$X1834X.$2.Home dose with cell video16R3PSYCHChar2$X1835X.$2.Psychiatric disorders17R3HYPTENChar2$X1836X.$2.Stage II hypertension18R3SUICDEChar2$X1837X.$2.Suicide risk19R3ALERGYChar2$X1838X.$2.Allergy to study trtmnt20R3SEIZURChar2$X1839X.$2.History of seizure/neuro21R3BLOCKChar2$X1840X.$2.Heart block 2nd or 3d deg22R3LIVERChar2$X1841X.$2.Liver function test23R3PLATEChar2$X1842X.$2.Platelet count24R3HABTUSChar2$X1843X.$2.Body habitus present25R3STUDYChar2$X1844X.$2.Recent study for meth26R3INDDRUChar2$X1845X.$2.Recent IND drug27R3CTPChar2$X1854X.$2.Addict svs at CTP28R3TREATChar2$X1855X.$2.Ongoing trmnt neuro meds29R3PRESCRChar2$X1856X.$2.Nltrx or bupro past 30 d30R3LEGALChar2$X1857X.$2.Pending legal action31R3SURGRYChar2$X1858X.$2.Planned surgery32R3OPMEDChar2$X1859X.$2.Treat with opioid meds33R3SEDATEChar2$X1860X.$2.Pattern of alc or benzo34R3PREGNTChar2$X1861X.$2.Pregnant or breast feedin35R3ELGSTYChar1$X1862X.$1.Inclusion/exclusion eligb36R3ELGRDMChar1$X1887X.$1.Enrollment eligibility37R3NORSPChar2$X1888X.$2.Not enrolled specify38R3JGOTSPChar1$1.$2000.Judgmnt other spcify39R3COMMChar247$247.$2000.Comments
-Data Set NameIN.ENROLLObservations49Member TypeDATAVariables6EngineV9Indexes0Created05/11/2018 16:26:28Observation Length40Last Modified05/11/2018 16:26:28Deleted Observations0ProtectionCompressedNOData Set TypeSortedNOLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page1632Obs in First Data Page49Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\enroll.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.$15.Participant ID3SITEChar5$SITE.$5.Site4PROTSEGChar1$1.$1.Segment5strataChar3$3.$3.Strata6startdtNum8MMDDYY8.DATETIME22.3Start Date
-Data Set NameIN.EOMObservations49Member TypeDATAVariables13EngineV9Indexes0Created05/11/2018 16:26:31Observation Length528Last Modified05/11/2018 16:26:31Deleted Observations0ProtectionCompressedNOData Set TypeSortedNOLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page124Obs in First Data Page49Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\eom.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6EOEARLYChar1$X153X.$1.Stop medication early7EOSTOP54Char2$X743X.$2.Reson stop med early 548EOSTOPSPChar100$100.$100.Specify reason stop erly9EOLASTDSChar1$X744X.$1.Last dose taken10EOLDSRSNChar2$X745X.$2.Reason no last dose11EOLDSRSPChar100$100.$100.Specify rsn no last dose12EODRUGDTNum8MMDDYY8.DATETIME22.3Date last drug13EOMCOMMChar273$273.$2000.Comments
-Data Set NameIN.HIVObservations111Member TypeDATAVariables13EngineV9Indexes0Created05/11/2018 16:26:31Observation Length344Last Modified05/11/2018 16:26:31Deleted Observations0ProtectionCompressedNOData Set TypeSortedNOLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page190Obs in First Data Page111Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\hiv.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6VISNOChar4$4.$4.Visit Number7HIVASMDTNum8MMDDYY8.DATETIME22.3Date of assessment8HIHIVTSTChar2$X573X.$2.Tested for HIV9HITESTMONum83.3.Recent HIV test month10HITESTYRNum85.5.Recent HIV test year11HIRESULTChar2$X574X.$2.HIV result12HINORESNChar2$X575X.$2.Reasons for no HIV test13HIVCOMMChar272$272.$2000.Comment
-Data Set NameIN.INAObservations19Member TypeDATAVariables78EngineV9Indexes0Created05/11/2018 16:26:12Observation Length2152Last Modified05/11/2018 16:26:12Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size176128Number of Data Set Pages1First Data Page1Max Obs per Page81Obs in First Data Page19Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\ina.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6INETYP1Char2$X2507X.$2.Event 1 type7INESDT1Num8MMDDYY8.DATETIME22.3Event 1 start date8INESVR1Char1$X2508X.$1.Event 1 severity9INETRT1Char50$50.$50.Event 1 treatment10INERDT1Num8MMDDYY8.DATETIME22.3Event 1 resolution date11INECOM1Char50$50.$50.Event 1 comments12INETYP2Char2$X2509X.$2.Event 2 type13INESDT2Num8MMDDYY8.DATETIME22.3Event 2 start date14INESVR2Char1$X2510X.$1.Event 2 severity15INETRT2Char50$50.$50.Event 2 treatment16INERDT2Num8MMDDYY8.DATETIME22.3Event 2 resolution date17INECOM2Char50$50.$50.Event 2 comments18INETYP3Char2$X2511X.$2.Event 3 type19INESDT3Num8MMDDYY8.DATETIME22.3Event 3 start date20INESVR3Char1$X2512X.$1.Event 3 severity21INETRT3Char50$50.$50.Event 3 treatment22INERDT3Num8MMDDYY8.DATETIME22.3Event 3 resolution date23INECOM3Char50$50.$50.Event 3 comments24INETYP4Char2$X2513X.$2.Event 4 type25INESDT4Num8MMDDYY8.DATETIME22.3Event 4 start date26INESVR4Char1$X2514X.$1.Event 4 severity27INETRT4Char50$50.$50.Event 4 treatment28INERDT4Num8MMDDYY8.DATETIME22.3Event 4 resolution date29INECOM4Char50$50.$50.Event 4 comments30INETYP5Char2$X2522X.$2.Event 5 type31INESDT5Num8MMDDYY8.DATETIME22.3Event 5 start date32INESVR5Char1$X2523X.$1.Event 5 severity33INETRT5Char50$50.$50.Event 5 treatment34INERDT5Num8MMDDYY8.DATETIME22.3Event 5 resolution date35INECOM5Char50$50.$50.Event 5 comments36INETYP6Char2$X2524X.$2.Event 6 type37INESDT6Num8MMDDYY8.DATETIME22.3Event 6 start date38INESVR6Char1$X2525X.$1.Event 6 severity39INETRT6Char50$50.$50.Event 6 treatment40INERDT6Num8MMDDYY8.DATETIME22.3Event 6 resolution date41INECOM6Char50$50.$50.Event 6 comments42INETYP7Char2$X2526X.$2.Event 7 type43INESDT7Num8MMDDYY8.DATETIME22.3Event 7 start date44INESVR7Char1$X2527X.$1.Event 7 severity45INETRT7Char50$50.$50.Event 7 treatment46INERDT7Num8MMDDYY8.DATETIME22.3Event 7 resolution date47INECOM7Char50$50.$50.Event 7 comments48INETYP8Char2$X2528X.$2.Event 8 type49INESDT8Num8MMDDYY8.DATETIME22.3Event 8 start date50INESVR8Char1$X2532X.$1.Event 8 severity51INETRT8Char50$50.$50.Event 8 treatment52INERDT8Num8MMDDYY8.DATETIME22.3Event 8 resolution date53INECOM8Char50$50.$50.Event 8 comments54INETYP9Char2$X2533X.$2.Event 9 type55INESDT9Num8MMDDYY8.DATETIME22.3Event 9 start date56INESVR9Char1$X2603X.$1.Event 9 severity57INETRT9Char50$50.$50.Event 9 treatment58INERDT9Num8MMDDYY8.DATETIME22.3Event 9 resolution date59INECOM9Char50$50.$50.Event 9 comments60INETYP10Char2$X2604X.$2.Event 10 type61INESDT10Num8MMDDYY8.DATETIME22.3Event 10 start date62INESVR10Char1$X2605X.$1.Event 10 severity63INETRT10Char50$50.$50.Event 10 treatment64INERDT10Num8MMDDYY8.DATETIME22.3Event 10 resolution date65INECOM10Char50$50.$50.Event 10 comments66INETYP11Char2$X2606X.$2.Event 11 type67INESDT11Num8MMDDYY8.DATETIME22.3Event 11 start date68INESV11Char1$X2607X.$1.Event 11 severity69INETRT11Char50$50.$50.Event 11 treatment70INERDT11Num8MMDDYY8.DATETIME22.3Event 11 resolution date71INECOM11Char50$50.$50.Event 11 comments72INETYP12Char2$X2608X.$2.Event 12 type73INESDT12Num8MMDDYY8.DATETIME22.3Event 12 start date74INESV12Char1$X2609X.$1.Event 12 severity75INETRT12Char50$50.$50.Event 12 treatment76INERDT12Num8MMDDYY8.DATETIME22.3Event 12 resolution date77INECOM12Char50$50.$50.Event 12 comments78INACOMMChar684$684.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.INJObservations90Member TypeDATAVariables15EngineV9Indexes0Created05/11/2018 16:26:12Observation Length480Last Modified05/11/2018 16:26:12Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page136Obs in First Data Page90Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\inj.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6INJNUMChar1$X1_7NUMX.$1.Injection number7INJINJDTNum8MMDDYY8.DATETIME22.3Date of injection8INPREVChar1$X1342X.$1.Location of previous inj9ININJLOCChar1$X1343X.$1.Location of inj10ININJTMChar5$5.$5.Injection time11INDIFFCTChar1$X1344X.$1.Difficulty administration12INDIFRESChar267$267.$2000.Reason difficulty admin13INADMNChar1$X1346X.$1.Administered by14INADMNSPChar40$40.$40.Admin by specify15INJCOMMChar121$121.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.INXObservations88Member TypeDATAVariables11EngineV9Indexes0Created05/11/2018 16:26:12Observation Length272Last Modified05/11/2018 16:26:12Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page240Obs in First Data Page88Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\inx.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6INJNUMChar1$X1_7NUMX.$1.Injection number7INXASMDTNum8MMDDYY8.DATETIME22.3Date of assessment8INJPREVChar1$X827X.$1.Previous location inject9INJLOCChar1$X834X.$1.Injection site location10INJOKChar1$X835X.$1.Inj status11INXCOMMChar221$221.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.LABObservations119Member TypeDATAVariables63EngineV9Indexes0Created05/11/2018 16:26:31Observation Length784Last Modified05/11/2018 16:26:31Deleted Observations0ProtectionCompressedNOData Set TypeSortedNOLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages2First Data Page1Max Obs per Page83Obs in First Data Page73Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\lab.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6VISNOChar4$4.$4.Visit Number7LAMCVNum87.17.1MCV results8LAMCHNum86.16.1MCH results9LAMCHCNum86.16.1MCHC results10LARDWNum86.16.1RDW results11LAMPVNum86.16.1MPV results12LALYMPHONum86.16.1Lymphocytes result13LAMONOCYNum86.16.1Monocytes results14LAEOSINONum86.16.1Eosinophils results15LABASOPHNum86.16.1Basophils results16LANEUTPTNum87.17.1Neutrophils percent17LALYMPPTNum87.17.1Lymphocytes percent18LAMONOPTNum87.17.1Monocytes percent19LAEOSIPTNum87.17.1Eosinophils percent20LABASOPTNum87.17.1Basophils percent21LAPHNum85.15.1Urinalysis pH22LAUPROTChar1$X1204X.$1.Urinalysis protein23LAUGLUChar1$X1205X.$1.Urinalysis glucose24LAKETONEChar1$X1206X.$1.Urinalysis ketones25LAUBILIRChar1$X1207X.$1.Urinalysis bilirubin26LABLOODChar1$X1208X.$1.Urinalysis blood27LANITRTEChar1$X1209X.$1.Urinalysis nitrite28LAUBILNGChar1$X1210X.$1.Urobilinogen29LAGRAVTYNum88.48.4Urinalysis spec gravity30LALEUKESChar1$X1211X.$1.Urine leukocyte esterase31LACOLORChar2$X1212X.$2.Urinalysis color32LACLARTYChar1$X1213X.$1.Urinalysis clarity33LAUBACTChar1$X1214X.$1.Urine micro bacteria34LAUWBCChar1$X1215X.$1.Urine micro WBC35LAURBCChar1$X1778X.$1.Urine micro RBC36LAUCRYSLChar1$X1779X.$1.Urine micro crystals37LAUCASTSChar1$X1780X.$1.Urine mirco casts38LAUEPIChar1$X1781X.$1.Urine micro epithelial39LAGLUNum85.5.Glucose results40LABUNNum87.17.1Blood urea nitrogen reslt41LACREATENum87.27.2Creatinine results42LABUNCRTNum83.3.BUN Creat ratio43LANANum84.4.Sodium44LAKNum85.15.1Potassium results45LACLNum84.4.Chloride results46LACO2Num83.3.CO247LAAGAPNum83.3.AGAP results48LACANum86.16.1Calcium results49LAPROTENNum85.15.1Protein50LAALBUMNNum85.15.1Albumin result51LAGLOBINNum85.15.1Globulin results52LAALPNum88.18.1ALP result53LABILRBTNum86.16.1Bilirubin total result54LABDATENum8MMDDYY8.DATETIME22.3Date labs collected55LAWBCNum86.16.1WBC56LARBCNum87.27.2RBC result57LAHEMGLBNum86.16.1Haemoglobin results58LAHEMATONum86.16.1Haematocrit results59LAPLATESNum88.18.1Platelets results60LANEUTRONum86.16.1Neutrophils result61LAASTNum88.18.1AST result62LAALTNum88.18.1ALT result63LABCOMMChar406$406.$2000.Comments
-Data Set NameIN.MHXObservations76Member TypeDATAVariables114EngineV9Indexes0Created05/11/2018 16:26:15Observation Length7056Last Modified05/11/2018 16:26:15Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size262144Number of Data Set Pages3First Data Page1Max Obs per Page37Obs in First Data Page34Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\mhx.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6VISNOChar4$4.$4.Visit Number7MHXASMDTNum8MMDDYY8.DATETIME22.3Date of assessment8MHEYEHChar1$X1808X.$1.Eye disorder history9MHEYESPChar150$150.$150.Eye disorders specify10MHEYECChar1$X1809X.$1.Eye disorder current11MHEARHChar1$X3322X.$1.Ear disorders history12MHEARSPChar150$150.$150.Ear disorders specify13MHEARCChar1$X3323X.$1.Ear disorders current14MHRESPHChar1$X3324X.$1.Respiratory disorder hist15MHRESPSPChar150$150.$150.Respiratory disorder spfy16MHRESPCChar1$X3325X.$1.Respiratory disorder crnt17MHCARDHChar1$X3327X.$1.Cardiovascular history18MHCARDSPChar150$150.$150.Cardiovascular specify19MHCARDCChar1$X3328X.$1.Cardiovascular current20MHLIVRHChar1$X3329X.$1.Liver gallbladder history21MHLIVRSPChar150$150.$150.Liver gallbladder specify22MHLIVRCChar1$X3330X.$1.Liver gallbladder current23MHGIHChar1$X3331X.$1.GI disorder history24MHGISPChar150$150.$150.GI disorder specify25MHGICChar1$X3332X.$1.GI disorder current26MHSKINHChar1$X3333X.$1.Skin disorders history27MHSKINSPChar150$150.$150.Skin disorders specify28MHSKINCChar1$X3334X.$1.Skin disorders current29MHMUSCHChar1$X3335X.$1.Musculoskeletal history30MHMUSCSPChar150$150.$150.Musculoskeletal specify31MHMUSCCChar1$X3336X.$1.Musculoskeletal current32MHMETAHChar1$X3337X.$1.Metabolic disorder hist33MHMETASPChar150$150.$150.Metabolic history spfy34MHMETACChar1$X3338X.$1.Metabolic disorder crnt35MHENDOHChar1$X3339X.$1.Endocrine disorder hist36MHENDOSPChar150$150.$150.Endocrine disorder spfy37MHENDOCChar1$X3340X.$1.Endocrine disorder crnt38MHRENLHChar1$X3341X.$1.Renal UT disorder history39MHRENLSPChar150$150.$150.Renal UT disorder specify40MHRENLCChar1$X3342X.$1.Renal UT disorder current41MHREPOHChar1$X3343X.$1.Reproductive breast hist42MHREPOSPChar150$150.$150.Reproductive breast spfy43MHREPOCChar1$X3344X.$1.Reproductive breast crnt44MHELPYHChar1$X3345X.$1.Epilepsy history45MHELPYSPChar150$150.$150.Epilepsy specify46MHELPYCChar1$X3346X.$1.Epilepsy current47MHNEURHChar1$X3347X.$1.Neuro damage hist48MHNEURSPChar150$150.$150.Neuro damage specify49MHNEURCChar1$X3348X.$1.Neuro damage current50MHNERVHChar1$X3349X.$1.Nervous system history51MHNERVSPChar150$150.$150.Nervous system specify52MHNERVCChar1$X3350X.$1.Nervous system current53MHANXHChar1$X3351X.$1.Anxiety disorder history54MHANXSPChar150$150.$150.Anxiety disorder specify55MHANXCChar1$X3352X.$1.Anxiety disorder current56MHADHDHChar1$X3353X.$1.ADHD history57MHADHDSPChar150$150.$150.ADHD specify58MHADHDCChar1$X3354X.$1.ADHD current59MHBPLRHChar1$X3355X.$1.Bipolar history60MHBPLRSPChar150$150.$150.Bipolar specify61MHBPLRCChar1$X3356X.$1.Bipolar current62MHMDDHChar1$X3357X.$1.Maj depressive disord his63MHMDDSPChar150$150.$150.Maj depressive disord sp64MHMDDCChar1$X3358X.$1.Maj depress disord crnt65MHSCHZHChar1$X3359X.$1.Schizophrenia history66MHSCHZSPChar150$150.$150.Schizophrenia specify67MHSCHZCChar1$X3360X.$1.Schizophrenia current68MHSIDHChar1$X3388X.$1.Suicidal ideation history69MHSIDSPChar150$150.$150.Suicidal ideation specify70MHSIDCChar1$X3389X.$1.Suicidal ideation current71MHSBEHHChar1$X3390X.$1.Suicidal behavior history72MHSBEHSPChar150$150.$150.Suicidal behavior specify73MHSBEHCChar1$X3391X.$1.Suicidal behavior current74MHHIDHChar1$X3392X.$1.Homicidal ideation hist75MHHIDSPChar150$150.$150.Homicidal ideation specfy76MHHIDCChar1$X3393X.$1.Homicidal ideation curnt77MHHBEHHChar1$X3394X.$1.Homicidal behavior hist78MHHBEHSPChar150$150.$150.Homicidal behavior specfy79MHHBEHCChar1$X3395X.$1.Homicidal behavior curnt80MHVBEHHChar1$X3396X.$1.Violent behavior hist81MHVBEHSPChar150$150.$150.Violent behavior sp82MHVBEHCChar1$X3397X.$1.Violent behavior current83MHPSYEHChar1$X3398X.$1.Psychotic episodes hist84MHPSYESPChar150$150.$150.Psychotic episodes sp85MHPSYECChar1$X3399X.$1.Psychotic episodes crnt86MHPSYOHChar1$X3400X.$1.Other psych history87MHPSYOSPChar150$150.$150.Other psych specify88MHPSYOCChar1$X3401X.$1.Other psych current89MHOTHR1Char50$50.$50.Other condition 190MHOTHR1SChar326$326.$2000.Other condition 1 specify91MHOTHR1CChar1$X1537X.$1.Other condition 1 current92MHOTHR2Char50$50.$50.Other condition 293MHOTHR2SChar219$219.$2000.Other condition 2 specify94MHOTHR2CChar1$X1538X.$1.Other condition 2 current95MHOTHR3Char50$50.$50.Other condition 396MHOTHR3SChar168$168.$2000.Other condition 3 specify97MHOTHR3CChar1$X1539X.$1.Other condition 3 current98MHSURGRYChar1$X6X.$1.Major surgery99MHSRG1Char100$100.$100.Surgery 1100MHSRG1DTNum8MMDDYY8.DATETIME22.3Surgery 1 date101MHSRG2Char100$100.$100.Surgery 2102MHSRG2DTNum8MMDDYY8.DATETIME22.3Surgery 2 date103MHSRG3Char100$100.$100.Surgery 3104MHSRG3DTNum8MMDDYY8.DATETIME22.3Surgery 3 date105MHSRG4Char100$100.$100.Surgery 4106MHSRG4DTNum8MMDDYY8.DATETIME22.3Surgery 4 date107MHSRG5Char100$100.$100.Surgery 5108MHSRG5DTNum8MMDDYY8.DATETIME22.3Surgery 5 date109MHMEDCONChar1$X18X.$1.Signfcant med condtn excl110MHMEDCO2Char1$X20X.$1.Other med condtn exclude111MHSRGSCHChar1$X22X.$1.Surgery scheduled112MHOPIMEDChar1$X23X.$1.Require opi meds113MHDRGALGChar1$X9X.$1.Allergy to study drug114MHXCOMMChar1492$1492.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.MVFObservations88Member TypeDATAVariables9EngineV9Indexes0Created05/11/2018 16:26:15Observation Length376Last Modified05/11/2018 16:26:15Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page174Obs in First Data Page88Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\mvf.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6VISNOChar4$4.$4.Visit Number7MVREASONChar2$X27X.$2.Missed visit reason8MVOTHRSPChar50$50.$50.Other specify9MVFCOMMChar279$279.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.NXCObservations49Member TypeDATAVariables15EngineV9Indexes0Created05/11/2018 16:26:15Observation Length392Last Modified05/11/2018 16:26:15Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page167Obs in First Data Page49Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\nxc.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6VISNOChar4$4.$4.Visit Number7NXC_CHNOChar1$X1_7NUMX.$1.Challenge number8NXDOSEDTNum8MMDDYY8.DATETIME22.3Dose date9NXDOSTM1Char5$5.$5.Dose time 110NXDOSE1Num86.26.2Total dose 111NXROUTE1Char1$X3111X.$1.Dose route 112NXDOSTM2Char5$5.$5.Dose time 213NXDOSE2Num86.26.2Total dose 214NXROUTE2Char1$X3112X.$1.Dose route 215NXCCOMMChar314$314.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.PBCObservations109Member TypeDATAVariables24EngineV9Indexes0Created05/11/2018 16:26:16Observation Length440Last Modified05/11/2018 16:26:16Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page148Obs in First Data Page109Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\pbc.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6VISNOChar4$4.$4.Visit Number7PBCASMDTNum8MMDDYY8.DATETIME22.3Date of assessment8PBBSTFEDChar1$X6877X.$1.Currently breastfeeding9PBUSEBCChar1$X6876X.$1.Use birth control10PBORALCNChar1$X6878X.$1.Oral contraceptives11PBPATCHChar1$X6879X.$1.Contraceptive patch12PBBARRIRChar1$X6880X.$1.Barrier diaphragm condom13PBLEVIMPChar1$X6881X.$1.Levonorgestrel implant14PBMEDINJChar1$X6882X.$1.Medroxyprogesterone shot15PBRINGChar1$X6884X.$1.Contraceptive ring16PBSURGSZChar1$X6885X.$1.Surgical sterilization17PBINTDEVChar1$X6886X.$1.Intrauterine cntrcp devic18PBMENOPAChar1$X6887X.$1.Post menopause19PBBCOTHChar1$X6888X.$1.Other birth control types20PBBCOSPChar50$50.$50.Specify birth control typ21PBPRGTSTChar1$X6889X.$1.Pregnancy test done22PBPTSTDTNum8MMDDYY8.DATETIME22.3Pregnancy test date23PBRESULTChar1$X6890X.$1.Pregnancy test results24PBCCOMMChar321$321.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.PCMObservations231Member TypeDATAVariables12EngineV9Indexes0Created05/11/2018 16:26:16Observation Length488Last Modified05/11/2018 16:26:16Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages2First Data Page1Max Obs per Page134Obs in First Data Page129Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\pcm.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PCMEDNMEChar25$25.$25.Medication name6PCSTRTDTNum8MMDDYY8.DATETIME22.3Medication start date7PCINDICTChar3$X373X.$3.Medication indication8PCINDOTHChar25$25.$25.Med indication other9PCMEDAEChar1$X374X.$1.Medication for AE10PCONGOINChar1$X379X.$1.Medication ongoing11PCTERMDTNum8MMDDYY8.DATETIME22.3Medication termination dt12PCMCOMMChar382$382.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.PDRObservations104Member TypeDATAVariables21EngineV9Indexes0Created05/11/2018 16:26:16Observation Length1584Last Modified05/11/2018 16:26:16Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size126976Number of Data Set Pages2First Data Page1Max Obs per Page80Obs in First Data Page77Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\pdr.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PDDATENum8MMDDYY8.DATETIME22.3Date of deviation6PDSEQNUMChar2$XPDSEQNUMX.$2.Protocol deviation number7PDSECTNChar700$700.$2000.Section of protocol reltd8PDTRAINChar1$X496X.$1.Require retraining9PDPLATRAChar353$353.$2000.Plan for retraining10PDDISCDTNum8MMDDYY8.DATETIME22.3Dev discussed with LT dt11PDCATGRYChar1$X497X.$1.Deviation category12PDPSCMPChar1$X498X.$1.PS review complete13PDPSRVIDChar3$3.$3.PS reviewer initials14PDACTDOCChar1$X499X.$1.Correct action documented15PDSITESPChar29$29.$2000.Site document specify16PDIRBRPTChar1$X506X.$1.Dev reported to IRB17PDIRBSPChar190$190.$2000.Dev IRB specify18PDPREVNTChar1$X507X.$1.Prevent actn plan doc19PDPMCMPChar1$X508X.$1.PM review complete20PDPMRVIDChar3$3.$3.PM reviewer initials21PVCOMMChar248$248.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.PDVObservations104Member TypeDATAVariables17EngineV9Indexes0Created05/11/2018 16:26:31Observation Length3200Last Modified05/11/2018 16:26:31Deleted Observations0ProtectionCompressedNOData Set TypeSortedNOLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size258048Number of Data Set Pages2First Data Page1Max Obs per Page80Obs in First Data Page79Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\pdv.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PDDATENum8MMDDYY8.DATETIME22.3Date of deviation6PDSEQNUMChar2$XPDSEQNUMX.$2.Protocol deviation number7PDVDATENum8MMDDYY8.DATETIME22.3Date deviation identified8PDTYPEChar3$X197X.$3.Deviation type9PDTYPSPChar241$241.$2000.Deviation type oth sp10PDDESCPTChar740$740.$2000.Deviation description11PDACTIONChar734$734.$2000.Resolution/corrective act12PDPREVREChar734$734.$2000.Prevent recurrence descrp13PDIRBREPChar1$X198X.$1.Deviation report to IRB14PDIRBCONChar1$X199X.$1.IRB notify at cont rev15PDIRBPDTNum8MMDDYY8.DATETIME22.3Planned date to IRB16PDIRBADTNum8MMDDYY8.DATETIME22.3Actual date to IRB17PDVCOMMChar677$677.$2000.Comments
-Data Set NameIN.PEXObservations113Member TypeDATAVariables36EngineV9Indexes0Created05/11/2018 16:26:17Observation Length3032Last Modified05/11/2018 16:26:17Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size245760Number of Data Set Pages2First Data Page1Max Obs per Page81Obs in First Data Page79Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\pex.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6VISNOChar4$4.$4.Visit Number7PEXASMDTNum8MMDDYY8.DATETIME22.3Date of assessment8PEGENAPPChar2$X151X.$2.General appearance9PEGASPChar95$95.$2000.General appearance cmnt10PESKHRNAChar2$X152X.$2.Skin  hair nails11PESHNSPChar192$192.$2000.Skin  hair  nails cmnt12PEHDNKChar2$X166X.$2.Head and neck13PEHDNKSPChar208$208.$2000.Head and neck cmnt14PEEENTChar2$X167X.$2.Ear  eyes nose throat15PEENTSPChar128$128.$2000.Ear eye nose  thr cmnt16PECARDChar2$X168X.$2.Cardiovascular17PECARDSPChar493$493.$2000.Cardiovascular cmnt18PERESPChar2$X169X.$2.Respiratory19PERESPSPChar97$97.$2000.Respiratory cmnt20PEGASTChar2$X170X.$2.Gastrointestinal21PEGASTSPChar118$118.$2000.Gastrointestinal cmnt22PEEXTRChar2$X171X.$2.Extremities23PEEXTRSPChar143$143.$2000.Extremities cmnt24PELYMPChar2$X172X.$2.Lymph nodes25PELYMPSPChar136$136.$2000.Lymph nodes cmnt26PEMUSCChar2$X217X.$2.Musculoskeletal27PEMUSCSPChar360$360.$2000.Musculoskeletal cmnt28PENEURChar2$X218X.$2.Neurological29PENEURSPChar235$235.$2000.Neurological cmnt30PEINJSChar2$X225X.$2.Injection site31PEINJSSPChar123$123.$2000.Injection site cmnt32PEOTHERChar2$X246X.$2.Other specify in cmnt33PEOTHESPChar122$122.$2000.Other cmnt34PEB54HBTChar1$X143X.$1.Body hab 0054 ok35PEBDHBSPChar150$150.$2000.Body habitus cmnt36PEXCOMMChar356$356.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.PO1Observations0Member TypeDATAVariables20EngineV9Indexes0Created05/11/2018 16:26:18Observation Length4096Last Modified05/11/2018 16:26:18Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size262144Number of Data Set Pages1First Data Page2Max Obs per Page63Obs in First Data Page0Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\po1.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PGSEQNUMChar2$XPG_SEQNOX.$2.Pregnancy number6PO1GENDRChar2$X1429X.$2.Gender7PO1GESWKNum83.3.Gestational weeks8PO1GESDYNum82.2.Gestational days9PO1GESUNChar2$X1430X.$2.Gestational age unknown10PO1WTLBSNum83.3.Weight in lbs11PO1WTOZNum83.3.Weight in ounces12PO1WTUNKChar2$X1431X.$2.Weight unknown13PO1APG1MNum83.3.Apgar score at 1 min14PO11APUKChar2$X1432X.$2.Apgar score at 1 min unkn15PO1APG5MNum83.3.Apgar score at 5 min16PO15APUKChar2$X1475X.$2.Apgar score at 5 min unkn17PO1NORMLChar1$X1476X.$1.Normal infant18PO1CONANChar2$X1477X.$2.Congenital anomaly19PO1ABNSPChar2000$2000.$2000.Abnormal and contribut fa20PO1COMMChar2000$2000.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.PO2Observations0Member TypeDATAVariables20EngineV9Indexes0Created05/11/2018 16:26:18Observation Length4096Last Modified05/11/2018 16:26:18Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size262144Number of Data Set Pages1First Data Page2Max Obs per Page63Obs in First Data Page0Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\po2.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PGSEQNUMChar2$XPG_SEQNOX.$2.Pregnancy number6PO2GENDRChar2$X1478X.$2.Gender7PO2GESWKNum83.3.Gestational weeks8PO2GESDYNum82.2.Gestational days9PO2GESUNChar2$X1479X.$2.Gestational age unknown10PO2WTLBSNum83.3.Weight in lbs11PO2WTOZNum83.3.Weight in ounces12PO2WTUNKChar2$X1480X.$2.Weight unknown13PO2APG1MNum83.3.Apgar score at 1 min14PO21APUKChar2$X1481X.$2.Apgar score at 1 min unkn15PO2APG5MNum83.3.Apgar score at 5 min16PO25APUKChar2$X1482X.$2.Apgar score at 5 min unkn17PO2NORMLChar1$X1483X.$1.Normal infant18PO2CONANChar2$X1484X.$2.Congenital anomaly19PO2ABNSPChar2000$2000.$2000.Abnormal and contribut fa20PO2COMMChar2000$2000.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.PO3Observations0Member TypeDATAVariables20EngineV9Indexes0Created05/11/2018 16:26:18Observation Length4096Last Modified05/11/2018 16:26:18Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size262144Number of Data Set Pages1First Data Page2Max Obs per Page63Obs in First Data Page0Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\po3.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PGSEQNUMChar2$XPG_SEQNOX.$2.Pregnancy number6PO3GENDRChar2$X1485X.$2.Gender7PO3GESWKNum83.3.Gestational weeks8PO3GESDYNum82.2.Gestational days9PO3GESUNChar2$X1486X.$2.Gestational age unknown10PO3WTLBSNum83.3.Weight in lbs11PO3WTOZNum83.3.Weight in ounces12PO3WTUNKChar2$X1494X.$2.Weight unknown13PO3APG1MNum83.3.Apgar score at 1 min14PO31APUKChar2$X1576X.$2.Apgar score at 1 min unkn15PO3APG5MNum83.3.Apgar score at 5 min16PO35APUKChar2$X1577X.$2.Apgar score at 5 min unkn17PO3NORMLChar1$X1578X.$1.Normal infant18PO3CONANChar2$X1579X.$2.Congenital anomaly19PO3ABNSPChar2000$2000.$2000.Abnormal and contribut fa20PO3COMMChar2000$2000.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.PO4Observations0Member TypeDATAVariables20EngineV9Indexes0Created05/11/2018 16:26:18Observation Length4096Last Modified05/11/2018 16:26:18Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size262144Number of Data Set Pages1First Data Page2Max Obs per Page63Obs in First Data Page0Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\po4.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PGSEQNUMChar2$XPG_SEQNOX.$2.Pregnancy number6PO4GENDRChar2$X1816X.$2.Gender7PO4GESWKNum83.3.Gestational weeks8PO4GESDYNum82.2.Gestational days9PO4GESUNChar2$X1817X.$2.Gestational age unknown10PO4WTLBSNum83.3.Weight in lbs11PO4WTOZNum83.3.Weight in ounces12PO4WTUNKChar2$X1818X.$2.Weight unknown13PO4APG1MNum83.3.Apgar score at 1 min14PO41APUKChar2$X1819X.$2.Apgar score at 1 min unkn15PO4APG5MNum83.3.Apgar score at 5 min16PO45APUKChar2$X1820X.$2.Apgar score at 5 min unkn17PO4NORMLChar1$X1821X.$1.Normal infant18PO4CONANChar2$X1822X.$2.Congenital anomaly19PO4ABNSPChar2000$2000.$2000.Abnormal and contribut fa20PO4COMMChar2000$2000.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.PRGObservations0Member TypeDATAVariables21EngineV9Indexes0Created05/11/2018 16:26:19Observation Length600Last Modified05/11/2018 16:26:19Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page109Obs in First Data Page0Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\prg.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PGSEQNUMChar2$XPG_SEQNOX.$2.Pregnancy number6PRAWARDTNum8MMDDYY8.DATETIME22.3Date site became aware7PRURICNFChar1$X1597X.$1.Preg confirm urine8PRSERCNFChar1$X1598X.$1.Preg confirm serum9PRULTCNFChar1$X1599X.$1.Preg confirm ultrasound10PROTHCNFChar2$X1600X.$2.Preg confirm other11PROTCNSPChar40$40.$40.Preg confirm other sp12PRCNFMDTNum8MMDDYY8.DATETIME22.3Preg confirm date13PRACTINDChar1$X1601X.$1.Action taken study drug14PRAPXDDTNum8MMDDYY8.DATETIME22.3Approximate due date15PRDDTUNKChar2$X1602X.$2.Approx due date unknown16PROUTCMEChar2$X1648X.$2.Pregnancy outcome17PROTCMSPChar40$40.$40.Pregnancy outcome specify18PROTCMDTNum8MMDDYY8.DATETIME22.3Date of pregnancy outcome19PRNMLIVBChar2$X1649X.$2.Live births20PRRSOBSPChar1$1.$2000.Reason zero births specif21PRGCOMMChar434$434.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.PSFObservations466Member TypeDATAVariables52EngineV9Indexes0Created05/11/2018 16:26:31Observation Length1120Last Modified05/11/2018 16:26:31Deleted Observations0ProtectionCompressedNOData Set TypeSortedNOLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size90112Number of Data Set Pages6First Data Page1Max Obs per Page80Obs in First Data Page73Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\psf.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.DATETIME22.3Randomization Date5PRESCNIDNum85.5.Pre-Screen ID6PSFASMDTNum8MMDDYY8.DATETIME22.3Date of assessment7PSVECNSTChar1$X150X.$1.Give verbal consent8PSCNSTDTNum8MMDDYY8.DATETIME22.3Date verbal consent9PSFINDOTChar2$X988X.$2.How find out about study10PSFINDSPChar25$25.$25.How find out specify11PSSEXChar2$X989X.$2.Sex male or female12PSPREGChar1$X990X.$1.Currently preg or brestfd13PSALCHLChar1$X991X.$1.Use alcohol14PSCOCANEChar1$X992X.$1.Use cocaine15PSOPIATEChar1$X993X.$1.Used opiates in past year16PSMETHAMChar1$X994X.$1.Use meth17PSAMPHETChar1$X995X.$1.Use amphetamine18PSMARJNAChar1$X996X.$1.Use marijuana19PSBENZOChar1$X997X.$1.Use benzodiazephines20PSUSEOTChar1$X998X.$1.Use other21PSUSESPChar25$25.$25.Use other sp22PSPRMSUBChar2$X999X.$2.Primary substance use23PSPRMSPChar25$25.$25.Primary sub other sp24PSNOOP7DChar1$X1000X.$1.Able no use opiate 7 day25PSADDTRTChar1$X1001X.$1.Enrolled additional trt26PSTRTSRVChar50$50.$50.Additional trt received27PSTKN30DChar1$X1002X.$1.NLX or BUP in last 30d28PSRX30DChar1$X1003X.$1.Rx NLX or BUP in last 30d29PSTRTMETChar1$X1004X.$1.Want treatment meth30PSMET30DChar1$X1018X.$1.Used meth past 30 days31PSMETDAYNum83.3.Days meth used32PSMETDTNum8MMDDYY8.DATETIME22.3Last use met date33PSPSYCHChar1$X1019X.$1.Mental health issue prnst34PSPSYHSPChar181$181.$2000.Mental health issue sp35PSMEDSChar1$X1020X.$1.Use med for on going prb36PSMEDSPChar145$145.$2000.Medicine use specify37PSMANDTEChar1$X1024X.$1.Mandated to attend trt38PSCELLChar1$X1034X.$1.Own cell phone39PSSMARTChar1$X1035X.$1.Own smartphone40PSCELUSEChar1$X1036X.$1.Aware cell use in studies41PSCELCOMChar1$X1037X.$1.Comfortable using cell42PSCLNC2XChar1$X1038X.$1.Able attend clinic 2x wk43PSXRNTXChar1$X1039X.$1.Willing inj of XR NTX44PSELIGChar1$X1040X.$1.Eligible ppt in study45PSSCHEDChar1$X1041X.$1.Willing sched appt46PSAPTDTNum8MMDDYY8.DATETIME22.3In person scrn apt dt47PSDECSCHChar1$X1042X.$1.Declined to schedule48PSNOSTUDChar1$X1043X.$1.Not interest in study49PSNOMEDChar1$X1048X.$1.Doesnt want meds50PSSCHOTHChar1$X1049X.$1.No schedule other51PSSCHSPChar25$25.$25.No sched other sp52PSFCOMMChar526$526.$2000.Comments
-Data Set NameIN.PXSObservations42Member TypeDATAVariables54EngineV9Indexes0Created05/11/2018 16:26:20Observation Length1560Last Modified05/11/2018 16:26:20Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size126976Number of Data Set Pages1First Data Page1Max Obs per Page81Obs in First Data Page42Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\pxs.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6PXSASMDTNum8MMDDYY8.DATETIME22.3Date of assessment7PXMEDEFTChar1$X821X.$1.Medications effective8PXHELPTRChar1$X822X.$1.Most effective part trt9PXHELPChar1$X823X.$1.Study help in other ways10PXHELPMDChar1$X824X.$1.Study help medically11PXHELPPSChar1$X825X.$1.Study help psych12PXHELPRLChar1$X826X.$1.Study help relationships13PXHELPEMChar1$X849X.$1.Study help employment14PXHELPLEChar1$X1160X.$1.Study help legally15PXHELPFIChar1$X2255X.$1.Study help financially16PXHELPREChar1$X2256X.$1.Study help with referral17PXHELPOTChar1$X2257X.$1.Study help other18PXHELPSPChar50$50.$50.Study help other specify19PXSATFYChar1$X2392X.$1.Satisfied with experience20PXPARTAGChar1$X2393X.$1.Participate again21PXPRTAGYChar2$X2399X.$2.Participate again reas22PXPTAYSPChar50$50.$50.Partic yes again reas sp23PXPRTAGNChar2$X2400X.$2.Participate no again reas24PXPTANSPChar50$50.$50.Partic no again reas sp25PXCASHChar1$X2613X.$1.Compensation sufficient26PXEZCELLChar1$X2614X.$1.Cell easy to use27PXSTUDYChar1$X2615X.$1.Get into study quickly28PXPROCChar1$X2616X.$1.Too many procedures29PXVISLNGChar1$X2617X.$1.Visits too long30PXINJSDChar1$X2651X.$1.Injected med side effects31PXORASDChar1$X2652X.$1.Oral med side effects32PXTWICEChar1$X2653X.$1.Clinic twice a week works33PXSTAFFChar1$X2655X.$1.Staff treated me well34PXLOCATEChar1$X2656X.$1.Clinic in good location35PXHOURSChar1$X2816X.$1.Clinic hours convenient36PXCOUNSChar1$X2817X.$1.No counseling provided37PXMEDLOChar1$X2818X.$1.Like meds for longer38PXMEDWEChar1$X2819X.$1.Meds weekly good39PXTRAINChar1$X2401X.$1.Enough train for cell40PXRECORDChar1$X2402X.$1.Easy to record vid41PXSENDChar1$X2404X.$1.Easy send video42PXUSECELChar1$X2405X.$1.Better able use cell now43PXPERCELChar1$X2406X.$1.Used  cell for personal44PXREMINChar1$X2407X.$1.Helpful video reminders45PXDIRECTChar1$X2408X.$1.Helpful dosing reminders46PXVIDEOChar1$X2409X.$1.Videos helped tk st drug47PXTECSUPChar1$X2410X.$1.Suffcent cell tec support48PXMONITChar1$X2492X.$1.Staff  monitor remotely49PXVIDCMPChar1$X2493X.$1.Compensation for videos50PXPRIVACChar1$X2611X.$1.Privacy protected51PXTWOPHOChar1$X2612X.$1.Havng two cell cumbersome52PXCOMCELChar369$369.$2000.Comments about cell53PXCOMPARChar376$376.$2000.Comment about participate54PXSCOMMChar574$574.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.QLPObservations123Member TypeDATAVariables12EngineV9Indexes0Created05/11/2018 16:26:20Observation Length280Last Modified05/11/2018 16:26:20Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page233Obs in First Data Page123Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\qlp.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6VISNOChar4$4.$4.Visit Number7QLPASMDTNum8MMDDYY8.DATETIME22.3Date of assessment8QLHEALTHChar2$X458X.$2.Health is in general9QLHLTNGDNum83.3.Physically not good10QLMTLNGNum83.3.Mentally not good11QLACTNum83.3.Prevent activities12QLPCOMMChar208$208.$2000.Comment
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.RXSObservations49Member TypeDATAVariables27EngineV9Indexes0Created05/11/2018 16:26:20Observation Length776Last Modified05/11/2018 16:26:20Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages1First Data Page1Max Obs per Page84Obs in First Data Page49Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\rxs.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6RXSASMDTNum8MMDDYY8.DATETIME22.3Date of assessment7RXTECHBGChar1$X1284X.$1.Tech savvy at beginning8RXTECHEDChar1$X1285X.$1.Tech savvy at end9RXCELLPRChar1$X1286X.$1.Learn cellphone procedure10RXBURDENChar1$X1287X.$1.Cell procedure burdensome11RXUNNESSChar1$X1288X.$1.Cell procedure not useful12RXASSISTChar1$X1289X.$1.Require addt'l assistance13RXMEDADHChar1$X1290X.$1.Medication adherence14RXATTENDChar1$X1291X.$1.Improve attendence15RXRELATEChar1$X1292X.$1.Strong pt relationship16RXACCURAChar1$X1293X.$1.Collect accurate data17RXLIKEChar1$X1294X.$1.Like using cellphone18RXOVERWHChar1$X1295X.$1.Overwhelmed by components19RXDOCUMChar1$X1296X.$1.Document compliance20RXINCRSEChar1$X1426X.$1.Increase pt's compliance21RXLOSTChar1$X1278X.$1.Lost or stolen cellphone22RXREPLACChar1$X1279X.$1.Replacement phone given23RXGPSChar1$X1280X.$1.GPS used24RXRETURNChar1$X1281X.$1.Return cellphone25RXCOMPENChar1$X1282X.$1.Compensation for phone26RXVIDEOSChar1$X1283X.$1.Participant send videos27RXCOMMChar710$710.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.STTObservations49Member TypeDATAVariables13EngineV9Indexes0Created05/11/2018 16:26:31Observation Length1216Last Modified05/11/2018 16:26:31Deleted Observations0ProtectionCompressedNOData Set TypeSortedNOLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size98304Number of Data Set Pages1First Data Page1Max Obs per Page80Obs in First Data Page49Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\stt.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6STTRMDTNum8MMDDYY8.DATETIME22.3Term completion date7STSTOPChar1$X2252X.$1.Ppt stop attending8STT54WKChar1$X3230X.$1.Week 9 complete9STTRMRESChar2$X3231X.$2.Termination reason10STTRMOSPChar315$315.$2000.Termination other specify11STTCOMMChar767$767.$2000.Comments12STPISIGNChar75$75.$75.Principal investigator13STPISGDTNum8MMDDYY8.DATETIME22.3PI date
-Data Set NameIN.T54Observations1106Member TypeDATAVariables132EngineV9Indexes0Created05/11/2018 16:26:21Observation Length760Last Modified05/11/2018 16:26:21Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages14First Data Page1Max Obs per Page86Obs in First Data Page63Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\t54.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5TFWKSTDTNum8MMDDYY8.DATETIME22.3TFB week start date6TLDATE1Num8MMDDYY8.DATETIME22.3D1 date row 27TLDATE2Num8MMDDYY8.DATETIME22.3D2 date row 28TLDATE3Num8MMDDYY8.DATETIME22.3D3 date row 29TLDATE4Num8MMDDYY8.DATETIME22.3D4 date row 210TLDATE5Num8MMDDYY8.DATETIME22.3D5 date row 211TLDATE6Num8MMDDYY8.DATETIME22.3D6 date row 212TLDATE7Num8MMDDYY8.DATETIME22.3D7 date row 213TLSUBAL1Char1$X569X.$1.D1 substance alcohol use14TLSUBAL2Char1$X1790X.$1.D2 substance  alcohol use15TLSUBAL3Char1$X1791X.$1.D3 substance  alcohol use16TLSUBAL4Char1$X1794X.$1.D4 substance alcohol use17TLSUBAL5Char1$X1795X.$1.D5 substance alcohol use18TLSUBAL6Char1$X1801X.$1.D6 substance alcohol use19TLSUBAL7Char1$X1802X.$1.D7 substance alcohol use20TLALCHL1Num83.3.D1 num standard drink21TLALCHL2Num83.3.D2 num standard drink22TLALCHL3Num83.3.D3 num standard drink23TLALCHL4Num83.3.D4 num standard drink24TLALCHL5Num83.3.D5 num standard drink25TLALCHL6Num83.3.D6 num standard drink26TLALCHL7Num83.3.D7 num standard drink27TLTHCR1Char2$X1803X.$2.D1 cannabinoids28TLTHCR2Char2$X1901X.$2.D2 cannabinoids29TLTHCR3Char2$X1902X.$2.D3 cannabinoids30TLTHCR4Char2$X1903X.$2.D4 cannabinoids31TLTHCR5Char2$X1904X.$2.D5 cannabinoids32TLTHCR6Char2$X2055X.$2.D6 cannabinoids33TLTHCR7Char2$X2056X.$2.D7 cannabinoids34TLCOCR1Char2$X2057X.$2.D1 cocaine35TLCOCR2Char2$X2058X.$2.D2 cocaine36TLCOCR3Char2$X2059X.$2.D3 cocaine37TLCOCR4Char2$X2060X.$2.D4 cocaine38TLCOCR5Char2$X2061X.$2.D5 cocaine39TLCOCR6Char2$X2062X.$2.D6 cocaine40TLCOCR7Char2$X2063X.$2.D7 cocaine41TLCRAKR1Char2$X2064X.$2.D1 crack42TLCRAKR2Char2$X2065X.$2.D2 crack43TLCRAKR3Char2$X2066X.$2.D3 crack44TLCRAKR4Char2$X2067X.$2.D4 crack45TLCRAKR5Char2$X2068X.$2.D5 crack46TLCRAKR6Char2$X2069X.$2.D6 crack47TLCRAKR7Char2$X2070X.$2.D7 crack48TLMETR1Char2$X2071X.$2.D1 methamphetamine49TLMETR2Char2$X2072X.$2.D2 methamphetamine50TLMETR3Char2$X2073X.$2.D3 methamphetamine51TLMETR4Char2$X2094X.$2.D4 methamphetamine52TLMETR5Char2$X2095X.$2.D5 methamphetamine53TLMETR6Char2$X2096X.$2.D6 methamphetamine54TLMETR7Char2$X2097X.$2.D7 methamphetamine55TLAMPR1Char2$X2098X.$2.D1 amphetamines56TLAMPR2Char2$X2099X.$2.D2 amphetamines57TLAMPR3Char2$X2100X.$2.D3 amphetamines58TLAMPR4Char2$X2101X.$2.D4 amphetamines59TLAMPR5Char2$X2102X.$2.D5 amphetamines60TLAMPR6Char2$X2103X.$2.D6 amphetamines61TLAMPR7Char2$X2151X.$2.D7 amphetamines62TLMTDR1Char2$X2152X.$2.D1 methadone analgesics63TLMTDR2Char2$X2211X.$2.D2 methadone analgesics64TLMTDR3Char2$X2212X.$2.D3 methadone analgesics65TLMTDR4Char2$X2213X.$2.D4 methadone analgesics66TLMTDR5Char2$X2214X.$2.D5 methadone analgesics67TLMTDR6Char2$X2215X.$2.D6 methadone analgesics68TLMTDR7Char2$X2216X.$2.D7 methadone analgesics69TLHERR1Char2$X2220X.$2.D1 Heroin70TLHERR2Char2$X2254X.$2.D2 heroin71TLHERR3Char2$X2300X.$2.D3 heroin72TLHERR4Char2$X2301X.$2.D4 heroin73TLHERR5Char2$X2340X.$2.D5 heroin74TLHERR6Char2$X2540X.$2.D6 heroin75TLHERR7Char2$X2541X.$2.D7 heroin76TLMDAR1Char2$X2542X.$2.D1 ecstasy77TLMDAR2Char2$X2543X.$2.D2 ecstasy78TLMDAR3Char2$X2876X.$2.D3 ecstasy79TLMDAR4Char2$X2877X.$2.D4 ecstasy80TLMDAR5Char2$X2878X.$2.D5 ecstasy81TLMDAR6Char2$X2879X.$2.D6 ecstasy82TLMDAR7Char2$X2880X.$2.D7 ecstasy83TLBARR1Char2$X2881X.$2.D1 sedative barbiturates84TLBARR2Char2$X2882X.$2.D2 sedative barbiturates85TLBARR3Char2$X2883X.$2.D3 sedative barbiturates86TLBARR4Char2$X2884X.$2.D4 sedative barbiturates87TLBARR5Char2$X2910X.$2.D5 sedative barbiturates88TLBARR6Char2$X2911X.$2.D6 sedative barbiturates89TLBARR7Char2$X2912X.$2.D7 sedative barbiturates90TLBZOR1Char2$X2913X.$2.D1 benzodiazepines91TLBZOR2Char2$X2914X.$2.D2 benzodiazepines92TLBZOR3Char2$X2916X.$2.D3 benzodiazepines93TLBZOR4Char2$X2917X.$2.D4 benzodiazepines94TLBZOR5Char2$X2918X.$2.D5 benzodiazepines95TLBZOR6Char2$X2919X.$2.D6 benzodiazepines96TLBZOR7Char2$X2920X.$2.D7 benzodiazepines97TLINHR1Char2$X2967X.$2.D1 inhalants98TLINHR2Char2$X2968X.$2.D2 inhalants99TLINHR3Char2$X2969X.$2.D3 inhalants100TLINHR4Char2$X2970X.$2.D4 inhalants101TLINHR5Char2$X2971X.$2.D5 inhalants102TLINHR6Char2$X2972X.$2.D6 inhalants103TLINHR7Char2$X2973X.$2.D7 inhalants104TLOT1R1Char2$X2974X.$2.D1 other drug 1105TLOT1R2Char2$X2975X.$2.D2 other drug 1106TLOT1R3Char2$X2976X.$2.D3 other drug 1107TLOT1R4Char2$X2977X.$2.D4 other drug 1108TLOT1R5Char2$X2984X.$2.D5 other drug 1109TLOT1R6Char2$X2985X.$2.D6 other drug 1110TLOT1R7Char2$X2986X.$2.D7 other drug 1111TLOTSP11Char10$10.$10.D1 other drug sp 1112TLOTSP12Char10$10.$10.D2 other drug sp 1113TLOTSP13Char10$10.$10.D3 other drug sp 1114TLOTSP14Char10$10.$10.D4 other drug sp 1115TLOTSP15Char10$10.$10.D5 other drug sp 1116TLOTSP16Char10$10.$10.D6 other drug sp 1117TLOTSP17Char10$10.$10.D7 other drug sp 1118TLOT2R1Char2$X2987X.$2.D1 other drug 2119TLOT2R2Char2$X2988X.$2.D2 other drug 2120TLOT2R3Char2$X2989X.$2.D3 other drug 2121TLOT2R4Char2$X2993X.$2.D4 other drug 2122TLOT2R5Char2$X2994X.$2.D5 other drug 2123TLOT2R6Char2$X2995X.$2.D6 other drug 2124TLOT2R7Char2$X2996X.$2.D7 other drug 2125TLOTSP21Char10$10.$10.D1 other drug sp 2126TLOTSP22Char10$10.$10.D2 other drug sp 2127TLOTSP23Char10$10.$10.D3 other drug sp 2128TLOTSP24Char10$10.$10.D4 other drug sp 2129TLOTSP25Char10$10.$10.D5 other drug sp 2130TLOTSP26Char10$10.$10.D6 other drug sp 2131TLOTSP27Char10$10.$10.D7 other drug sp 2132T54COMMChar272$272.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.TAPObservations803Member TypeDATAVariables11EngineV9Indexes0Created05/11/2018 16:26:22Observation Length400Last Modified05/11/2018 16:26:22Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages5First Data Page1Max Obs per Page163Obs in First Data Page157Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\tap.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6VISNOChar4$4.$4.Visit Number7TAPASMDTNum8MMDDYY8.DATETIME22.3Date of assessment8TATFSTDTNum8MMDDYY8.DATETIME22.3TLFB start date9TATFENDTNum8MMDDYY8.DATETIME22.3TLFB end date10TASUBALCChar1$X2544X.$1.Used substance alch nictn11TAPCOMMChar336$336.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.TEAObservations122Member TypeDATAVariables16EngineV9Indexes0Created05/11/2018 16:26:22Observation Length2864Last Modified05/11/2018 16:26:22Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size229376Number of Data Set Pages2First Data Page1Max Obs per Page80Obs in First Data Page79Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\tea.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6VISNOChar4$4.$4.Visit Number7TEAASMDTNum8MMDDYY8.DATETIME22.3Date of assessment8TESUBUSEChar2$X1030X.$2.Substance use9TSSUBRMChar813$813.$2000.Substance use remarks10TEHEALTHChar2$X1031X.$2.Health11TEHLTHRMChar703$703.$2000.Health remarks12TELIFESTChar2$X1032X.$2.Lifestyle13TELIFERMChar677$677.$2000.Lifestyle remarks14TECOMMUNChar2$X1033X.$2.Community15TECOMRMChar494$494.$2000.Community remarks16TEACOMMChar123$123.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.TUHObservations157Member TypeDATAVariables18EngineV9Indexes0Created05/11/2018 16:26:23Observation Length432Last Modified05/11/2018 16:26:23Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages2First Data Page1Max Obs per Page151Obs in First Data Page144Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\tuh.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6VISNOChar4$4.$4.Visit Number7TUHASMDTNum8MMDDYY8.DATETIME22.3Date of assessment8TUSMK100Char2$X1442X.$2.Ever smoke 100 cigarettes9TUSMFREQChar2$X1443X.$2.Frequency smoke10TUEVERYChar2$X1556X.$2.Ever smoked every day11TUSTRTRGNum83.3.Age start smoking regular12TUNUMDYNum83.3.Num cigarette per day13TUSTRTAGNum83.3.Age started smoking14TU30DAYSNum83.3.Days smoked last 30 days15TU30AVGNum83.3.Avg cigarettes smoke 30D16TUNUMEDYNum83.3.Num cig when everday17TUNUMRDYNum83.3.Num cig when regular18TUHCOMMChar323$323.$2000.Comment
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.UDCObservations734Member TypeDATAVariables15EngineV9Indexes0Created05/11/2018 16:26:23Observation Length576Last Modified05/11/2018 16:26:23Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages7First Data Page1Max Obs per Page113Obs in First Data Page108Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\udc.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6VISNOChar4$4.$4.Visit Number7UDCENCOLChar1$X1678X.$1.Urine central collected8UDCENNOChar2$X1679X.$2.Urine not coll reason9UDSPNOChar50$50.$50.UDC not perform specify10UDCENDTNum8MMDDYY8.DATETIME22.3Urine collect date11UDTEMPChar1$X1680X.$1.UDC temp in range12UDADULTChar1$X1681X.$1.Urine samp adulterated13UDCENSDTNum8MMDDYY8.DATETIME22.3Urine ship date14UDCENACCChar10$10.$10.Urine accession num15UDCCOMMChar455$455.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.UDSObservations277Member TypeDATAVariables42EngineV9Indexes0Created05/11/2018 16:26:24Observation Length616Last Modified05/11/2018 16:26:24Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages3First Data Page1Max Obs per Page106Obs in First Data Page96Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\uds.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6VISNOChar4$4.$4.Visit Number7UDTEST1Char1$X2221X.$1.Urine test performed8UDNORSNChar2$X2222X.$2.UDS 1 not performd reason9UDNOSP1Char50$50.$50.UDS 1 not perform specify10UDCOLDTNum8MMDDYY8.DATETIME22.3Urine collection date11UDCOLTM1Char5$5.$5.Urine 1 collection time12UDTEMP1Char1$X2223X.$1.Urine 1 temp in range13UDADULT1Char1$X2224X.$1.Urine 1 adulterated14UDBZO1Char1$X2483X.$1.Urine 1 benzodiazepines15UDAMP1Char1$X2495X.$1.Urine 1 amphetamine16UDTHC1Char1$X2497X.$1.Urine 1 THC marijuana17UDMET1Char1$X2499X.$1.Urine 1 methamphetamine18UDOPI1Char1$X2501X.$1.Urine 1 opiates 2000 ng19UDCOC1Char1$X2503X.$1.Urine 1 cocaine20UDMDA1Char1$X2505X.$1.Urine 1 MDMA ecstacy21UDOXY1Char1$X2515X.$1.Urine 1 oxycodone22UDMTD1Char1$X2517X.$1.Urine 1 methadone23UDBAR1Char1$X2519X.$1.Urine 1 barbiturate24UDOP1300Char1$X2225X.$1.Urine 1 opiates 300 ng25UDTEST2Char1$X2227X.$1.UDS 2 performed26UDNORSN2Char2$X2228X.$2.UDS 2 not performd reason27UDNOSP2Char50$50.$50.UDS 2 not perform specify28UDCOLTM2Char5$5.$5.Urine 2 collection time29UDTEMP2Char1$X2251X.$1.Urine 2 temperature30UDADULT2Char1$X2371X.$1.Urine 2 adulterated31UDBZO2Char1$X2521X.$1.Urine 2 benzodiazepines32UDAMP2Char1$X2549X.$1.Urine 2 amphetamine33UDTHC2Char1$X2551X.$1.Urine 2 THC marijuana34UDMET2Char1$X2553X.$1.Urine 2 methamphetamine35UDOPI2Char1$X2555X.$1.Urine 2 opiates 2000 ng36UDCOC2Char1$X2557X.$1.Urine 2 cocaine37UDMDA2Char1$X2922X.$1.Urine 2 MDMA ecstacy38UDOXY2Char1$X2924X.$1.Urine 2 oxycodone39UDMTD2Char1$X2926X.$1.Urine 2 methadone40UDBAR2Char1$X2991X.$1.Urine 2 barbiturate41UDOP2300Char1$X2372X.$1.Urine 2 opiates 300 ng42UDSCOMMChar423$423.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.ULABObservations733Member TypeDATAVariables15EngineV9Indexes0Created05/11/2018 16:26:31Observation Length128Last Modified05/11/2018 16:26:31Deleted Observations0ProtectionCompressedNOData Set TypeSortedNOLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages2First Data Page1Max Obs per Page511Obs in First Data Page488Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\ulab.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PATIDChar15Participant ID2VISNOChar4Visit Number3BARCODEChar10$10.$10.Urine Barcode4COLLECTIONDATENum8DATE9.DATE9.Date Sample Collected by Site5LABRECEIVEDATENum8DATE9.DATE9.Date Sample Received by Lab6CANNABINOIDChar8$8.$8.Cannabinoid Result7COCAINEChar8$8.$8.Cocaine Result8OPIATEChar8$8.$8.Opiate Result9AMPHETAMINESChar8$8.$8.Amphetamine Result10METHAMPEHTAMINEChar8$8.$8.Methamphetamine Result11BARBITURATESChar8$8.$8.Barbiturates Result12BENZODIAZEPINEChar8$8.$8.Benzodiazepine Result13METHADONEChar8$8.$8.Methadone Result14OXYCODONEChar8$8.$8.Oxycodone Result15MDMAChar8$8.$8.MDMA Result
-Data Set NameIN.VASObservations512Member TypeDATAVariables9EngineV9Indexes0Created05/11/2018 16:26:25Observation Length256Last Modified05/11/2018 16:26:25Deleted Observations0ProtectionCompressedNOData Set TypeSortedYESLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages3First Data Page1Max Obs per Page255Obs in First Data Page247Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\vas.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6VISNOChar4$4.$4.Visit Number7VASASMDTNum8MMDDYY8.DATETIME22.3Date of assessment8VACRMETHNum84.4.Craving methamphetamine9VASCOMMChar200$200.$2000.Comments
-
-Sort InformationSortedbyPATIDValidatedYESCharacter SetANSI
-Data Set NameIN.VISObservations504Member TypeDATAVariables25EngineV9Indexes0Created05/11/2018 16:26:31Observation Length784Last Modified05/11/2018 16:26:31Deleted Observations0ProtectionCompressedNOData Set TypeSortedNOLabelData RepresentationWINDOWS_32Encodingwlatin1  Western (Windows)
-
-Engine/Host Dependent InformationData Set Page Size65536Number of Data Set Pages7First Data Page1Max Obs per Page83Obs in First Data Page78Number of Data Set Repairs0FilenameG:\NIDADSC\DATA_SHARE\CTN0054\data\vis.sas7bdatRelease Created9.0401M2Host CreatedW32_7PRO
-
-Variables in Creation Order#VariableTypeLenFormatInformatLabel1PROTChar5$PROTOCOL.$5.Protocol2PATIDChar15$15.Participant ID3SITEChar5$SITE.$5.Site4RANDDTNum8MMDDYY8.Randomization Date5PROTSEGChar1$1.$1.Segment6VISNOChar4$4.$4.Visit Number7VISASMDTNum8MMDDYY8.DATETIME22.3Date of assessment8VIHGTINNum86.16.1Height inches9VIHGTCMNum84.4.Height CM10VIWTLBSNum87.17.1Weight pounds11VIWTKGSNum87.17.1Weight kgs12VIBMINum83.3.BMI13VITEMPFNum87.17.1Temperature F14VITEMPCNum86.16.1Temperature C15VIRESPSNum83.3.Respirations 1 min16VIPULSENum84.4.Pulse heart rate17VIBPSYS1Num84.4.Systolic BP 118VIBPDIS1Num84.4.Diastolic BP 119VIBP2DTNum8MMDDYY8.DATETIME22.3BP 2 date20VIBPSYS2Num84.4.Systolic BP 221VIBPDIS2Num84.4.Diastolic BP 222VIBP3DTNum8MMDDYY8.DATETIME22.3BP  3 date23VIBSYS3Num84.4.Systolic BP 324VIBDIS3Num84.4.Diastolic BP 325VISCOMMChar598$598.$2000.Comments
-11:53  Monday, May 14, 2018  1
-AD1
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  5
-AD2
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  7
-AD3
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  10
-ASU
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  12
-BBL
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  14
-BLAB
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  16
-CHP
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  19
-D54
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  22
-DEM
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  26
-DSM
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  29
-ECG
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  31
-EC0054A
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  32
-EC0054B
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-EC0054Z
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-ER0054A
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-ER0054B
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-ER0054Z
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-ENROLL
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-EOM
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-HIV
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-INA
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-INJ
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-INX
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-LAB
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-MHX
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-MVF
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-NXC
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-PBC
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-PCM
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-PDR
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-PDV
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-PEX
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-PO1
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-PO2
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-PO3
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-PO4
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-PRG
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-PSF
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-PXS
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-QLP
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-RXS
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-STT
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-T54
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-TAP
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-TEA
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-TUH
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-UDC
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-UDS
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-ULAB
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-VAS
-The CONTENTS Procedure
-
-
-
-11:53  Monday, May 14, 2018  
-VIS
-The CONTENTS Procedure
-
-
-

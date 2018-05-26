@@ -1,12 +1,12 @@
-                                               AD1                20:11 Thursday, May 17, 2018   1
+                                               AD1                16:07 Saturday, May 26, 2018   1
 
                                       The CONTENTS Procedure
 
           Data Set Name        IN.AD1                        Observations          275 
           Member Type          DATA                          Variables             29  
           Engine               V9                            Indexes               0   
-          Created              05/11/2018 16:26:30           Observation Length    2192
-          Last Modified        05/11/2018 16:26:30           Deleted Observations  0   
+          Created              05/24/2018 15:56:04           Observation Length    2192
+          Last Modified        05/24/2018 15:56:04           Deleted Observations  0   
           Protection                                         Compressed            NO  
           Data Set Type                                      Sorted                NO  
           Label                                                                        
@@ -28,7 +28,7 @@
  Owner Name                  EMMES\spitts                                                       
  File Size                   860KB                                                              
  File Size (bytes)           880640                                                             
-                                               AD1                20:11 Thursday, May 17, 2018   2
+                                               AD1                16:07 Saturday, May 26, 2018   2
 
                                       The CONTENTS Procedure
 
@@ -65,15 +65,15 @@
    27    LLT         Char     100    $100.           $100.           Low Level Term           
    28    HLT         Char     100    $100.           $100.           High Level Term          
    29    HLGT        Char     100    $100.           $100.           High Level Group Term    
-                                               AD2                20:11 Thursday, May 17, 2018   3
+                                               AD2                16:07 Saturday, May 26, 2018   3
 
                                       The CONTENTS Procedure
 
           Data Set Name        IN.AD2                        Observations          2   
           Member Type          DATA                          Variables             65  
           Engine               V9                            Indexes               0   
-          Created              05/11/2018 16:26:30           Observation Length    3848
-          Last Modified        05/11/2018 16:26:30           Deleted Observations  0   
+          Created              05/24/2018 15:56:05           Observation Length    3848
+          Last Modified        05/24/2018 15:56:05           Deleted Observations  0   
           Protection                                         Compressed            NO  
           Data Set Type                                      Sorted                NO  
           Label                                                                        
@@ -95,7 +95,7 @@
  Owner Name                  EMMES\spitts                                                       
  File Size                   512KB                                                              
  File Size (bytes)           524288                                                             
-                                               AD2                20:11 Thursday, May 17, 2018   4
+                                               AD2                16:07 Saturday, May 26, 2018   4
 
                                       The CONTENTS Procedure
 
@@ -150,7 +150,7 @@
    45    A2_5TIND    Char      30    $30.            $30.            TREATMENT 5 INDICATION   
    46    A2_5LTDT    Num        8    MMDDYY8.        DATETIME22.3    TREATMENT 5 LAST DATE    
    47    A2SAELAB    Char       2    $X571X.         $2.             TESTS LABS FOR EVENT     
-                                               AD2                20:11 Thursday, May 17, 2018   5
+                                               AD2                16:07 Saturday, May 26, 2018   5
 
                                       The CONTENTS Procedure
 
@@ -176,15 +176,15 @@
    63    A2FOLLUP    Char     412    $412.           $2000.          FOLLOW-UP                
    64    A2ADDINF    Char     373    $373.           $2000.          ADDITIONAL INFO REQ      
    65    A2RQADDR    Char       1    $X1061X.        $1.             REVIEWER REQ ADDRESSED   
-                                               AD3                20:11 Thursday, May 17, 2018   6
+                                               AD3                16:07 Saturday, May 26, 2018   6
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.AD3                        Observations          2  
            Member Type          DATA                          Variables             19 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:30           Observation Length    752
-           Last Modified        05/11/2018 16:26:30           Deleted Observations  0  
+           Created              05/24/2018 15:56:05           Observation Length    752
+           Last Modified        05/24/2018 15:56:05           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                NO 
            Label                                                                       
@@ -208,7 +208,7 @@
  File Size (bytes)           131072                                                             
 
 
-                                               AD3                20:11 Thursday, May 17, 2018   7
+                                               AD3                16:07 Saturday, May 26, 2018   7
 
                                       The CONTENTS Procedure
 
@@ -235,15 +235,15 @@
     17    A3ASRID     Char      3    $3.             $3.             Assessor initials        
     18    A3REVID     Char      3    $3.             $3.             Reviewer initials        
     19    A3COMM      Char    454    $454.           $2000.          Comments                 
-                                               ASU                20:11 Thursday, May 17, 2018   8
+                                               ASU                16:07 Saturday, May 26, 2018   8
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.ASU                        Observations          114
            Member Type          DATA                          Variables             39 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:08           Observation Length    760
-           Last Modified        05/11/2018 16:26:08           Deleted Observations  0  
+           Created              05/24/2018 15:55:34           Observation Length    760
+           Last Modified        05/24/2018 15:55:34           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                YES
            Label                                                                       
@@ -265,7 +265,7 @@
  Owner Name                  EMMES\spitts                                                       
  File Size                   192KB                                                              
  File Size (bytes)           196608                                                             
-                                               ASU                20:11 Thursday, May 17, 2018   9
+                                               ASU                16:07 Saturday, May 26, 2018   9
 
                                       The CONTENTS Procedure
 
@@ -319,15 +319,15 @@
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               BBL                20:11 Thursday, May 17, 2018  10
+                                               BBL                16:07 Saturday, May 26, 2018  10
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.BBL                        Observations          87 
            Member Type          DATA                          Variables             22 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:08           Observation Length    640
-           Last Modified        05/11/2018 16:26:08           Deleted Observations  0  
+           Created              05/24/2018 15:55:34           Observation Length    640
+           Last Modified        05/24/2018 15:55:34           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                YES
            Label                                                                       
@@ -351,7 +351,7 @@
  File Size (bytes)           131072                                                             
 
 
-                                               BBL                20:11 Thursday, May 17, 2018  11
+                                               BBL                16:07 Saturday, May 26, 2018  11
 
                                       The CONTENTS Procedure
 
@@ -388,15 +388,15 @@
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               CHP                20:11 Thursday, May 17, 2018  12
+                                               CHP                16:07 Saturday, May 26, 2018  12
 
                                       The CONTENTS Procedure
 
           Data Set Name        IN.CHP                        Observations          304 
           Member Type          DATA                          Variables             24  
           Engine               V9                            Indexes               0   
-          Created              05/11/2018 16:26:09           Observation Length    1008
-          Last Modified        05/11/2018 16:26:09           Deleted Observations  0   
+          Created              05/24/2018 15:55:36           Observation Length    1008
+          Last Modified        05/24/2018 15:55:36           Deleted Observations  0   
           Protection                                         Compressed            NO  
           Data Set Type                                      Sorted                YES 
           Label                                                                        
@@ -418,7 +418,7 @@
  Owner Name                  EMMES\spitts                                                       
  File Size                   400KB                                                              
  File Size (bytes)           409600                                                             
-                                               CHP                20:11 Thursday, May 17, 2018  13
+                                               CHP                16:07 Saturday, May 26, 2018  13
 
                                       The CONTENTS Procedure
 
@@ -457,15 +457,15 @@
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               D54                20:11 Thursday, May 17, 2018  14
+                                               D54                16:07 Saturday, May 26, 2018  14
 
                                       The CONTENTS Procedure
 
           Data Set Name        IN.D54                        Observations          441 
           Member Type          DATA                          Variables             63  
           Engine               V9                            Indexes               0   
-          Created              05/11/2018 16:26:30           Observation Length    1200
-          Last Modified        05/11/2018 16:26:30           Deleted Observations  0   
+          Created              05/24/2018 15:56:04           Observation Length    1200
+          Last Modified        05/24/2018 15:56:04           Deleted Observations  0   
           Protection                                         Compressed            NO  
           Data Set Type                                      Sorted                NO  
           Label                                                                        
@@ -487,7 +487,7 @@
  Owner Name                  EMMES\spitts                                                       
  File Size                   672KB                                                              
  File Size (bytes)           688128                                                             
-                                               D54                20:11 Thursday, May 17, 2018  15
+                                               D54                16:07 Saturday, May 26, 2018  15
 
                                       The CONTENTS Procedure
 
@@ -542,7 +542,7 @@
      45    D54V15D5    Char      1    $X896X.       $1.             Day 5 150mg vid cnfrm dse
      46    D54COMD5    Char     40    $40.          $40.            Day 5 Comments           
      47    D54DTD6     Num       8    MMDDYY8.      DATETIME22.3    Day 6 date               
-                                               D54                20:11 Thursday, May 17, 2018  16
+                                               D54                16:07 Saturday, May 26, 2018  16
 
                                       The CONTENTS Procedure
 
@@ -566,15 +566,87 @@
      61    D54V15D7    Char      1    $X921X.       $1.             Day 7 150mg vid cnfrm dse
      62    D54COMD7    Char     40    $40.          $40.            Day 7 comments           
      63    D54COMM     Char    717    $717.         $2000.          Comments                 
-                                               DSM                20:11 Thursday, May 17, 2018  17
+                                               dem                16:07 Saturday, May 26, 2018  17
+
+                                      The CONTENTS Procedure
+
+           Data Set Name        IN.DEM                        Observations          116
+           Member Type          DATA                          Variables             34 
+           Engine               V9                            Indexes               0  
+           Created              05/24/2018 15:56:05           Observation Length    488
+           Last Modified        05/24/2018 15:56:05           Deleted Observations  0  
+           Protection                                         Compressed            NO 
+           Data Set Type                                      Sorted                NO 
+           Label                                                                       
+           Data Representation  WINDOWS_32                                             
+           Encoding             wlatin1  Western (Windows)                             
+
+
+                                Engine/Host Dependent Information
+
+ Data Set Page Size          65536                                                              
+ Number of Data Set Pages    1                                                                  
+ First Data Page             1                                                                  
+ Max Obs per Page            134                                                                
+ Obs in First Data Page      116                                                                
+ Number of Data Set Repairs  0                                                                  
+ Filename                    G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\dem.sas7bdat
+ Release Created             9.0401M2                                                           
+ Host Created                W32_7PRO                                                           
+ Owner Name                  EMMES\spitts                                                       
+ File Size                   128KB                                                              
+ File Size (bytes)           131072                                                             
+                                               dem                16:07 Saturday, May 26, 2018  18
+
+                                      The CONTENTS Procedure
+
+                                    Variables in Creation Order
+ 
+      #    Variable    Type    Len    Format        Informat        Label
+
+      1    PROT        Char      5    $PROTOCOL.    $5.             Protocol                 
+      2    PATID       Char     15    $15.          $15.            Participant ID           
+      3    SITE        Char      5    $SITE.                        Site                     
+      4    RANDDT      Num       8    MMDDYY8.      DATETIME22.3    Randomization Date       
+      5    DEBRTHDT    Num       8    MMDDYY8.      DATETIME22.3    Date of birth            
+      6    DEGENDER    Char      2    $X2534X.      $2.             Participant gender       
+      7    DEHISPNC    Char      2    $X2535X.      $2.             Hispanic                 
+      8    DEHISPSP    Char      2    $X2536X.      $2.             Hispanic specify         
+      9    DEWHITE     Char      1    $X2932X.      $1.             White                    
+     10    DEBLACK     Char      1    $X2938X.      $1.             Black or African American
+     11    DEAMEIND    Char      1    $X2939X.      $1.             Indian American          
+     12    DEALASKA    Char      1    $X2940X.      $1.             Alaska native            
+     13    DEHAWAII    Char      1    $X2941X.      $1.             Native Hawaiian          
+     14    DEGUAM      Char      1    $X2942X.      $1.             Guamanian                
+     15    DESAMOAN    Char      1    $X2943X.      $1.             Samoan                   
+     16    DEPACISL    Char      1    $X2944X.      $1.             Pacific Islander         
+     17    DEPACISO    Char     50    $50.          $50.            Pacific Islander other sp
+     18    DEASAIND    Char      1    $X2945X.      $1.             Asian Indian             
+     19    DECHINA     Char      1    $X2946X.      $1.             Chinese                  
+     20    DEFILIPN    Char      1    $X2955X.      $1.             Filipino                 
+     21    DEJAPAN     Char      1    $X2956X.      $1.             Japanese                 
+     22    DEKOREA     Char      1    $X2957X.      $1.             Korean                   
+     23    DEVIETNM    Char      1    $X2958X.      $1.             Vietnamese               
+     24    DEASIAN     Char      1    $X2959X.      $1.             Asian other              
+     25    DEASIAOT    Char     50    $50.          $50.            Other Asian specify      
+     26    DERACEOT    Char      1    $X2960X.      $1.             Any other race           
+     27    DERACESP    Char     25    $25.          $25.            Race other specfiy       
+     28    DERACEDK    Char      1    $X2961X.      $1.             Race dont know           
+     29    DERACERF    Char      1    $X2962X.      $1.             Race refused             
+     30    DEEDUCTN    Char      2    $X2537X.      $2.             Education                
+     31    DEJOB       Char      2    $X2538X.      $2.             Employment status        
+     32    DEJOBSP     Char     50    $50.          $50.            Other job specify        
+     33    DEMARTL     Char      2    $X2539X.      $2.             Marital stauts           
+     34    DEMCOMM     Char    241    $241.         $2000.          Comments                 
+                                               DSM                16:07 Saturday, May 26, 2018  19
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.DSM                        Observations          115
            Member Type          DATA                          Variables             99 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:30           Observation Length    352
-           Last Modified        05/11/2018 16:26:30           Deleted Observations  0  
+           Created              05/24/2018 15:56:05           Observation Length    352
+           Last Modified        05/24/2018 15:56:05           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                NO 
            Label                                                                       
@@ -596,7 +668,7 @@
  Owner Name                  EMMES\spitts                                                       
  File Size                   128KB                                                              
  File Size (bytes)           131072                                                             
-                                               DSM                20:11 Thursday, May 17, 2018  18
+                                               DSM                16:07 Saturday, May 26, 2018  20
 
                                       The CONTENTS Procedure
 
@@ -651,7 +723,7 @@
      45    DSAMPWIT    Char      1    $X2079X.      $1.             Amp withdrawal           
      46    DSMETWIT    Char      1    $X2080X.      $1.             Met withdrawal           
      47    DSTHCWIT    Char      1    $X2081X.      $1.             Can withdrawal           
-                                               DSM                20:11 Thursday, May 17, 2018  19
+                                               DSM                16:07 Saturday, May 26, 2018  21
 
                                       The CONTENTS Procedure
 
@@ -706,7 +778,7 @@
      92    DSOPISCO    Char      1    $X2268X.      $1.             Opi score                
      93    DSALCSCO    Char      1    $X2285X.      $1.             Alc score                
      94    DSAMPSCO    Char      1    $X2286X.      $1.             Amp score                
-                                               DSM                20:11 Thursday, May 17, 2018  20
+                                               DSM                16:07 Saturday, May 26, 2018  22
 
                                       The CONTENTS Procedure
 
@@ -719,15 +791,15 @@
      97    DSCOCSCO    Char      1    $X2289X.      $1.             Coc score                
      98    DSSEDSCO    Char      1    $X2290X.      $1.             Sed score                
      99    DSMCOMM     Char    210    $210.         $2000.          Comments                 
-                                             EC0054A              20:11 Thursday, May 17, 2018  21
+                                             EC0054A              16:07 Saturday, May 26, 2018  23
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.EC0054A                    Observations          116
            Member Type          DATA                          Variables             7  
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:10           Observation Length    88 
-           Last Modified        05/11/2018 16:26:10           Deleted Observations  0  
+           Created              05/24/2018 15:55:37           Observation Length    88 
+           Last Modified        05/24/2018 15:55:37           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                YES
            Label                                                                       
@@ -770,15 +842,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                             EC0054B              20:11 Thursday, May 17, 2018  22
+                                             EC0054B              16:07 Saturday, May 26, 2018  24
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.EC0054B                    Observations          49 
-           Member Type          DATA                          Variables             40 
+           Member Type          DATA                          Variables             39 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:30           Observation Length    504
-           Last Modified        05/11/2018 16:26:30           Deleted Observations  0  
+           Created              05/24/2018 15:56:05           Observation Length    496
+           Last Modified        05/24/2018 15:56:05           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                NO 
            Label                                                                       
@@ -791,7 +863,7 @@ File Size (bytes)           131072
 Data Set Page Size          65536                                                                 
 Number of Data Set Pages    1                                                                     
 First Data Page             1                                                                     
-Max Obs per Page            129                                                                   
+Max Obs per Page            132                                                                   
 Obs in First Data Page      49                                                                    
 Number of Data Set Repairs  0                                                                     
 Filename                    G:\NIDADSC\spitts\Python_Projects\Data_                               
@@ -801,7 +873,7 @@ Host Created                W32_7PRO
 Owner Name                  EMMES\spitts                                                          
 File Size                   128KB                                                                 
 File Size (bytes)           131072                                                                
-                                             EC0054B              20:11 Thursday, May 17, 2018  23
+                                             EC0054B              16:07 Saturday, May 26, 2018  25
 
                                       The CONTENTS Procedure
 
@@ -848,16 +920,15 @@ File Size (bytes)           131072
      37    R3NORSP     Char      2    $X1701X.      $2.             Not enrolled specify     
      38    R3JGOTSP    Char      1    $1.           $2000.          Judgmnt other spcify     
      39    R3COMM      Char    392    $392.         $2000.          Comments                 
-     40    STRATA      Char      4    $4.           $4.             Strata                   
-                                             EC0054Z              20:11 Thursday, May 17, 2018  24
+                                             EC0054Z              16:07 Saturday, May 26, 2018  26
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.EC0054Z                    Observations          67 
            Member Type          DATA                          Variables             39 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:30           Observation Length    672
-           Last Modified        05/11/2018 16:26:30           Deleted Observations  0  
+           Created              05/24/2018 15:56:05           Observation Length    672
+           Last Modified        05/24/2018 15:56:05           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                NO 
            Label                                                                       
@@ -880,7 +951,7 @@ Host Created                W32_7PRO
 Owner Name                  EMMES\spitts                                                          
 File Size                   128KB                                                                 
 File Size (bytes)           131072                                                                
-                                             EC0054Z              20:11 Thursday, May 17, 2018  25
+                                             EC0054Z              16:07 Saturday, May 26, 2018  27
 
                                       The CONTENTS Procedure
 
@@ -927,15 +998,15 @@ File Size (bytes)           131072
      37    R3NORSP     Char      2    $X1888X.      $2.             Not enrolled specify     
      38    R3JGOTSP    Char      1    $1.           $2000.          Judgmnt other spcify     
      39    R3COMM      Char    565    $565.         $2000.          Comments                 
-                                               ECG                20:11 Thursday, May 17, 2018  26
+                                               ECG                16:07 Saturday, May 26, 2018  28
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.ECG                        Observations          87 
            Member Type          DATA                          Variables             52 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:10           Observation Length    448
-           Last Modified        05/11/2018 16:26:10           Deleted Observations  0  
+           Created              05/24/2018 15:55:37           Observation Length    448
+           Last Modified        05/24/2018 15:55:37           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                YES
            Label                                                                       
@@ -957,7 +1028,7 @@ File Size (bytes)           131072
  Owner Name                  EMMES\spitts                                                       
  File Size                   128KB                                                              
  File Size (bytes)           131072                                                             
-                                               ECG                20:11 Thursday, May 17, 2018  27
+                                               ECG                16:07 Saturday, May 26, 2018  29
 
                                       The CONTENTS Procedure
 
@@ -1012,7 +1083,7 @@ File Size (bytes)           131072
      45    ECOTHSP     Char     26    $26.          $26.            Other abnormal specify   
      46    ECOTH       Char      1    $X2247X.      $1.             Other abnormal result    
      47    ECOTHSTT    Char      1    $X2248X.      $1.             Other nonspecific ST T   
-                                               ECG                20:11 Thursday, May 17, 2018  28
+                                               ECG                16:07 Saturday, May 26, 2018  30
 
                                       The CONTENTS Procedure
 
@@ -1032,15 +1103,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                              enroll              20:11 Thursday, May 17, 2018  29
+                                              enroll              16:07 Saturday, May 26, 2018  31
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.ENROLL                     Observations          49
-           Member Type          DATA                          Variables             6 
+           Member Type          DATA                          Variables             5 
            Engine               V9                            Indexes               0 
-           Created              05/11/2018 16:26:28           Observation Length    40
-           Last Modified        05/11/2018 16:26:28           Deleted Observations  0 
+           Created              05/24/2018 15:55:59           Observation Length    40
+           Last Modified        05/24/2018 15:55:59           Deleted Observations  0 
            Protection                                         Compressed            NO
            Data Set Type                                      Sorted                NO
            Label                                                                      
@@ -1072,17 +1143,16 @@ File Size (bytes)           131072
            2    PATID       Char     15    $15.          $15.            Participant ID
            3    SITE        Char      5    $SITE.        $5.             Site          
            4    PROTSEG     Char      1    $1.           $1.             Segment       
-           5    strata      Char      3    $3.           $3.             Strata        
-           6    startdt     Num       8    MMDDYY8.      DATETIME22.3    Start Date    
-                                               EOM                20:11 Thursday, May 17, 2018  30
+           5    startdt     Num       8    MMDDYY8.      DATETIME22.3    Start Date    
+                                               EOM                16:07 Saturday, May 26, 2018  32
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.EOM                        Observations          49 
            Member Type          DATA                          Variables             13 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:31           Observation Length    528
-           Last Modified        05/11/2018 16:26:31           Deleted Observations  0  
+           Created              05/24/2018 15:56:05           Observation Length    528
+           Last Modified        05/24/2018 15:56:05           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                NO 
            Label                                                                       
@@ -1123,15 +1193,15 @@ File Size (bytes)           131072
      11    EOLDSRSP    Char    100    $100.         $100.           Specify rsn no last dose
      12    EODRUGDT    Num       8    MMDDYY8.      DATETIME22.3    Date last drug          
      13    EOMCOMM     Char    273    $273.         $2000.          Comments                
-                                             ER0054A              20:11 Thursday, May 17, 2018  31
+                                             ER0054A              16:07 Saturday, May 26, 2018  33
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.ER0054A                    Observations          116
            Member Type          DATA                          Variables             7  
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:27           Observation Length    56 
-           Last Modified        05/11/2018 16:26:27           Deleted Observations  0  
+           Created              05/24/2018 15:55:58           Observation Length    56 
+           Last Modified        05/24/2018 15:55:58           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                YES
            Label                                                                       
@@ -1174,15 +1244,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                             ER0054B              20:11 Thursday, May 17, 2018  32
+                                             ER0054B              16:07 Saturday, May 26, 2018  34
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.ER0054B                    Observations          49 
-           Member Type          DATA                          Variables             40 
+           Member Type          DATA                          Variables             39 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:31           Observation Length    112
-           Last Modified        05/11/2018 16:26:31           Deleted Observations  0  
+           Created              05/24/2018 15:56:05           Observation Length    112
+           Last Modified        05/24/2018 15:56:05           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                NO 
            Label                                                                       
@@ -1205,7 +1275,7 @@ Host Created                W32_7PRO
 Owner Name                  EMMES\spitts                                                          
 File Size                   128KB                                                                 
 File Size (bytes)           131072                                                                
-                                             ER0054B              20:11 Thursday, May 17, 2018  33
+                                             ER0054B              16:07 Saturday, May 26, 2018  35
 
                                       The CONTENTS Procedure
 
@@ -1252,16 +1322,15 @@ File Size (bytes)           131072
      37    R3NORSP     Char      2    $X1701X.      $2.             Not enrolled specify     
      38    R3JGOTSP    Char      1    $1.           $2000.          Judgmnt other spcify     
      39    R3COMM      Char      1    $1.           $2000.          Comments                 
-     40    STRATA      Char      4    $4.           $4.             Strata                   
-                                             ER0054Z              20:11 Thursday, May 17, 2018  34
+                                             ER0054Z              16:07 Saturday, May 26, 2018  36
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.ER0054Z                    Observations          67 
            Member Type          DATA                          Variables             39 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:31           Observation Length    352
-           Last Modified        05/11/2018 16:26:31           Deleted Observations  0  
+           Created              05/24/2018 15:56:05           Observation Length    352
+           Last Modified        05/24/2018 15:56:05           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                NO 
            Label                                                                       
@@ -1284,7 +1353,7 @@ Host Created                W32_7PRO
 Owner Name                  EMMES\spitts                                                          
 File Size                   128KB                                                                 
 File Size (bytes)           131072                                                                
-                                             ER0054Z              20:11 Thursday, May 17, 2018  35
+                                             ER0054Z              16:07 Saturday, May 26, 2018  37
 
                                       The CONTENTS Procedure
 
@@ -1331,15 +1400,15 @@ File Size (bytes)           131072
      37    R3NORSP     Char      2    $X1888X.      $2.             Not enrolled specify     
      38    R3JGOTSP    Char      1    $1.           $2000.          Judgmnt other spcify     
      39    R3COMM      Char    247    $247.         $2000.          Comments                 
-                                               HIV                20:11 Thursday, May 17, 2018  36
+                                               HIV                16:07 Saturday, May 26, 2018  38
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.HIV                        Observations          111
            Member Type          DATA                          Variables             13 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:31           Observation Length    344
-           Last Modified        05/11/2018 16:26:31           Deleted Observations  0  
+           Created              05/24/2018 15:56:05           Observation Length    344
+           Last Modified        05/24/2018 15:56:05           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                NO 
            Label                                                                       
@@ -1380,15 +1449,15 @@ File Size (bytes)           131072
       11    HIRESULT    Char      2    $X574X.       $2.             HIV result             
       12    HINORESN    Char      2    $X575X.       $2.             Reasons for no HIV test
       13    HIVCOMM     Char    272    $272.         $2000.          Comment                
-                                               INA                20:11 Thursday, May 17, 2018  37
+                                               INA                16:07 Saturday, May 26, 2018  39
 
                                       The CONTENTS Procedure
 
           Data Set Name        IN.INA                        Observations          19  
           Member Type          DATA                          Variables             78  
           Engine               V9                            Indexes               0   
-          Created              05/11/2018 16:26:12           Observation Length    2152
-          Last Modified        05/11/2018 16:26:12           Deleted Observations  0   
+          Created              05/24/2018 15:55:39           Observation Length    2152
+          Last Modified        05/24/2018 15:55:39           Deleted Observations  0   
           Protection                                         Compressed            NO  
           Data Set Type                                      Sorted                YES 
           Label                                                                        
@@ -1410,7 +1479,7 @@ File Size (bytes)           131072
  Owner Name                  EMMES\spitts                                                       
  File Size                   344KB                                                              
  File Size (bytes)           352256                                                             
-                                               INA                20:11 Thursday, May 17, 2018  38
+                                               INA                16:07 Saturday, May 26, 2018  40
 
                                       The CONTENTS Procedure
 
@@ -1465,7 +1534,7 @@ File Size (bytes)           131072
      45    INETRT7     Char     50    $50.          $50.            Event 7 treatment       
      46    INERDT7     Num       8    MMDDYY8.      DATETIME22.3    Event 7 resolution date 
      47    INECOM7     Char     50    $50.          $50.            Event 7 comments        
-                                               INA                20:11 Thursday, May 17, 2018  39
+                                               INA                16:07 Saturday, May 26, 2018  41
 
                                       The CONTENTS Procedure
 
@@ -1511,15 +1580,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               INJ                20:11 Thursday, May 17, 2018  40
+                                               INJ                16:07 Saturday, May 26, 2018  42
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.INJ                        Observations          90 
            Member Type          DATA                          Variables             15 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:12           Observation Length    480
-           Last Modified        05/11/2018 16:26:12           Deleted Observations  0  
+           Created              05/24/2018 15:55:39           Observation Length    480
+           Last Modified        05/24/2018 15:55:39           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                YES
            Label                                                                       
@@ -1562,7 +1631,7 @@ File Size (bytes)           131072
      13    INADMN      Char      1    $X1346X.      $1.             Administered by          
      14    INADMNSP    Char     40    $40.          $40.            Admin by specify         
      15    INJCOMM     Char    121    $121.         $2000.          Comments                 
-                                               INJ                20:11 Thursday, May 17, 2018  41
+                                               INJ                16:07 Saturday, May 26, 2018  43
 
                                       The CONTENTS Procedure
 
@@ -1571,15 +1640,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               INX                20:11 Thursday, May 17, 2018  42
+                                               INX                16:07 Saturday, May 26, 2018  44
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.INX                        Observations          88 
            Member Type          DATA                          Variables             11 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:12           Observation Length    272
-           Last Modified        05/11/2018 16:26:12           Deleted Observations  0  
+           Created              05/24/2018 15:55:40           Observation Length    272
+           Last Modified        05/24/2018 15:55:40           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                YES
            Label                                                                       
@@ -1625,15 +1694,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               LAB                20:11 Thursday, May 17, 2018  43
+                                               LAB                16:07 Saturday, May 26, 2018  45
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.LAB                        Observations          119
            Member Type          DATA                          Variables             63 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:31           Observation Length    784
-           Last Modified        05/11/2018 16:26:31           Deleted Observations  0  
+           Created              05/24/2018 15:56:05           Observation Length    784
+           Last Modified        05/24/2018 15:56:05           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                NO 
            Label                                                                       
@@ -1655,7 +1724,7 @@ File Size (bytes)           131072
  Owner Name                  EMMES\spitts                                                       
  File Size                   192KB                                                              
  File Size (bytes)           196608                                                             
-                                               LAB                20:11 Thursday, May 17, 2018  44
+                                               LAB                16:07 Saturday, May 26, 2018  46
 
                                       The CONTENTS Procedure
 
@@ -1710,7 +1779,7 @@ File Size (bytes)           131072
      45    LACL        Num       8    4.            4.              Chloride results         
      46    LACO2       Num       8    3.            3.              CO2                      
      47    LAAGAP      Num       8    3.            3.              AGAP results             
-                                               LAB                20:11 Thursday, May 17, 2018  45
+                                               LAB                16:07 Saturday, May 26, 2018  47
 
                                       The CONTENTS Procedure
 
@@ -1734,15 +1803,15 @@ File Size (bytes)           131072
      61    LAAST       Num       8    8.1           8.1             AST result               
      62    LAALT       Num       8    8.1           8.1             ALT result               
      63    LABCOMM     Char    406    $406.         $2000.          Comments                 
-                                               MHX                20:11 Thursday, May 17, 2018  46
+                                               MHX                16:07 Saturday, May 26, 2018  48
 
                                       The CONTENTS Procedure
 
           Data Set Name        IN.MHX                        Observations          76  
           Member Type          DATA                          Variables             114 
           Engine               V9                            Indexes               0   
-          Created              05/11/2018 16:26:15           Observation Length    7056
-          Last Modified        05/11/2018 16:26:15           Deleted Observations  0   
+          Created              05/24/2018 15:55:42           Observation Length    7056
+          Last Modified        05/24/2018 15:55:42           Deleted Observations  0   
           Protection                                         Compressed            NO  
           Data Set Type                                      Sorted                YES 
           Label                                                                        
@@ -1764,7 +1833,7 @@ File Size (bytes)           131072
  Owner Name                  EMMES\spitts                                                       
  File Size                   1MB                                                                
  File Size (bytes)           1048576                                                            
-                                               MHX                20:11 Thursday, May 17, 2018  47
+                                               MHX                16:07 Saturday, May 26, 2018  49
 
                                       The CONTENTS Procedure
 
@@ -1819,7 +1888,7 @@ File Size (bytes)           131072
      45    MHELPYSP    Char     150    $150.         $150.           Epilepsy specify         
      46    MHELPYC     Char       1    $X3346X.      $1.             Epilepsy current         
      47    MHNEURH     Char       1    $X3347X.      $1.             Neuro damage hist        
-                                               MHX                20:11 Thursday, May 17, 2018  48
+                                               MHX                16:07 Saturday, May 26, 2018  50
 
                                       The CONTENTS Procedure
 
@@ -1874,7 +1943,7 @@ File Size (bytes)           131072
      92    MHOTHR2     Char      50    $50.          $50.            Other condition 2        
      93    MHOTHR2S    Char     219    $219.         $2000.          Other condition 2 specify
      94    MHOTHR2C    Char       1    $X1538X.      $1.             Other condition 2 current
-                                               MHX                20:11 Thursday, May 17, 2018  49
+                                               MHX                16:07 Saturday, May 26, 2018  51
 
                                       The CONTENTS Procedure
 
@@ -1909,15 +1978,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               MVF                20:11 Thursday, May 17, 2018  50
+                                               MVF                16:07 Saturday, May 26, 2018  52
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.MVF                        Observations          88 
            Member Type          DATA                          Variables             9  
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:15           Observation Length    376
-           Last Modified        05/11/2018 16:26:15           Deleted Observations  0  
+           Created              05/24/2018 15:55:43           Observation Length    376
+           Last Modified        05/24/2018 15:55:43           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                YES
            Label                                                                       
@@ -1961,15 +2030,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               NXC                20:11 Thursday, May 17, 2018  51
+                                               NXC                16:07 Saturday, May 26, 2018  53
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.NXC                        Observations          49 
            Member Type          DATA                          Variables             15 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:15           Observation Length    392
-           Last Modified        05/11/2018 16:26:15           Deleted Observations  0  
+           Created              05/24/2018 15:55:43           Observation Length    392
+           Last Modified        05/24/2018 15:55:43           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                YES
            Label                                                                       
@@ -2012,7 +2081,7 @@ File Size (bytes)           131072
         13    NXDOSE2     Num       8    6.2           6.2             Total dose 2      
         14    NXROUTE2    Char      1    $X3112X.      $1.             Dose route 2      
         15    NXCCOMM     Char    314    $314.         $2000.          Comments          
-                                               NXC                20:11 Thursday, May 17, 2018  52
+                                               NXC                16:07 Saturday, May 26, 2018  54
 
                                       The CONTENTS Procedure
 
@@ -2021,15 +2090,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               PBC                20:11 Thursday, May 17, 2018  53
+                                               PBC                16:07 Saturday, May 26, 2018  55
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.PBC                        Observations          109
            Member Type          DATA                          Variables             24 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:16           Observation Length    440
-           Last Modified        05/11/2018 16:26:16           Deleted Observations  0  
+           Created              05/24/2018 15:55:44           Observation Length    440
+           Last Modified        05/24/2018 15:55:44           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                YES
            Label                                                                       
@@ -2051,7 +2120,7 @@ File Size (bytes)           131072
  Owner Name                  EMMES\spitts                                                       
  File Size                   128KB                                                              
  File Size (bytes)           131072                                                             
-                                               PBC                20:11 Thursday, May 17, 2018  54
+                                               PBC                16:07 Saturday, May 26, 2018  56
 
                                       The CONTENTS Procedure
 
@@ -2090,15 +2159,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               PCM                20:11 Thursday, May 17, 2018  55
+                                               PCM                16:07 Saturday, May 26, 2018  57
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.PCM                        Observations          231
            Member Type          DATA                          Variables             12 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:16           Observation Length    488
-           Last Modified        05/11/2018 16:26:16           Deleted Observations  0  
+           Created              05/24/2018 15:55:44           Observation Length    488
+           Last Modified        05/24/2018 15:55:44           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                YES
            Label                                                                       
@@ -2145,15 +2214,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               PDR                20:11 Thursday, May 17, 2018  56
+                                               PDR                16:07 Saturday, May 26, 2018  58
 
                                       The CONTENTS Procedure
 
           Data Set Name        IN.PDR                        Observations          104 
           Member Type          DATA                          Variables             21  
           Engine               V9                            Indexes               0   
-          Created              05/11/2018 16:26:16           Observation Length    1584
-          Last Modified        05/11/2018 16:26:16           Deleted Observations  0   
+          Created              05/24/2018 15:55:45           Observation Length    1584
+          Last Modified        05/24/2018 15:55:45           Deleted Observations  0   
           Protection                                         Compressed            NO  
           Data Set Type                                      Sorted                YES 
           Label                                                                        
@@ -2177,7 +2246,7 @@ File Size (bytes)           131072
  File Size (bytes)           380928                                                             
 
 
-                                               PDR                20:11 Thursday, May 17, 2018  57
+                                               PDR                16:07 Saturday, May 26, 2018  59
 
                                       The CONTENTS Procedure
 
@@ -2213,15 +2282,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               PDV                20:11 Thursday, May 17, 2018  58
+                                               PDV                16:07 Saturday, May 26, 2018  60
 
                                       The CONTENTS Procedure
 
           Data Set Name        IN.PDV                        Observations          104 
           Member Type          DATA                          Variables             17  
           Engine               V9                            Indexes               0   
-          Created              05/11/2018 16:26:31           Observation Length    3200
-          Last Modified        05/11/2018 16:26:31           Deleted Observations  0   
+          Created              05/24/2018 15:56:05           Observation Length    3200
+          Last Modified        05/24/2018 15:56:05           Deleted Observations  0   
           Protection                                         Compressed            NO  
           Data Set Type                                      Sorted                NO  
           Label                                                                        
@@ -2266,15 +2335,15 @@ File Size (bytes)           131072
     15    PDIRBPDT    Num       8    MMDDYY8.        DATETIME22.3    Planned date to IRB      
     16    PDIRBADT    Num       8    MMDDYY8.        DATETIME22.3    Actual date to IRB       
     17    PDVCOMM     Char    677    $677.           $2000.          Comments                 
-                                               PEX                20:11 Thursday, May 17, 2018  59
+                                               PEX                16:07 Saturday, May 26, 2018  61
 
                                       The CONTENTS Procedure
 
           Data Set Name        IN.PEX                        Observations          113 
           Member Type          DATA                          Variables             36  
           Engine               V9                            Indexes               0   
-          Created              05/11/2018 16:26:17           Observation Length    3032
-          Last Modified        05/11/2018 16:26:17           Deleted Observations  0   
+          Created              05/24/2018 15:55:46           Observation Length    3032
+          Last Modified        05/24/2018 15:55:46           Deleted Observations  0   
           Protection                                         Compressed            NO  
           Data Set Type                                      Sorted                YES 
           Label                                                                        
@@ -2296,7 +2365,7 @@ File Size (bytes)           131072
  Owner Name                  EMMES\spitts                                                       
  File Size                   720KB                                                              
  File Size (bytes)           737280                                                             
-                                               PEX                20:11 Thursday, May 17, 2018  60
+                                               PEX                16:07 Saturday, May 26, 2018  62
 
                                       The CONTENTS Procedure
 
@@ -2347,15 +2416,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               PO1                20:11 Thursday, May 17, 2018  61
+                                               PO1                16:07 Saturday, May 26, 2018  63
 
                                       The CONTENTS Procedure
 
           Data Set Name        IN.PO1                        Observations          0   
           Member Type          DATA                          Variables             20  
           Engine               V9                            Indexes               0   
-          Created              05/11/2018 16:26:18           Observation Length    4096
-          Last Modified        05/11/2018 16:26:18           Deleted Observations  0   
+          Created              05/24/2018 15:55:46           Observation Length    4096
+          Last Modified        05/24/2018 15:55:46           Deleted Observations  0   
           Protection                                         Compressed            NO  
           Data Set Type                                      Sorted                YES 
           Label                                                                        
@@ -2379,7 +2448,7 @@ File Size (bytes)           131072
  File Size (bytes)           524288                                                             
 
 
-                                               PO1                20:11 Thursday, May 17, 2018  62
+                                               PO1                16:07 Saturday, May 26, 2018  64
 
                                       The CONTENTS Procedure
 
@@ -2414,15 +2483,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               PO2                20:11 Thursday, May 17, 2018  63
+                                               PO2                16:07 Saturday, May 26, 2018  65
 
                                       The CONTENTS Procedure
 
           Data Set Name        IN.PO2                        Observations          0   
           Member Type          DATA                          Variables             20  
           Engine               V9                            Indexes               0   
-          Created              05/11/2018 16:26:18           Observation Length    4096
-          Last Modified        05/11/2018 16:26:18           Deleted Observations  0   
+          Created              05/24/2018 15:55:47           Observation Length    4096
+          Last Modified        05/24/2018 15:55:47           Deleted Observations  0   
           Protection                                         Compressed            NO  
           Data Set Type                                      Sorted                YES 
           Label                                                                        
@@ -2446,7 +2515,7 @@ File Size (bytes)           131072
  File Size (bytes)           524288                                                             
 
 
-                                               PO2                20:11 Thursday, May 17, 2018  64
+                                               PO2                16:07 Saturday, May 26, 2018  66
 
                                       The CONTENTS Procedure
 
@@ -2481,15 +2550,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               PO3                20:11 Thursday, May 17, 2018  65
+                                               PO3                16:07 Saturday, May 26, 2018  67
 
                                       The CONTENTS Procedure
 
           Data Set Name        IN.PO3                        Observations          0   
           Member Type          DATA                          Variables             20  
           Engine               V9                            Indexes               0   
-          Created              05/11/2018 16:26:18           Observation Length    4096
-          Last Modified        05/11/2018 16:26:18           Deleted Observations  0   
+          Created              05/24/2018 15:55:47           Observation Length    4096
+          Last Modified        05/24/2018 15:55:47           Deleted Observations  0   
           Protection                                         Compressed            NO  
           Data Set Type                                      Sorted                YES 
           Label                                                                        
@@ -2513,7 +2582,7 @@ File Size (bytes)           131072
  File Size (bytes)           524288                                                             
 
 
-                                               PO3                20:11 Thursday, May 17, 2018  66
+                                               PO3                16:07 Saturday, May 26, 2018  68
 
                                       The CONTENTS Procedure
 
@@ -2548,15 +2617,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               PO4                20:11 Thursday, May 17, 2018  67
+                                               PO4                16:07 Saturday, May 26, 2018  69
 
                                       The CONTENTS Procedure
 
           Data Set Name        IN.PO4                        Observations          0   
           Member Type          DATA                          Variables             20  
           Engine               V9                            Indexes               0   
-          Created              05/11/2018 16:26:18           Observation Length    4096
-          Last Modified        05/11/2018 16:26:18           Deleted Observations  0   
+          Created              05/24/2018 15:55:48           Observation Length    4096
+          Last Modified        05/24/2018 15:55:48           Deleted Observations  0   
           Protection                                         Compressed            NO  
           Data Set Type                                      Sorted                YES 
           Label                                                                        
@@ -2580,7 +2649,7 @@ File Size (bytes)           131072
  File Size (bytes)           524288                                                             
 
 
-                                               PO4                20:11 Thursday, May 17, 2018  68
+                                               PO4                16:07 Saturday, May 26, 2018  70
 
                                       The CONTENTS Procedure
 
@@ -2615,15 +2684,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               PRG                20:11 Thursday, May 17, 2018  69
+                                               PRG                16:07 Saturday, May 26, 2018  71
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.PRG                        Observations          0  
            Member Type          DATA                          Variables             21 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:19           Observation Length    600
-           Last Modified        05/11/2018 16:26:19           Deleted Observations  0  
+           Created              05/24/2018 15:55:48           Observation Length    600
+           Last Modified        05/24/2018 15:55:48           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                YES
            Label                                                                       
@@ -2647,7 +2716,7 @@ File Size (bytes)           131072
  File Size (bytes)           131072                                                             
 
 
-                                               PRG                20:11 Thursday, May 17, 2018  70
+                                               PRG                16:07 Saturday, May 26, 2018  72
 
                                       The CONTENTS Procedure
 
@@ -2683,15 +2752,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               PSF                20:11 Thursday, May 17, 2018  71
+                                               PSF                16:07 Saturday, May 26, 2018  73
 
                                       The CONTENTS Procedure
 
           Data Set Name        IN.PSF                        Observations          466 
           Member Type          DATA                          Variables             52  
           Engine               V9                            Indexes               0   
-          Created              05/11/2018 16:26:31           Observation Length    1120
-          Last Modified        05/11/2018 16:26:31           Deleted Observations  0   
+          Created              05/24/2018 15:56:06           Observation Length    1120
+          Last Modified        05/24/2018 15:56:06           Deleted Observations  0   
           Protection                                         Compressed            NO  
           Data Set Type                                      Sorted                NO  
           Label                                                                        
@@ -2713,7 +2782,7 @@ File Size (bytes)           131072
  Owner Name                  EMMES\spitts                                                       
  File Size                   616KB                                                              
  File Size (bytes)           630784                                                             
-                                               PSF                20:11 Thursday, May 17, 2018  72
+                                               PSF                16:07 Saturday, May 26, 2018  74
 
                                       The CONTENTS Procedure
 
@@ -2768,7 +2837,7 @@ File Size (bytes)           131072
      45    PSSCHED     Char      1    $X1041X.      $1.             Willing sched appt       
      46    PSAPTDT     Num       8    MMDDYY8.      DATETIME22.3    In person scrn apt dt    
      47    PSDECSCH    Char      1    $X1042X.      $1.             Declined to schedule     
-                                               PSF                20:11 Thursday, May 17, 2018  73
+                                               PSF                16:07 Saturday, May 26, 2018  75
 
                                       The CONTENTS Procedure
 
@@ -2781,15 +2850,15 @@ File Size (bytes)           131072
      50    PSSCHOTH    Char      1    $X1049X.      $1.             No schedule other        
      51    PSSCHSP     Char     25    $25.          $25.            No sched other sp        
      52    PSFCOMM     Char    526    $526.         $2000.          Comments                 
-                                               PXS                20:11 Thursday, May 17, 2018  74
+                                               PXS                16:07 Saturday, May 26, 2018  76
 
                                       The CONTENTS Procedure
 
           Data Set Name        IN.PXS                        Observations          42  
           Member Type          DATA                          Variables             54  
           Engine               V9                            Indexes               0   
-          Created              05/11/2018 16:26:20           Observation Length    1560
-          Last Modified        05/11/2018 16:26:20           Deleted Observations  0   
+          Created              05/24/2018 15:55:49           Observation Length    1560
+          Last Modified        05/24/2018 15:55:49           Deleted Observations  0   
           Protection                                         Compressed            NO  
           Data Set Type                                      Sorted                YES 
           Label                                                                        
@@ -2811,7 +2880,7 @@ File Size (bytes)           131072
  Owner Name                  EMMES\spitts                                                       
  File Size                   248KB                                                              
  File Size (bytes)           253952                                                             
-                                               PXS                20:11 Thursday, May 17, 2018  75
+                                               PXS                16:07 Saturday, May 26, 2018  77
 
                                       The CONTENTS Procedure
 
@@ -2866,7 +2935,7 @@ File Size (bytes)           131072
      45    PXDIRECT    Char      1    $X2408X.      $1.             Helpful dosing reminders 
      46    PXVIDEO     Char      1    $X2409X.      $1.             Videos helped tk st drug 
      47    PXTECSUP    Char      1    $X2410X.      $1.             Suffcent cell tec support
-                                               PXS                20:11 Thursday, May 17, 2018  76
+                                               PXS                16:07 Saturday, May 26, 2018  78
 
                                       The CONTENTS Procedure
 
@@ -2888,15 +2957,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               QLP                20:11 Thursday, May 17, 2018  77
+                                               QLP                16:07 Saturday, May 26, 2018  79
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.QLP                        Observations          123
            Member Type          DATA                          Variables             12 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:20           Observation Length    280
-           Last Modified        05/11/2018 16:26:20           Deleted Observations  0  
+           Created              05/24/2018 15:55:49           Observation Length    280
+           Last Modified        05/24/2018 15:55:49           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                YES
            Label                                                                       
@@ -2943,15 +3012,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               RXS                20:11 Thursday, May 17, 2018  78
+                                               RXS                16:07 Saturday, May 26, 2018  80
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.RXS                        Observations          49 
            Member Type          DATA                          Variables             27 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:20           Observation Length    776
-           Last Modified        05/11/2018 16:26:20           Deleted Observations  0  
+           Created              05/24/2018 15:55:50           Observation Length    776
+           Last Modified        05/24/2018 15:55:50           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                YES
            Label                                                                       
@@ -2973,7 +3042,7 @@ File Size (bytes)           131072
  Owner Name                  EMMES\spitts                                                       
  File Size                   128KB                                                              
  File Size (bytes)           131072                                                             
-                                               RXS                20:11 Thursday, May 17, 2018  79
+                                               RXS                16:07 Saturday, May 26, 2018  81
 
                                       The CONTENTS Procedure
 
@@ -3015,15 +3084,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               STT                20:11 Thursday, May 17, 2018  80
+                                               STT                16:07 Saturday, May 26, 2018  82
 
                                       The CONTENTS Procedure
 
           Data Set Name        IN.STT                        Observations          49  
           Member Type          DATA                          Variables             13  
           Engine               V9                            Indexes               0   
-          Created              05/11/2018 16:26:31           Observation Length    1216
-          Last Modified        05/11/2018 16:26:31           Deleted Observations  0   
+          Created              05/24/2018 15:56:06           Observation Length    1216
+          Last Modified        05/24/2018 15:56:06           Deleted Observations  0   
           Protection                                         Compressed            NO  
           Data Set Type                                      Sorted                NO  
           Label                                                                        
@@ -3064,15 +3133,15 @@ File Size (bytes)           131072
      11    STTCOMM     Char    767    $767.         $2000.          Comments                 
      12    STPISIGN    Char     75    $75.          $75.            Principal investigator   
      13    STPISGDT    Num       8    MMDDYY8.      DATETIME22.3    PI date                  
-                                               T54                20:11 Thursday, May 17, 2018  81
+                                               T54                16:07 Saturday, May 26, 2018  83
 
                                       The CONTENTS Procedure
 
           Data Set Name        IN.T54                        Observations          1106
           Member Type          DATA                          Variables             132 
           Engine               V9                            Indexes               0   
-          Created              05/11/2018 16:26:21           Observation Length    760 
-          Last Modified        05/11/2018 16:26:21           Deleted Observations  0   
+          Created              05/24/2018 15:55:51           Observation Length    760 
+          Last Modified        05/24/2018 15:55:51           Deleted Observations  0   
           Protection                                         Compressed            NO  
           Data Set Type                                      Sorted                YES 
           Label                                                                        
@@ -3094,7 +3163,7 @@ File Size (bytes)           131072
  Owner Name                  EMMES\spitts                                                       
  File Size                   960KB                                                              
  File Size (bytes)           983040                                                             
-                                               T54                20:11 Thursday, May 17, 2018  82
+                                               T54                16:07 Saturday, May 26, 2018  84
 
                                       The CONTENTS Procedure
 
@@ -3149,7 +3218,7 @@ File Size (bytes)           131072
      45    TLCRAKR5    Char      2    $X2068X.      $2.             D5 crack                 
      46    TLCRAKR6    Char      2    $X2069X.      $2.             D6 crack                 
      47    TLCRAKR7    Char      2    $X2070X.      $2.             D7 crack                 
-                                               T54                20:11 Thursday, May 17, 2018  83
+                                               T54                16:07 Saturday, May 26, 2018  85
 
                                       The CONTENTS Procedure
 
@@ -3204,7 +3273,7 @@ File Size (bytes)           131072
      92    TLBZOR3     Char      2    $X2916X.      $2.             D3 benzodiazepines       
      93    TLBZOR4     Char      2    $X2917X.      $2.             D4 benzodiazepines       
      94    TLBZOR5     Char      2    $X2918X.      $2.             D5 benzodiazepines       
-                                               T54                20:11 Thursday, May 17, 2018  84
+                                               T54                16:07 Saturday, May 26, 2018  86
 
                                       The CONTENTS Procedure
 
@@ -3257,15 +3326,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               TAP                20:11 Thursday, May 17, 2018  85
+                                               TAP                16:07 Saturday, May 26, 2018  87
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.TAP                        Observations          803
            Member Type          DATA                          Variables             11 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:22           Observation Length    400
-           Last Modified        05/11/2018 16:26:22           Deleted Observations  0  
+           Created              05/24/2018 15:55:52           Observation Length    400
+           Last Modified        05/24/2018 15:55:52           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                YES
            Label                                                                       
@@ -3311,15 +3380,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               TEA                20:11 Thursday, May 17, 2018  86
+                                               TEA                16:07 Saturday, May 26, 2018  88
 
                                       The CONTENTS Procedure
 
           Data Set Name        IN.TEA                        Observations          122 
           Member Type          DATA                          Variables             16  
           Engine               V9                            Indexes               0   
-          Created              05/11/2018 16:26:22           Observation Length    2864
-          Last Modified        05/11/2018 16:26:22           Deleted Observations  0   
+          Created              05/24/2018 15:55:53           Observation Length    2864
+          Last Modified        05/24/2018 15:55:53           Deleted Observations  0   
           Protection                                         Compressed            NO  
           Data Set Type                                      Sorted                YES 
           Label                                                                        
@@ -3363,7 +3432,7 @@ File Size (bytes)           131072
        14    TECOMMUN    Char      2    $X1033X.      $2.             Community            
        15    TECOMRM     Char    494    $494.         $2000.          Community remarks    
        16    TEACOMM     Char    123    $123.         $2000.          Comments             
-                                               TEA                20:11 Thursday, May 17, 2018  87
+                                               TEA                16:07 Saturday, May 26, 2018  89
 
                                       The CONTENTS Procedure
 
@@ -3372,15 +3441,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               TUH                20:11 Thursday, May 17, 2018  88
+                                               TUH                16:07 Saturday, May 26, 2018  90
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.TUH                        Observations          157
            Member Type          DATA                          Variables             18 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:23           Observation Length    432
-           Last Modified        05/11/2018 16:26:23           Deleted Observations  0  
+           Created              05/24/2018 15:55:53           Observation Length    432
+           Last Modified        05/24/2018 15:55:53           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                YES
            Label                                                                       
@@ -3426,7 +3495,7 @@ File Size (bytes)           131072
      16    TUNUMEDY    Num       8    3.            3.              Num cig when everday     
      17    TUNUMRDY    Num       8    3.            3.              Num cig when regular     
      18    TUHCOMM     Char    323    $323.         $2000.          Comment                  
-                                               TUH                20:11 Thursday, May 17, 2018  89
+                                               TUH                16:07 Saturday, May 26, 2018  91
 
                                       The CONTENTS Procedure
 
@@ -3435,15 +3504,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               UDC                20:11 Thursday, May 17, 2018  90
+                                               UDC                16:07 Saturday, May 26, 2018  92
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.UDC                        Observations          734
            Member Type          DATA                          Variables             15 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:23           Observation Length    576
-           Last Modified        05/11/2018 16:26:23           Deleted Observations  0  
+           Created              05/24/2018 15:55:54           Observation Length    576
+           Last Modified        05/24/2018 15:55:54           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                YES
            Label                                                                       
@@ -3486,7 +3555,7 @@ File Size (bytes)           131072
       13    UDCENSDT    Num       8    MMDDYY8.      DATETIME22.3    Urine ship date        
       14    UDCENACC    Char     10    $10.          $10.            Urine accession num    
       15    UDCCOMM     Char    455    $455.         $2000.          Comments               
-                                               UDC                20:11 Thursday, May 17, 2018  91
+                                               UDC                16:07 Saturday, May 26, 2018  93
 
                                       The CONTENTS Procedure
 
@@ -3495,15 +3564,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               UDS                20:11 Thursday, May 17, 2018  92
+                                               UDS                16:07 Saturday, May 26, 2018  94
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.UDS                        Observations          277
            Member Type          DATA                          Variables             42 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:24           Observation Length    616
-           Last Modified        05/11/2018 16:26:24           Deleted Observations  0  
+           Created              05/24/2018 15:55:55           Observation Length    616
+           Last Modified        05/24/2018 15:55:55           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                YES
            Label                                                                       
@@ -3525,7 +3594,7 @@ File Size (bytes)           131072
  Owner Name                  EMMES\spitts                                                       
  File Size                   256KB                                                              
  File Size (bytes)           262144                                                             
-                                               UDS                20:11 Thursday, May 17, 2018  93
+                                               UDS                16:07 Saturday, May 26, 2018  95
 
                                       The CONTENTS Procedure
 
@@ -3577,7 +3646,7 @@ File Size (bytes)           131072
      42    UDSCOMM     Char    423    $423.         $2000.          Comments                 
 
 
-                                               UDS                20:11 Thursday, May 17, 2018  94
+                                               UDS                16:07 Saturday, May 26, 2018  96
 
                                       The CONTENTS Procedure
 
@@ -3586,15 +3655,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               VAS                20:11 Thursday, May 17, 2018  95
+                                               VAS                16:07 Saturday, May 26, 2018  97
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.VAS                        Observations          512
            Member Type          DATA                          Variables             9  
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:25           Observation Length    256
-           Last Modified        05/11/2018 16:26:25           Deleted Observations  0  
+           Created              05/24/2018 15:55:56           Observation Length    256
+           Last Modified        05/24/2018 15:55:56           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                YES
            Label                                                                       
@@ -3638,15 +3707,15 @@ File Size (bytes)           131072
                                        Sortedby       PATID
                                        Validated      YES  
                                        Character Set  ANSI 
-                                               VIS                20:11 Thursday, May 17, 2018  96
+                                               VIS                16:07 Saturday, May 26, 2018  98
 
                                       The CONTENTS Procedure
 
            Data Set Name        IN.VIS                        Observations          504
            Member Type          DATA                          Variables             25 
            Engine               V9                            Indexes               0  
-           Created              05/11/2018 16:26:31           Observation Length    784
-           Last Modified        05/11/2018 16:26:31           Deleted Observations  0  
+           Created              05/24/2018 15:56:06           Observation Length    784
+           Last Modified        05/24/2018 15:56:06           Deleted Observations  0  
            Protection                                         Compressed            NO 
            Data Set Type                                      Sorted                NO 
            Label                                                                       
@@ -3668,7 +3737,7 @@ File Size (bytes)           131072
  Owner Name                  EMMES\spitts                                                       
  File Size                   512KB                                                              
  File Size (bytes)           524288                                                             
-                                               VIS                20:11 Thursday, May 17, 2018  97
+                                               VIS                16:07 Saturday, May 26, 2018  99
 
                                       The CONTENTS Procedure
 

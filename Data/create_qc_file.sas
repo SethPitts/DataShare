@@ -2,7 +2,7 @@
 /* QC program for 0054 data share */
 ods html close;
         
-%let input = G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data;
+%let input = Data;
 libname in "&input";
        
         
@@ -10,7 +10,7 @@ libname in "&input";
         
 options fmtsearch=(work input);
         
-ods rtf file="G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\QC\QC_&SYSDATE..rtf";
+ods rtf file="QC\QC_&SYSDATE..rtf";
 
 proc contents data=in.AD1 varnum; title 'AD1'; run;
 proc contents data=in.AD2 varnum; title 'AD2'; run;
@@ -19,6 +19,7 @@ proc contents data=in.ASU varnum; title 'ASU'; run;
 proc contents data=in.BBL varnum; title 'BBL'; run;
 proc contents data=in.CHP varnum; title 'CHP'; run;
 proc contents data=in.D54 varnum; title 'D54'; run;
+proc contents data=in.dem varnum; title 'dem'; run;
 proc contents data=in.DSM varnum; title 'DSM'; run;
 proc contents data=in.EC0054A varnum; title 'EC0054A'; run;
 proc contents data=in.EC0054B varnum; title 'EC0054B'; run;

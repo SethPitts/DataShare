@@ -3,3 +3,5 @@
 *.xlsx
 *.sas7bdat
 *.rtf
+*.log
+*.sas7bcat

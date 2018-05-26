@@ -1,5 +1,5 @@
                              Information Sheet for De-identification                             1
-                                                                      20:11 Thursday, May 17, 2018
+                                                                      16:07 Saturday, May 26, 2018
 
                            The following variables are free text fields                         
      AD1         AD2         AD3         ASU         BBL         CHP         D54         DSM    
@@ -54,7 +54,7 @@
      •	We recommend that date variables be replaced by days from informed consent (S1CNSTDT).
 •	HIV.HITESTMO and HIV.HITESTYR denote the month and year (respectively) of a participant’s most r
                              Information Sheet for De-identification                             2
-                                                                      20:11 Thursday, May 17, 2018
+                                                                      16:07 Saturday, May 26, 2018
 
                            The following variables are free text fields                         
      ECG         ENR         EOM         HIV         INA         INJ         INV         INX    
@@ -109,7 +109,7 @@
      •	We recommend that date variables be replaced by days from informed consent (S1CNSTDT).
 •	HIV.HITESTMO and HIV.HITESTYR denote the month and year (respectively) of a participant’s most r
                              Information Sheet for De-identification                             3
-                                                                      20:11 Thursday, May 17, 2018
+                                                                      16:07 Saturday, May 26, 2018
 
                            The following variables are free text fields                         
      LAB         MHX         MVF         NXC         PBC         PCM         PDR         PDV    
@@ -164,7 +164,7 @@
      •	We recommend that date variables be replaced by days from informed consent (S1CNSTDT).
 •	HIV.HITESTMO and HIV.HITESTYR denote the month and year (respectively) of a participant’s most r
                              Information Sheet for De-identification                             4
-                                                                      20:11 Thursday, May 17, 2018
+                                                                      16:07 Saturday, May 26, 2018
 
                            The following variables are free text fields                         
      PEX         PO1         PO2         PO3         PO4         PRG         PSF         PXS    
@@ -219,7 +219,7 @@
      •	We recommend that date variables be replaced by days from informed consent (S1CNSTDT).
 •	HIV.HITESTMO and HIV.HITESTYR denote the month and year (respectively) of a participant’s most r
                              Information Sheet for De-identification                             5
-                                                                      20:11 Thursday, May 17, 2018
+                                                                      16:07 Saturday, May 26, 2018
 
                            The following variables are free text fields                         
      QLP         RXS         STT         T54         TAP         TEA         TUH         UDC    
@@ -274,7 +274,7 @@
      •	We recommend that date variables be replaced by days from informed consent (S1CNSTDT).
 •	HIV.HITESTMO and HIV.HITESTYR denote the month and year (respectively) of a participant’s most r
                              Information Sheet for De-identification                             6
-                                                                      20:11 Thursday, May 17, 2018
+                                                                      16:07 Saturday, May 26, 2018
 
                            The following variables are free text fields 
                              UDE         UDS         VAS         VIS    

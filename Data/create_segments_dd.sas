@@ -1,5 +1,5 @@
 
-    LIBNAME ndbmeta "G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data";
+    LIBNAME ndbmeta "Data";
 
 /* Create Data Dict for 0054
 */
@@ -16,7 +16,7 @@ run;
 
 proc sort data=ndbmeta.data_dict_0054_segment_A; by SCREENID SEQ FIELD_NAME;
 proc export data=ndbmeta.data_dict_0054_segment_A
-    outfile='G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_A.csv'
+    outfile='Data\DataDict_Segment_A.csv'
     dbms=csv
     replace;
 run;
@@ -28,7 +28,7 @@ run;
 
 proc sort data=ndbmeta.data_dict_0054_segment_B; by SCREENID SEQ FIELD_NAME;
 proc export data=ndbmeta.data_dict_0054_segment_B
-    outfile='G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_B.csv'
+    outfile='Data\DataDict_Segment_B.csv'
     dbms=csv
     replace;
 run;
@@ -40,7 +40,7 @@ run;
 
 proc sort data=ndbmeta.data_dict_0054_segment_Z; by SCREENID SEQ FIELD_NAME;
 proc export data=ndbmeta.data_dict_0054_segment_Z
-    outfile='G:\NIDADSC\spitts\Python_Projects\Data_Share\0054\Data\DataDict_Segment_Z.csv'
+    outfile='Data\DataDict_Segment_Z.csv'
     dbms=csv
     replace;
 run;
