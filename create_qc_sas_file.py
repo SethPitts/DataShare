@@ -7,8 +7,8 @@ def get_data_share_info():
     Gets the pathway info for the current data share
     :return: dict containing the data share path info
     """
-    PROTOCOL = '0054'
-    DATA_SHARE_PATHWAY = "Data"
+    PROTOCOL = input('What is the Protocol? ')
+    DATA_SHARE_PATHWAY = input("WHat is the data share folder pathway? ")
     QC_FOLDER_PATHWAY = "QC"
     DOCUMENT_FOLDER_PATHWAY = "Documents"
     DATA_FOLDER_PATH = "Data"

@@ -1,14 +1,11 @@
 import os
 import subprocess
-
 from create_qc_sas_file import create_dd_sas_file, create_qc_sas_file, create_text_fields_file, \
     create_dd_by_segment_file, get_data_share_info
 
 
-data_share_info = get_data_share_info()
-
-
 def create_data_share():
+    data_share_info = get_data_share_info()
     # create the protocol data dict
     data_folder_path = data_share_info['DATA_FOLDER_PATH']
     sas_location = r'S:\SAS 9.4\x86\SASFoundation\9.4\sas.exe'
