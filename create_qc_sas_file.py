@@ -111,15 +111,15 @@ def create_qc_sas_file(DATA_SHARE_INFO):
         base_template = r"""
 /* QC program for {PROTOCOL} data share */
 ods html close;
-        
+
 %let input = {DATA_FOLDER_PATH};
 libname in "&input";
-       
-        
+
+
 *Get formats;
-        
+
 options fmtsearch=(work input);
-        
+
 ods rtf file="{QC_FOLDER_PATHWAY}\QC_&SYSDATE..rtf";""" + "\n"
         sas_file.write(base_template.format(**DATA_SHARE_INFO) + "\n")
 
